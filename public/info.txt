@@ -1,0 +1,10 @@
+quando for dar deploy no site, não esquecer de preencher o
+
+manifest.json
+robots.txt (colocar aquelas tags pra bot no tsx tmb)
+
+para organização:
+colocar o index.html aqui dentro tmb
+
+arrumar os icones de fav e de site tmb
+

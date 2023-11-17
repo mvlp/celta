@@ -1,0 +1,1 @@
+Nessa pasta ficará a documentação do site, explicando o que cada coisa faz

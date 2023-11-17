@@ -1,0 +1,2 @@
+Nessa pasta ficará os json que serão exibidos
+esses json já existem e são os relatórios de condutância
