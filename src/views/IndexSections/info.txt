@@ -1,0 +1,8 @@
+Nessa pastas ficam as subseções das views principais
+
+por exmeplo, na página principal do youtube, temos subseções como por exemplo:
+- feed
+- searchbar
+- menu de opções (a esquerda)
+
+essas subseções são feitas nessa pasta e chamadas em outra pasta
