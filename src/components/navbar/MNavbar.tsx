@@ -11,6 +11,7 @@ import About from "../../views/About";
 import Contact from "../../views/Contact";
 import WIP from "../../views/WIP";
 import Home from "../../views/Home";
+import CGVS from "../../views/CGVN";
 
 export default function MNavbar() {
   return (
@@ -39,6 +40,9 @@ export default function MNavbar() {
                 <Nav.Link as={Link} to="/contact">
                   Contact
                 </Nav.Link>
+                <Nav.Link as={Link} to="/cgvn">
+                  CGVN
+                </Nav.Link>
                 <NavDropdown title="Outros" id="basic-nav-dropdown">
                   <NavDropdown.Item as={Link} to="/WIP">
                     CAMP
@@ -64,8 +68,10 @@ export default function MNavbar() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/indice" element={<WIP />} />
+            <Route path="/cgvn" element={<CGVS/>} />
             <Route path="/" element={<Home />} />
             <Route path="/WIP" element={<WIP />} />
+            <Route path="/sitedeploy/" element={<Home />} />
           </Routes>
         </div>
       </>
