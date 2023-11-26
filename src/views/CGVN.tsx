@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { AgGridReact } from "ag-grid-react";
+import { AgGridReact, } from "ag-grid-react";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
+import { ColDef, ColGroupDef } from "ag-grid-community";
 
 interface RowData {
   make: string;
@@ -16,10 +17,10 @@ export default function CGVS() {
     { make: "Porsche", model: "Boxter", price: 72000 }
   ]);
 
-  const columnDefs = [
-    { headerName: "Make", valueGetter: (params: { data: { make: unknown; }; }) => params.data.make },
-    { headerName: "Model", valueGetter: (params: { data: { model: unknown; }; }) => params.data.model },
-    { headerName: "Price", valueGetter: (params: { data: { price: unknown; }; }) => params.data.price }
+  const columnDefs: (ColDef<RowData> | ColGroupDef<RowData>)[] | null = [
+    { headerName: "Make", field: "make", sortable: true, filter: true },
+    { headerName: "Model", field: "model", sortable: true, filter: true },
+    { headerName: "Price", field: "price", sortable: true, filter: true }
   ];
 
   return (
