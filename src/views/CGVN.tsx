@@ -16,11 +16,11 @@ export default function CGVS() {
     { make: "Porsche", model: "Boxter", price: 72000 }
   ]);
 
-  const [columnDefs] = useState([
-    { headerName: "Make", field: "make" },
-    { headerName: "Model", field: "model" },
-    { headerName: "Price", field: "price" }
-  ]);
+  const columnDefs = [
+    { headerName: "Make", valueGetter: (params: { data: { make: unknown; }; }) => params.data.make },
+    { headerName: "Model", valueGetter: (params: { data: { model: unknown; }; }) => params.data.model },
+    { headerName: "Price", valueGetter: (params: { data: { price: unknown; }; }) => params.data.price }
+  ];
 
   return (
     <div className="ag-theme-alpine" style={{ height: 400, width: 600 }}>
