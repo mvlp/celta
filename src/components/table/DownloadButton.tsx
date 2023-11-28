@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
+
 import * as XLSX from 'xlsx';
 import { saveAs } from 'file-saver';
 
@@ -16,7 +18,7 @@ const JSONToXLSX: React.FC<JSONToXLSXProps> = ({ jsonData }) => {
 
   return (
     <div>
-      <button onClick={handleConvertToXLSX}>Convert to XLSX</button>
+      <Button variant="secondary" onClick={handleConvertToXLSX}>Convert to XLSX</Button>
     </div>
   );
 };

@@ -5,8 +5,6 @@ import { ColDef, ColGroupDef } from "ag-grid-community";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 
-import DownloadButton from "../components/table/DownloadButton";
-
 import data1 from "../assets/data/cgvn_cia_aberta_2023.json";
 import { DataItem } from "../components/table/DataItem";
 
@@ -84,8 +82,7 @@ export default function CGVS() {
   ];
 
   return (
-    <div className="ag-theme-alpine" style={{ height: "100vh", width: "100%" }}>
-      <DownloadButton jsonData={data1} />
+    <div className="ag-theme-alpine-dark" style={{ height: "100vh", width: "100%" }}>
       <AgGridReact rowData={rowData} columnDefs={columnDefs}></AgGridReact>
     </div>
   );
