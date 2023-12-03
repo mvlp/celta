@@ -14,7 +14,7 @@ import WIP from "../../views/WIP";
 import Home from "../../views/Home";
 import CGVS from "../../views/CGVN";
 import DownloadButton from "../table/DownloadButton";
-import data1 from "../../assets/data/cgvn_cia_aberta_2023.json"
+import ResultItemData from "../../assets/data/tabela.json";
 
 export default function MNavbar() {
   const [showDownloadButton, setShowDownloadButton] = useState(false);
@@ -71,7 +71,7 @@ export default function MNavbar() {
               </Nav>
               {showDownloadButton && (
                 <Navbar.Text>
-                  <DownloadButton jsonData={data1} />
+                  <DownloadButton jsonData={ResultItemData} />
                 </Navbar.Text>
               )}
             </Navbar.Collapse>
