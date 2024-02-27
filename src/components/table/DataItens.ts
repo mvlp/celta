@@ -183,6 +183,8 @@ export const columnResultItem: (ColDef<ResultItem> | ColGroupDef<ResultItem>)[] 
   },
 ];
 
+// Essa interface só existe para fazer o download, por conta da função que faz a conversão!
+// Preferencialmente use ResultItem
 export interface JSONToXLSXProps {
   jsonData: ResultItem[];
 }

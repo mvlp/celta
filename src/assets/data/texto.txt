@@ -2,3 +2,6 @@ Nessa pasta ficará os json que serão exibidos
 esses json já existem e são os relatórios de condutância
 
 19-11-23 Acabei de colocar os primeiros arquivos testes.json
+
+Pedir o marcos para colocar o nome da empresa em um campo logo abaixo do CNPJ_Companhia
+

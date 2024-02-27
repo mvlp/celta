@@ -1,0 +1,3 @@
+Aqui dentro ficarão os gráficos de cada empresa
+
+Devo fazer um script para atualizar esses dados automaticamente quando o tabela.json for aprimorado.

@@ -9,7 +9,7 @@ import ResultItemData from "../assets/data/tabela.json";
 import { ResultItem } from "../components/table/DataItens";
 import { columnResultItem } from "../components/table/DataItens";
 
-export default function CGVS() {
+export default function TabelaGeral() {
   const [rowData] = useState<ResultItem[]>(ResultItemData);
 
   const columnDefsResultItem: (ColDef<ResultItem> | ColGroupDef<ResultItem>)[] | null = columnResultItem;
