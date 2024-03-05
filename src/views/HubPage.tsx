@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
-import { ResultItem } from "../components/table/DataItens";
+import { TableInterface } from "../components/table/DataItens";
 
-const TabelaIndividual = ({ data }: { data: ResultItem[] }) => {
-  
+const HubPages = ({ data }: { data: TableInterface[] }) => {
   // Agrupe os itens por CNPJ_Companhia
-  const groupedByCNPJ: { [cnpj: string]: ResultItem[] } = {};
+  const groupedByCNPJ: { [cnpj: string]: TableInterface[] } = {};
   data.forEach((item) => {
     if (!groupedByCNPJ[item.CNPJ_Companhia]) {
       groupedByCNPJ[item.CNPJ_Companhia] = [];
@@ -29,4 +28,4 @@ const TabelaIndividual = ({ data }: { data: ResultItem[] }) => {
   );
 };
 
-export default TabelaIndividual;
+export default HubPages;

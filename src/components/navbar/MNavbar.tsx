@@ -12,15 +12,23 @@ import About from "../../views/About";
 import Contact from "../../views/Contact";
 import WIP from "../../views/WIP";
 import Home from "../../views/Home";
-import TabelaGeral from "../../views/TabelaGeral";
+import GeneralTable from "../../views/GeneralTable";
 import DownloadButton from "../table/DownloadButton";
-import ResultItemData from "../../assets/data/tabela.json";
+import Table from "../../assets/data/table.json";
 
-import TabelaIndividual from "../../views/TabelaIndividual";
-import PaginaIndividual from "../empresa/PaginaIndividual";
+import HubPages from "../../views/HubPage";
+import IndividualPage from "../../views/IndividualPage";
+import { TableInterface } from "../table/DataItens";
 
 export default function MNavbar() {
   const [showDownloadButton, setShowDownloadButton] = useState(false);
+  const groupedByCNPJ: { [cnpj: string]: TableInterface[] } = {};
+  Table.forEach((item) => {
+    if (!groupedByCNPJ[item.CNPJ_Companhia]) {
+      groupedByCNPJ[item.CNPJ_Companhia] = [];
+    }
+    groupedByCNPJ[item.CNPJ_Companhia].push(item);
+  });
 
   const handleCGVNClick = () => {
     setShowDownloadButton(true);
@@ -71,15 +79,19 @@ export default function MNavbar() {
                 >
                   Contact
                 </Nav.Link>
-                <Nav.Link as={Link} to="/tabelageral" onClick={handleCGVNClick}>
-                  Tabela Geral
+                <Nav.Link
+                  as={Link}
+                  to="/tabeladosdados"
+                  onClick={handleCGVNClick}
+                >
+                  Tabela Dos Dados
                 </Nav.Link>
                 <Nav.Link
                   as={Link}
-                  to="/tabelaindividual"
+                  to="/hub"
                   onClick={() => setShowDownloadButton(false)}
                 >
-                  Tabela Individual
+                  Hub
                 </Nav.Link>
                 <NavDropdown title="Outros" id="basic-nav-dropdown">
                   <NavDropdown.Item
@@ -115,7 +127,7 @@ export default function MNavbar() {
               </Nav>
               {showDownloadButton && (
                 <Navbar.Text>
-                  <DownloadButton jsonData={ResultItemData} />
+                  <DownloadButton jsonData={Table} />
                 </Navbar.Text>
               )}
             </Navbar.Collapse>
@@ -127,20 +139,17 @@ export default function MNavbar() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/indice" element={<WIP />} />
-            <Route path="/tabelageral" element={<TabelaGeral />} />
+            <Route path="/tabeladosdados" element={<GeneralTable />} />
             <Route path="/" element={<Home />} />
             <Route path="/WIP" element={<WIP />} />
             <Route path="/sitedeploy/" element={<Home />} />
-            <Route
-              path="/tabelaindividual"
-              element={<TabelaIndividual data={ResultItemData} />}
-            />
+            <Route path="/hub" element={<HubPages data={Table} />} />
             {/* Defina uma rota para cada CNPJ */}
-            {ResultItemData.map((item) => (
+            {Object.entries(groupedByCNPJ).map(([cnpj, items]) => (
               <Route
-                key={item.CNPJ_Companhia}
-                path={`/cnpj/${item.CNPJ_Companhia}`}
-                element={<PaginaIndividual {...item} />}
+                key={cnpj}
+                path={`/cnpj/${cnpj}`}
+                element={<IndividualPage item={items} />}
               />
             ))}
           </Routes>

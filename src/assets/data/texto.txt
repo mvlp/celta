@@ -5,3 +5,9 @@ esses json já existem e são os relatórios de condutância
 
 Pedir o marcos para colocar o nome da empresa em um campo logo abaixo do CNPJ_Companhia
 
+05-03-24 Tentei fazer um teste onde cada CNPJ não fosse repetido (a fim de facilitar a exibição
+ dos arquivos individuais), isso deu muito errado, pois converter o codigo inteirio para um tipo
+  de arquivo para facilitar apenas 1 parte do código nao é inteligente
+  Logo, devo achar outro jeito de fazer as paginas individuais 
+
+
