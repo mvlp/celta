@@ -123,7 +123,7 @@ export default function Governace() {
           <Col md="auto">
             <Nav>
               <Nav.Item>
-                <Nav.Link href="/tabeladosdados">
+                <Nav.Link href="/sitedeploy/tabeladosdados">
                   Link para a tabela dos dados
                 </Nav.Link>
               </Nav.Item>
