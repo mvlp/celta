@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { TableInterface } from "../components/table/DataItens";
 
+import Container from "react-bootstrap/Container";
+
 const HubPages = ({ data }: { data: TableInterface[] }) => {
   // Agrupe os itens por CNPJ_Companhia
   const groupedByCNPJ: { [cnpj: string]: TableInterface[] } = {};
@@ -12,7 +14,7 @@ const HubPages = ({ data }: { data: TableInterface[] }) => {
   });
 
   return (
-    <div>
+    <Container>
       <h1>Tabela de CNPJs</h1>
       <ul>
         {/* Mapeie sobre os grupos e gere os links para cada CNPJ */}
@@ -24,7 +26,7 @@ const HubPages = ({ data }: { data: TableInterface[] }) => {
           </li>
         ))}
       </ul>
-    </div>
+    </Container>
   );
 };
 

@@ -14,7 +14,7 @@ import Home from "../../views/Home";
 import GeneralTable from "../../views/GeneralTable";
 import Table from "../../assets/data/table.json";
 
-import Governance from "../../views/data/governance";
+import Governance from "../../views/data/Governance";
 import HubPages from "../../views/HubPage";
 import IndividualPage from "../../views/IndividualPage";
 import { TableInterface } from "../table/DataItens";
