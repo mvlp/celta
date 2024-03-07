@@ -12,6 +12,7 @@
 //logo abaixo dessa div grande, colocar a Tabela dos Dados
 
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -19,7 +20,6 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Stack from "react-bootstrap/Stack";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
-
 import Nav from "react-bootstrap/Nav";
 import Table from "../../assets/data/table.json";
 import DownloadButton from "../../components/table/DownloadButton";
@@ -123,7 +123,7 @@ export default function Governace() {
           <Col md="auto">
             <Nav>
               <Nav.Item>
-                <Nav.Link href="/sitedeploy/tabeladosdados">
+                <Nav.Link as={Link} to="/tabeladosdados">
                   Link para a tabela dos dados
                 </Nav.Link>
               </Nav.Item>

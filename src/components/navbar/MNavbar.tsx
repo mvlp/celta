@@ -12,13 +12,12 @@ import Contact from "../../views/Contact";
 import WIP from "../../views/WIP";
 import Home from "../../views/Home";
 import GeneralTable from "../../views/IndexSections/GeneralTable";
-import Table from "../../assets/data/table.json";
-
 import Governance from "../../views/data/Governance";
 import HubPages from "../../views/data/HubPage";
 import IndividualPage from "../../views/data/IndividualPage";
-import { TableInterface } from "../table/DataItens";
 
+import { TableInterface } from "../table/DataItens";
+import Table from "../../assets/data/table.json";
 export default function MNavbar() {
   // para fazer as paginas individuais funcionarem corretamente
   const groupedByCNPJ: { [cnpj: string]: TableInterface[] } = {};
