@@ -23,8 +23,8 @@ const JSONToXLSX: React.FC<JSONToXLSXProps> = ({ jsonData }) => {
 
   return (
     <div>
-      <Button variant="secondary" onClick={handleConvertToXLSX}>
-        Converter a tabela para XLSX
+      <Button variant="info" onClick={handleConvertToXLSX}>
+        Baixar tabela dos dados
       </Button>
     </div>
   );

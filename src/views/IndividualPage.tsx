@@ -3,7 +3,6 @@ import { TableInterface } from "../components/table/DataItens";
 
 const Individualpage = ({item}: {item: TableInterface[]}) => {
 
-
   return (
     <div>
       <h1>Página do CNPJ: {item[0].CNPJ_Companhia}</h1>
