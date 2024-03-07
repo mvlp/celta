@@ -11,12 +11,12 @@ import About from "../../views/About";
 import Contact from "../../views/Contact";
 import WIP from "../../views/WIP";
 import Home from "../../views/Home";
-import GeneralTable from "../../views/GeneralTable";
+import GeneralTable from "../../views/IndexSections/GeneralTable";
 import Table from "../../assets/data/table.json";
 
 import Governance from "../../views/data/Governance";
-import HubPages from "../../views/HubPage";
-import IndividualPage from "../../views/IndividualPage";
+import HubPages from "../../views/data/HubPage";
+import IndividualPage from "../../views/data/IndividualPage";
 import { TableInterface } from "../table/DataItens";
 
 export default function MNavbar() {
@@ -109,6 +109,10 @@ export default function MNavbar() {
             <Route path="/indice" element={<WIP />} />
             <Route
               path="/sitedeploy/tabeladosdados"
+              element={<GeneralTable />}
+            />
+            <Route
+              path="/tabeladosdados"
               element={<GeneralTable />}
             />
             <Route path="/" element={<Home />} />

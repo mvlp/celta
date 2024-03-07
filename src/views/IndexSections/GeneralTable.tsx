@@ -5,9 +5,9 @@ import { ColDef, ColGroupDef } from "ag-grid-community";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 
-import Table from "../assets/data/table.json";
-import { TableInterface } from "../components/table/DataItens";
-import { ColumnConfig } from "../components/table/DataItens";
+import Table from "../../assets/data/table.json";
+import { TableInterface } from "../../components/table/DataItens";
+import { ColumnConfig } from "../../components/table/DataItens";
 
 export default function TabelaGeral() {
   const [rowData] = useState<TableInterface[]>(Table);

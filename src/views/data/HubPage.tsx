@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { TableInterface } from "../components/table/DataItens";
+import { TableInterface } from "../../components/table/DataItens";
 
 import Container from "react-bootstrap/Container";
 

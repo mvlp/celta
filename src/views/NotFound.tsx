@@ -1,7 +1,9 @@
+import Container from "react-bootstrap/Container";
+
 export default function About() {
   return (
-    <>
-    <h1>Página não encontrada!</h1>
-    </>
+    <Container>
+      <h1>Página não encontrada!</h1>
+    </Container>
   );
 }
