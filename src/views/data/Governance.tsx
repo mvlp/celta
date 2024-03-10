@@ -14,109 +14,131 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import Stack from "react-bootstrap/Stack";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
-import Nav from "react-bootstrap/Nav";
+import { Container, Row, Col, Button, ButtonGroup, Nav } from "react-bootstrap";
 import Table from "../../assets/data/table.json";
 import DownloadButton from "../../components/table/DownloadButton";
 
-export default function Governace() {
-  const [activeButton1, setActiveButton1] = useState(false);
-  const [activeButton2, setActiveButton2] = useState(false);
-  const [activeButton3, setActiveButton3] = useState(false);
-  const [activeButton4, setActiveButton4] = useState(false);
-  const [activeButton5, setActiveButton5] = useState(false);
+import { AgGridReact } from "ag-grid-react";
 
-  const resetAll = () => {
-    setActiveButton1(false);
-    setActiveButton2(false);
-    setActiveButton3(false);
-    setActiveButton4(false);
-    setActiveButton5(false);
+import { ColDef } from "ag-grid-community";
+
+import "ag-grid-community/styles/ag-grid.css";
+import "ag-grid-community/styles/ag-theme-alpine.css";
+import "../../components/table/headerClassCenter.css"
+
+import { RespostasInterface } from "../../components/table/DataItens";
+import {
+  RespostasColumnConfig,
+  RespostasColumnConfig2,
+} from "../../components/table/DataItens";
+import AC from "../../assets/data/tablefreq/table_freq_responses_1_AC.json";
+import CA from "../../assets/data/tablefreq/table_freq_responses_2_CA.json";
+import DR from "../../assets/data/tablefreq/table_freq_responses_3_DR.json";
+import OFC from "../../assets/data/tablefreq/table_freq_responses_4_OFC.json";
+import ECI from "../../assets/data/tablefreq/table_freq_responses_5_ECI.json";
+
+export default function Governace() {
+  const formatAndRound = (value: string) => {
+    if (!value) return ""; // Verificar se o valor está vazio
+    const numericValue = parseFloat(value.replace(",", ".")); // Converter para número
+    if (isNaN(numericValue)) return ""; // Verificar se o valor é um número válido
+    const roundedValue = Math.ceil(numericValue * 10) / 10; // Arredondar para cima com uma casa decimal
+    return roundedValue.toFixed(1).replace(".", ","); // Arredondar para uma casa decimal e substituir ponto por vírgula
+  };
+
+  const roundValues = (data: RespostasInterface[]) => {
+    return data.map((item) => {
+      return {
+        ...item,
+        Não: formatAndRound(item.Não),
+        "Não se Aplica": formatAndRound(item["Não se Aplica"] ?? ""),
+        Parcialmente: formatAndRound(item.Parcialmente),
+        Sim: formatAndRound(item.Sim),
+      };
+    });
+  };
+
+  const AC_rounded = roundValues(AC);
+  const CA_rounded = roundValues(CA);
+  const DR_rounded = roundValues(DR);
+  const OFC_rounded = roundValues(OFC);
+  const ECI_rounded = roundValues(ECI);
+
+  const [ColumnDefs, setColumnDefs] = useState<ColDef[]>(RespostasColumnConfig);
+  const [activeButton, setActiveButton] = useState(1);
+  const [rowData, setRowData] = useState<RespostasInterface[]>(AC_rounded);
+  const [showPraticasRecomendadas, setShowPraticasRecomendadas] =
+    useState(true);
+
+  const tableData: {
+    [key: number]: RespostasInterface[];
+  } = {
+    1: AC_rounded,
+    2: CA_rounded,
+    3: DR_rounded,
+    4: OFC_rounded,
+    5: ECI_rounded,
+  };
+
+  const handleButtonClick = (tableIndex: number) => {
+    setActiveButton(tableIndex);
+    setRowData(tableData[tableIndex]);
+  };
+  const togglePraticasRecomendadas = () => {
+    setShowPraticasRecomendadas(!showPraticasRecomendadas);
+    setColumnDefs(
+      showPraticasRecomendadas ? RespostasColumnConfig2 : RespostasColumnConfig
+    );
   };
 
   return (
-    <Container>
-      <Stack>
+    <div>
+      <Container>
         <h1>Indice de governança</h1>
         <p>Espaço para colocar o que quiser aqui</p>
         <p>Espaço para o grafico</p>
-      </Stack>
-      <Container>
+      </Container>
+
+      <Container fluid>
         <ButtonGroup aria-label="Basic example">
+          {[1, 2, 3, 4, 5].map((index) => (
+            <Button
+              key={index}
+              variant="outline-secondary"
+              active={activeButton === index}
+              onClick={() => handleButtonClick(index)}
+            >
+              {`${index}.${
+                [
+                  "Acionistas",
+                  "Conselho de Administração",
+                  "Diretoria",
+                  "Órgãos de Fiscalização e Controle",
+                  "Ética e Conflitos de Interesse",
+                ][index - 1]
+              }`}
+            </Button>
+          ))}
           <Button
             variant="outline-secondary"
-            active={activeButton1}
-            onClick={() => {
-              resetAll();
-              setActiveButton1(true);
-            }}
+            onClick={togglePraticasRecomendadas}
           >
-            1.Acionistas
-          </Button>
-          <Button
-            variant="outline-secondary"
-            active={activeButton2}
-            onClick={() => {
-              resetAll();
-              setActiveButton2(true);
-            }}
-          >
-            2.Conselho de Administração
-          </Button>
-          <Button
-            variant="outline-secondary"
-            active={activeButton3}
-            onClick={() => {
-              resetAll();
-              setActiveButton3(true);
-            }}
-          >
-            3.Diretoria
-          </Button>
-          <Button
-            variant="outline-secondary"
-            active={activeButton4}
-            onClick={() => {
-              resetAll();
-              setActiveButton4(true);
-            }}
-          >
-            4.Órgãos de Fiscalização e Controle
-          </Button>
-          <Button
-            variant="outline-secondary"
-            active={activeButton5}
-            onClick={() => {
-              resetAll();
-              setActiveButton5(true);
-            }}
-          >
-            5.Ética e Conflitos de Interesse
+            {showPraticasRecomendadas
+              ? "Ocultar Práticas Recomendadas"
+              : "Mostrar Práticas Recomendadas"}
           </Button>
         </ButtonGroup>
       </Container>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
-      <p>.</p>
+
+      <Container fluid>
+        <div className="ag-theme-alpine-dark">
+          <AgGridReact
+            rowData={rowData}
+            columnDefs={ColumnDefs}
+            domLayout="autoHeight"
+          ></AgGridReact>
+        </div>
+      </Container>
 
       <Container>
         <Row className="justify-content-md-center">
@@ -134,6 +156,6 @@ export default function Governace() {
           </Col>
         </Row>
       </Container>
-    </Container>
+    </div>
   );
 }

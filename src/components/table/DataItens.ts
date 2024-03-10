@@ -1,4 +1,5 @@
 import { ColDef, ColGroupDef } from "ag-grid-community";
+import "./headerClassCenter.css";
 
 export interface TableInterface {
   CNPJ_Companhia: string;
@@ -15,8 +16,7 @@ export interface TableInterface {
 }
 
 export const ColumnConfig:
-  | (ColDef<TableInterface> | ColGroupDef<TableInterface>)[]
-  | null = [
+  | (ColDef<TableInterface> | ColGroupDef<TableInterface>)[] = [
   {
     headerName: "CNPJ Companhia",
     field: "CNPJ_Companhia",
@@ -102,3 +102,156 @@ export const ColumnConfig:
 export interface JSONToXLSXProps {
   jsonData: TableInterface[];
 }
+
+export interface RespostasInterface {
+  ID_Item: string;
+  Capitulo: string;
+  Principio: string;
+  Pratica_Recomendada: string;
+  Não: string;
+  "Não se Aplica"?: string;
+  Parcialmente: string;
+  Sim: string;
+}
+
+export const RespostasColumnConfig = [
+  {
+    headerName: "Item",
+    field: "ID_Item",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 0.6,
+  },
+  {
+    headerName: "Princípio",
+    field: "Principio",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1.5,
+  },
+  {
+    headerName: "Prática Recomendada",
+    field: "Pratica_Recomendada",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    wrapText: true,
+    autoHeight: true,
+    flex: 4,
+    cellStyle: { lineHeight: "1.5" },
+  },
+  {
+    headerName: "Frequência das respostas (%)",
+    headerClass: "ag-header-cell-centered",
+    children: [
+      {
+        headerName: "Não",
+        headerClass: "ag-header-cell-centered",
+        field: "Não",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+      {
+        headerName: "Não se Aplica",
+        headerClass: "ag-header-cell-centered",
+        field: "Não se Aplica",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+      {
+        headerName: "Parcialmente",
+        headerClass: "ag-header-cell-centered",
+        field: "Parcialmente",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+      {
+        headerName: "Sim",
+        headerClass: "ag-header-cell-centered",
+        field: "Sim",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+    ],
+  },
+];
+
+// nao mostra praticas recomendadas
+export const RespostasColumnConfig2 = [
+  {
+    headerName: "Item",
+    field: "ID_Item",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 0.6,
+  },
+  {
+    headerName: "Princípio",
+    field: "Principio",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1.5,
+  },
+  {
+    headerName: "Frequência das respostas (%)",
+    headerClass: "ag-header-cell-centered",
+    children: [
+      {
+        headerName: "Não",
+        headerClass: "ag-header-cell-centered",
+        field: "Não",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+      {
+        headerName: "Não se Aplica",
+        headerClass: "ag-header-cell-centered",
+        field: "Não se Aplica",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+      {
+        headerName: "Parcialmente",
+        headerClass: "ag-header-cell-centered",
+        field: "Parcialmente",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+      {
+        headerName: "Sim",
+        headerClass: "ag-header-cell-centered",
+        field: "Sim",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+    ],
+  },
+];

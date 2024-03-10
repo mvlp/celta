@@ -11,3 +11,7 @@ Pedir o marcos para colocar o nome da empresa em um campo logo abaixo do CNPJ_Co
   Logo, devo achar outro jeito de fazer as paginas individuais 
 
 
+09-03-24 disponibilizar dataset_CGVN para download em XLSX
+como é um arquivo muito grande, compensa já fazer upload dele em XLSX para download no site (nao comepnsa converter ele toda vez que alguem for baixar...)
+
+exibir as tabelas que estao dentro de tablefreq
