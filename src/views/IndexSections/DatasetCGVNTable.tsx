@@ -10,7 +10,7 @@ import { Container } from "react-bootstrap";
 import { AgGridReact } from "ag-grid-react";
 
 const Dataset_CGVNTable = () => {
-  const [rowData] = useState<datasetCGVNInterface[]>(datasetCGVN);
+  const [rowData] = useState<datasetCGVNInterface[]>(datasetCGVN as datasetCGVNInterface[]);
 
   const [ColumnDefs] = useState<ColDef[]>(datasetCGVNColumnConfig);
 
