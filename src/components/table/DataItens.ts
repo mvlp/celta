@@ -99,9 +99,119 @@ export const ColumnConfig:
 // Essa interface só existe para fazer o download, por conta da função que faz a conversão!
 // Preferencialmente use ResultItem
 
-export interface JSONToXLSXProps {
-  jsonData: TableInterface[];
+export interface dataset_CGVNInterface {
+  CNPJ_Companhia: string;
+  Data_Referencia: string;
+  Versao: string;
+  Nome_Empresarial: string;
+  ID_Comumento: string;
+  ID_Item: string;
+  Capitulo: string;
+  Principio: string;
+  Pratica_Recomendada: string;
+  Pratica_Adotada: string;
+  Explicacao: string;
+  Data_Entrega: string;
 }
+
+export const dataset_CGVNColumnConfig = [
+  {
+    headerName: "CNPJ Companhia",
+    field: "CNPJ_Companhia",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1,
+  },
+  {
+    headerName: "Data Referência",
+    field: "Data_Referencia",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1,
+  },
+  {
+    headerName: "Versão",
+    field: "Versao",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 0.5,
+  },
+  {
+    headerName: "Nome Empresarial",
+    field: "Nome_Empresarial",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1,
+  },
+  {
+    headerName: "ID Documento",
+    field: "ID_Documento",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1,
+  },
+  {
+    headerName: "ID Item",
+    field: "ID_Item",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 0.5,
+  },
+  {
+    headerName: "Capítulo",
+    field: "Capitulo",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1,
+  },
+  {
+    headerName: "Principio",
+    field: "Principio",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1,
+  },
+  {
+    headerName: "Prática Recomendada",
+    field: "Pratica_Recomendada",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1,
+  },
+  {
+    headerName: "Prática Adotada",
+    field: "Pratica_Adotada",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 0.5,
+  },
+  {
+    headerName: "Explicação",
+    field: "Explicacao",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1,
+  },
+  {
+    headerName: "Data Entrega",
+    field: "Data_Entrega",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1,
+  },
+];
 
 export interface RespostasInterface {
   ID_Item: string;

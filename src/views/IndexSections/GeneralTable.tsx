@@ -1,4 +1,4 @@
-import {  useState } from "react";
+import { useState } from "react";
 import { AgGridReact } from "ag-grid-react";
 import { ColDef, ColGroupDef } from "ag-grid-community";
 
@@ -16,10 +16,9 @@ export default function TabelaGeral() {
     | (ColDef<TableInterface> | ColGroupDef<TableInterface>)[]
     | null = ColumnConfig;
 
-
   return (
     <div
-      className="ag-theme-alpine-dark"
+      className="ag-theme-balham"
       style={{ height: "100vh", width: "100%" }}
     >
       <AgGridReact

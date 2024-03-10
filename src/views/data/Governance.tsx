@@ -1,31 +1,30 @@
-// nesse arquivo ficarao os acionistas, conselho de administração, diretoria, orgãos de fiscalização e controle, ética e conflitos de interesse
-// https://www.rad.cvm.gov.br/ENET/frmExibirCodigoGovernancaExt.aspx?NumeroSequencialDocumento=131713&CodigoInstituicao=1
-// em baixo (ou em cima) dessa tabela, teremos o grafico
-// no final da pagina, teremos um botão para ver a Tabela Dos Dados (general table), junto com o botão para baixar a mesma logo ao lado do botao para ver a mesma
+// dar um jeito de conseguir enviar o arquivo grandao para o github
+// https://www.youtube.com/results?search_query=git+lfs
 
-//colocar texto explicativo aki
-// colocar o grafico aki
+// colocar base de dados completa no inicio (base de dados em forma de governança) (nao precisa ser um botao)
+// logo abaixo graficos, para cada aba (acionistas, conselho) temos 2 graficos (p1 e p2)
+// os graficos devem estar lado a lado
+// logo abaixo a tabela (acionistas, conselho, diretoria, etc...)
+// nota de rodapé em baixo da tabela
 
-//div
-//div com 5 botoes, quando o botao for apertado, mostrar uma aggrid correspondente.
-//div
-//logo abaixo dessa div grande, colocar a Tabela dos Dados
+// coisas adicionais para fazer
+// 1. fazer RespostasColumnConfig3 para nao mostrar a aba Nao se aplica quando ela nao existir (2 e 3)
+// 2. formatar o conteúdo de práticas recomendadas
+// 3. nightmode
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { Container, Row, Col, Button, ButtonGroup, Nav } from "react-bootstrap";
-import Table from "../../assets/data/table.json";
-import DownloadButton from "../../components/table/DownloadButton";
 
 import { AgGridReact } from "ag-grid-react";
-
 import { ColDef } from "ag-grid-community";
 
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
-import "../../components/table/headerClassCenter.css"
+import "../../components/table/headerClassCenter.css";
 
+import DownloadDatasetButton from "../IndexSections/DownloadDatasetButton";
 import { RespostasInterface } from "../../components/table/DataItens";
 import {
   RespostasColumnConfig,
@@ -100,11 +99,11 @@ export default function Governace() {
       </Container>
 
       <Container fluid>
-        <ButtonGroup aria-label="Basic example">
+        <ButtonGroup>
           {[1, 2, 3, 4, 5].map((index) => (
             <Button
               key={index}
-              variant="outline-secondary"
+              variant="success"
               active={activeButton === index}
               onClick={() => handleButtonClick(index)}
             >
@@ -119,10 +118,7 @@ export default function Governace() {
               }`}
             </Button>
           ))}
-          <Button
-            variant="outline-secondary"
-            onClick={togglePraticasRecomendadas}
-          >
+          <Button variant="success" onClick={togglePraticasRecomendadas}>
             {showPraticasRecomendadas
               ? "Ocultar Práticas Recomendadas"
               : "Mostrar Práticas Recomendadas"}
@@ -131,7 +127,7 @@ export default function Governace() {
       </Container>
 
       <Container fluid>
-        <div className="ag-theme-alpine-dark">
+        <div className="ag-theme-balham">
           <AgGridReact
             rowData={rowData}
             columnDefs={ColumnDefs}
@@ -145,14 +141,14 @@ export default function Governace() {
           <Col md="auto">
             <Nav>
               <Nav.Item>
-                <Nav.Link as={Link} to="/tabeladosdados">
+                <Nav.Link as={Link} to="/tabelaCGVN">
                   Link para a tabela dos dados
                 </Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>
           <Col md="auto">
-            <DownloadButton jsonData={Table}></DownloadButton>
+            <DownloadDatasetButton></DownloadDatasetButton>
           </Col>
         </Row>
       </Container>

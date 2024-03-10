@@ -11,10 +11,10 @@ import About from "../../views/About";
 import Contact from "../../views/Contact";
 import WIP from "../../views/WIP";
 import Home from "../../views/Home";
-import GeneralTable from "../../views/IndexSections/GeneralTable";
 import Governance from "../../views/data/Governance";
 import HubPages from "../../views/data/HubPage";
 import IndividualPage from "../../views/data/IndividualPage";
+import Dataset_CGVNTable from "../../views/IndexSections/DatasetCGVNTable";
 
 import { TableInterface } from "../table/DataItens";
 import Table from "../../assets/data/table.json";
@@ -38,7 +38,7 @@ export default function MNavbar() {
           expand="lg"
           className="bg-body-tertiary"
           bg="dark"
-          data-bs-theme="dark"
+          data-bs-theme="light"
         >
           <Container>
             <Navbar.Brand as={Link} to="/">
@@ -107,13 +107,10 @@ export default function MNavbar() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/indice" element={<WIP />} />
             <Route
-              path="/sitedeploy/tabeladosdados"
-              element={<GeneralTable />}
+              path="/sitedeploy/tabelaCGVN"
+              element={<Dataset_CGVNTable />}
             />
-            <Route
-              path="/tabeladosdados"
-              element={<GeneralTable />}
-            />
+            <Route path="/tabelaCGVN" element={<Dataset_CGVNTable />} />
             <Route path="/" element={<Home />} />
             <Route path="/WIP" element={<WIP />} />
             <Route path="/governance" element={<Governance />} />
