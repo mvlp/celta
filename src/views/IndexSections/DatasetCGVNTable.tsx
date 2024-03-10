@@ -1,18 +1,18 @@
 import { useState } from "react";
 import { ColDef } from "ag-grid-community";
 
-import dataset_CGVN from "../../assets/data/dataset_CGVN.json";
+import datasetCGVN from "../../assets/data/datasetCGVN.json";
 import {
-  dataset_CGVNInterface,
-  dataset_CGVNColumnConfig,
+  datasetCGVNInterface,
+  datasetCGVNColumnConfig,
 } from "../../components/table/DataItens";
 import { Container } from "react-bootstrap";
 import { AgGridReact } from "ag-grid-react";
 
 const Dataset_CGVNTable = () => {
-  const [rowData] = useState<dataset_CGVNInterface[]>(dataset_CGVN);
+  const [rowData] = useState<datasetCGVNInterface[]>(datasetCGVN);
 
-  const [ColumnDefs] = useState<ColDef[]>(dataset_CGVNColumnConfig);
+  const [ColumnDefs] = useState<ColDef[]>(datasetCGVNColumnConfig);
 
   return (
     <Container fluid>

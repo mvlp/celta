@@ -99,7 +99,7 @@ export const ColumnConfig:
 // Essa interface só existe para fazer o download, por conta da função que faz a conversão!
 // Preferencialmente use ResultItem
 
-export interface dataset_CGVNInterface {
+export interface datasetCGVNInterface {
   CNPJ_Companhia: string;
   Data_Referencia: string;
   Versao: string;
@@ -114,7 +114,7 @@ export interface dataset_CGVNInterface {
   Data_Entrega: string;
 }
 
-export const dataset_CGVNColumnConfig = [
+export const datasetCGVNColumnConfig = [
   {
     headerName: "CNPJ Companhia",
     field: "CNPJ_Companhia",
