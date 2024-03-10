@@ -3,7 +3,7 @@ import { Container, Button } from "react-bootstrap";
 import * as XLSX from "xlsx";
 import { saveAs } from "file-saver";
 
-import dataset_CGVN from "../../assets/data/dataset_CGVN.json";
+import dataset_CGVN from "../../assets/data/datasetCGVN.json";
 
 const JSONToXLSX = () => {
   const handleConvertToXLSX = () => {
