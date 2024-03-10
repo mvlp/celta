@@ -104,7 +104,7 @@ export interface dataset_CGVNInterface {
   Data_Referencia: string;
   Versao: string;
   Nome_Empresarial: string;
-  ID_Comumento: string;
+  ID_Documento: string;
   ID_Item: string;
   Capitulo: string;
   Principio: string;
