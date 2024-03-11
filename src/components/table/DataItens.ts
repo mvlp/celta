@@ -367,8 +367,7 @@ export const RespostasColumnConfig2 = [
 ];
 
 export const RedirectToCGVNData = () => {
-  const googlesheeturl =
-    "https://docs.google.com/spreadsheets/d/1aQ274SA4J1Ru_TM-ZsgCCqgpyMsiL1Aj/edit?usp=sharing&ouid=103819043659044906919&rtpof=true&sd=true";
+  const googlesheeturl = "https://github.com/Yurovskyy/sitedeploy/raw/gh-pages/docs/dataset_CGVN.xlsx?download=";
 
   window.open(googlesheeturl, "_blank");
 };

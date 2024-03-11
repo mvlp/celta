@@ -134,17 +134,12 @@ export default function Governace() {
     <div>
       <Container>
         <h1>Índice de governança</h1>
-        <p>
-          Esta página fala sobre o índice de governaça. Para gerar essas tabelas
-          e gráficos usamos{" "}
-          <a
-            onClick={RedirectToCGVNData}
-            style={{ color: "blue", textDecoration: "underline" }}
-          >
-            esta
-          </a>{" "}
-          base de dados.
-        </p>
+        <a
+          onClick={RedirectToCGVNData}
+          style={{ color: "blue", textDecoration: "underline" }}
+        >
+          https://github.com/Yurovskyy/sitedeploy/raw/gh-pages/docs/dataset_CGVN.xlsx?download=
+        </a>{" "}
         <h2>Gráficos</h2>
         <Row>
           <Col>
