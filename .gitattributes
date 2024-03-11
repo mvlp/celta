@@ -1,2 +1,2 @@
-src/assets/data/datasetCGVN.json filter=lfs diff=lfs merge=lfs -text
-=src/assets/data/datasetCGVN.json filter=lfs diff=lfs merge=lfs -text
+public/docs/dataset_CGVN.xlsx filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text

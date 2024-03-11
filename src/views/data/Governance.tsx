@@ -1,5 +1,3 @@
-// nota de rodapé em baixo da tabela
-
 // coisas adicionais para fazer
 // 1. fazer RespostasColumnConfig3 para nao mostrar a aba Nao se aplica quando ela nao existir (2 e 3)
 // 2. formatar o conteúdo de práticas recomendadas
@@ -143,9 +141,9 @@ export default function Governace() {
             onClick={RedirectToCGVNData}
             style={{ color: "blue", textDecoration: "underline" }}
           >
-            este
+            esta
           </a>{" "}
-          arquivo
+          base de dados.
         </p>
         <h2>Gráficos</h2>
         <Row>
@@ -195,6 +193,14 @@ export default function Governace() {
             domLayout="autoHeight"
           ></AgGridReact>
         </div>
+        <p>
+          Notas: O Informe do Código de Governança (ICBGC) é um documento
+          eletrônico, de encaminhamento periódico previsto no artigo 32 da
+          Resolução CVM nº 80. A amostra contém 2143 documentos disponilizados
+          do ICBGC, pertencentes a 492 empresas distintas (listadas e não
+          listadas em bolsa de valores). A amostra compreende o período de
+          Oct/2018 a Jan/2024.
+        </p>
       </Container>
     </div>
   );
