@@ -1,5 +1,5 @@
 import { ColDef, ColGroupDef } from "ag-grid-community";
-import "./headerClassCenter.css";
+import "../../assets/css/HeaderClassCenter.css";
 
 export interface TableInterface {
   CNPJ_Companhia: string;
@@ -365,3 +365,10 @@ export const RespostasColumnConfig2 = [
     ],
   },
 ];
+
+export const RedirectToCGVNData = () => {
+  const googlesheeturl =
+    "https://docs.google.com/spreadsheets/d/1aQ274SA4J1Ru_TM-ZsgCCqgpyMsiL1Aj/edit?usp=sharing&ouid=103819043659044906919&rtpof=true&sd=true";
+
+  window.open(googlesheeturl, "_blank");
+};

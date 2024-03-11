@@ -14,7 +14,7 @@ import Home from "../../views/Home";
 import Governance from "../../views/data/Governance";
 import HubPages from "../../views/data/HubPage";
 import IndividualPage from "../../views/data/IndividualPage";
-import Dataset_CGVNTable from "../../views/IndexSections/DatasetCGVNTable";
+// import Dataset_CGVNTable from "../../views/IndexSections/DatasetCGVNTable";
 
 import { TableInterface } from "../table/DataItens";
 import Table from "../../assets/data/table.json";
@@ -58,24 +58,12 @@ export default function MNavbar() {
                 </Nav.Link>
                 <NavDropdown title="Pesquisas" id="basic-nav-dropdown">
                   <NavDropdown.Item as={Link} to="/WIP">
-                    Em andamento
-                  </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/WIP">
-                    Papeis - Artigos
-                  </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/WIP">
-                    Livros
+                    Artigos
                   </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title="Data" id="basic-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/hub">
-                    Hub de empresas
-                  </NavDropdown.Item>
+                <NavDropdown title="Dados" id="basic-nav-dropdown">
                   <NavDropdown.Item as={Link} to="/governance">
                     Governança
-                  </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/WIP">
-                    Buffer
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Outros" id="basic-nav-dropdown">
@@ -106,11 +94,11 @@ export default function MNavbar() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/indice" element={<WIP />} />
-            <Route
+            {/* <Route
               path="/sitedeploy/tabelaCGVN"
               element={<Dataset_CGVNTable />}
             />
-            <Route path="/tabelaCGVN" element={<Dataset_CGVNTable />} />
+            <Route path="/tabelaCGVN" element={<Dataset_CGVNTable />} /> */}
             <Route path="/" element={<Home />} />
             <Route path="/WIP" element={<WIP />} />
             <Route path="/governance" element={<Governance />} />

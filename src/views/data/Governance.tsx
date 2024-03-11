@@ -1,10 +1,3 @@
-// dar um jeito de conseguir enviar o arquivo grandao para o github
-// https://www.youtube.com/results?search_query=git+lfs
-
-// colocar base de dados completa no inicio (base de dados em forma de governança) (nao precisa ser um botao)
-// logo abaixo graficos, para cada aba (acionistas, conselho) temos 2 graficos (p1 e p2)
-// os graficos devem estar lado a lado
-// logo abaixo a tabela (acionistas, conselho, diretoria, etc...)
 // nota de rodapé em baixo da tabela
 
 // coisas adicionais para fazer
@@ -13,19 +6,27 @@
 // 3. nightmode
 
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
-import { Container, Row, Col, Button, ButtonGroup, Nav } from "react-bootstrap";
+import {
+  Container,
+  Button,
+  ButtonGroup,
+  Col,
+  Row,
+  Image,
+} from "react-bootstrap";
 
 import { AgGridReact } from "ag-grid-react";
 import { ColDef } from "ag-grid-community";
 
 import "ag-grid-community/styles/ag-grid.css";
-import "ag-grid-community/styles/ag-theme-alpine.css";
-import "../../components/table/headerClassCenter.css";
+import "ag-grid-community/styles/ag-theme-alpine.css"; //so ta mudando o texto, pois a tabela eu seto a config visual manualmente
+import "../../assets/css/HeaderClassCenter.css";
 
-import DownloadDatasetButton from "../IndexSections/DownloadDatasetButton";
-import { RespostasInterface } from "../../components/table/DataItens";
+import {
+  RedirectToCGVNData,
+  RespostasInterface,
+} from "../../components/table/DataItens";
 import {
   RespostasColumnConfig,
   RespostasColumnConfig2,
@@ -35,6 +36,21 @@ import CA from "../../assets/data/tablefreq/table_freq_responses_2_CA.json";
 import DR from "../../assets/data/tablefreq/table_freq_responses_3_DR.json";
 import OFC from "../../assets/data/tablefreq/table_freq_responses_4_OFC.json";
 import ECI from "../../assets/data/tablefreq/table_freq_responses_5_ECI.json";
+
+import p1AC from "../../assets/data/graphs/p1_AC.svg";
+import p2AC from "../../assets/data/graphs/p2_AC.svg";
+
+import p1CA from "../../assets/data/graphs/p1_CA.svg";
+import p2CA from "../../assets/data/graphs/p2_CA.svg";
+
+import p1DR from "../../assets/data/graphs/p1_DR.svg";
+import p2DR from "../../assets/data/graphs/p2_DR.svg";
+
+import p1ECI from "../../assets/data/graphs/p1_ECI.svg";
+import p2ECI from "../../assets/data/graphs/p2_ECI.svg";
+
+import p1OFC from "../../assets/data/graphs/p1_OFC.svg";
+import p2OFC from "../../assets/data/graphs/p2_OFC.svg";
 
 export default function Governace() {
   const formatAndRound = (value: string) => {
@@ -64,10 +80,12 @@ export default function Governace() {
   const ECI_rounded = roundValues(ECI);
 
   const [ColumnDefs, setColumnDefs] = useState<ColDef[]>(RespostasColumnConfig);
-  const [activeButton, setActiveButton] = useState(1);
   const [rowData, setRowData] = useState<RespostasInterface[]>(AC_rounded);
+  const [activeButton, setActiveButton] = useState(1);
   const [showPraticasRecomendadas, setShowPraticasRecomendadas] =
     useState(true);
+  const [image1, setImage1] = useState(p1AC);
+  const [image2, setImage2] = useState(p2AC);
 
   const tableData: {
     [key: number]: RespostasInterface[];
@@ -82,6 +100,30 @@ export default function Governace() {
   const handleButtonClick = (tableIndex: number) => {
     setActiveButton(tableIndex);
     setRowData(tableData[tableIndex]);
+    switch (tableIndex) {
+      case 1:
+        setImage1(p1AC);
+        setImage2(p2AC);
+        break;
+      case 2:
+        setImage1(p1CA);
+        setImage2(p2CA);
+        break;
+      case 3:
+        setImage1(p1DR);
+        setImage2(p2DR);
+        break;
+      case 4:
+        setImage1(p1OFC);
+        setImage2(p2OFC);
+        break;
+      case 5:
+        setImage1(p1ECI);
+        setImage2(p2ECI);
+        break;
+      default:
+        break;
+    }
   };
   const togglePraticasRecomendadas = () => {
     setShowPraticasRecomendadas(!showPraticasRecomendadas);
@@ -93,9 +135,28 @@ export default function Governace() {
   return (
     <div>
       <Container>
-        <h1>Indice de governança</h1>
-        <p>Espaço para colocar o que quiser aqui</p>
-        <p>Espaço para o grafico</p>
+        <h1>Índice de governança</h1>
+        <p>
+          Esta página fala sobre o índice de governaça. Para gerar essas tabelas
+          e gráficos usamos{" "}
+          <a
+            onClick={RedirectToCGVNData}
+            style={{ color: "blue", textDecoration: "underline" }}
+          >
+            este
+          </a>{" "}
+          arquivo
+        </p>
+        <h2>Gráficos</h2>
+        <Row>
+          <Col>
+            <Image src={image1} fluid></Image>
+          </Col>
+          <Col>
+            <Image src={image2} fluid></Image>
+          </Col>
+        </Row>
+        <h2>Tabelas</h2>
       </Container>
 
       <Container fluid>
@@ -134,23 +195,6 @@ export default function Governace() {
             domLayout="autoHeight"
           ></AgGridReact>
         </div>
-      </Container>
-
-      <Container>
-        <Row className="justify-content-md-center">
-          <Col md="auto">
-            <Nav>
-              <Nav.Item>
-                <Nav.Link as={Link} to="/tabelaCGVN">
-                  Link para a tabela dos dados
-                </Nav.Link>
-              </Nav.Item>
-            </Nav>
-          </Col>
-          <Col md="auto">
-            <DownloadDatasetButton></DownloadDatasetButton>
-          </Col>
-        </Row>
       </Container>
     </div>
   );
