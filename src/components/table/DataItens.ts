@@ -247,10 +247,10 @@ export const RespostasColumnConfig = [
     sortable: true,
     filter: true,
     resizable: true,
-    wrapText: true,
     autoHeight: true,
+    // hide: true, // da pra simplificar o script de esconder a coluna! Tem callback
     flex: 4,
-    cellStyle: { lineHeight: "1.5" },
+    cellStyle: { lineHeight: "1.5", whiteSpace: "pre-wrap" },
   },
   {
     headerName: "Frequência das respostas (%)",
@@ -258,17 +258,19 @@ export const RespostasColumnConfig = [
     children: [
       {
         headerName: "Não",
-        headerClass: "ag-header-cell-centered",
         field: "Não",
         sortable: true,
         filter: true,
         resizable: true,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
       {
         headerName: "Não se Aplica",
-        headerClass: "ag-header-cell-centered",
         field: "Não se Aplica",
         sortable: true,
         filter: true,
@@ -278,23 +280,29 @@ export const RespostasColumnConfig = [
       },
       {
         headerName: "Parcialmente",
-        headerClass: "ag-header-cell-centered",
         field: "Parcialmente",
         sortable: true,
         filter: true,
         resizable: true,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          textAlign: "center",
+          display: "flex",
+          justifyContent: "center",
+        },
       },
       {
         headerName: "Sim",
-        headerClass: "ag-header-cell-centered",
         field: "Sim",
         sortable: true,
         filter: true,
         resizable: true,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          textAlign: "center",
+          display: "flex",
+          justifyContent: "center",
+        },
       },
     ],
   },
@@ -324,7 +332,6 @@ export const RespostasColumnConfig2 = [
     children: [
       {
         headerName: "Não",
-        headerClass: "ag-header-cell-centered",
         field: "Não",
         sortable: true,
         filter: true,
@@ -334,7 +341,6 @@ export const RespostasColumnConfig2 = [
       },
       {
         headerName: "Não se Aplica",
-        headerClass: "ag-header-cell-centered",
         field: "Não se Aplica",
         sortable: true,
         filter: true,
@@ -344,7 +350,6 @@ export const RespostasColumnConfig2 = [
       },
       {
         headerName: "Parcialmente",
-        headerClass: "ag-header-cell-centered",
         field: "Parcialmente",
         sortable: true,
         filter: true,
@@ -354,7 +359,6 @@ export const RespostasColumnConfig2 = [
       },
       {
         headerName: "Sim",
-        headerClass: "ag-header-cell-centered",
         field: "Sim",
         sortable: true,
         filter: true,
@@ -366,8 +370,117 @@ export const RespostasColumnConfig2 = [
   },
 ];
 
-export const RedirectToCGVNData = () => {
-  const googlesheeturl = "https://github.com/Yurovskyy/sitedeploy/raw/gh-pages/docs/dataset_CGVN.xlsx?download=";
+export const RespostasColumnConfig3 = [
+  {
+    headerName: "Item",
+    field: "ID_Item",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 0.6,
+  },
+  {
+    headerName: "Princípio",
+    field: "Principio",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1.5,
+  },
+  {
+    headerName: "Frequência das respostas (%)",
+    headerClass: "ag-header-cell-centered",
+    children: [
+      {
+        headerName: "Não",
+        field: "Não",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+      {
+        headerName: "Parcialmente",
+        field: "Parcialmente",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+      {
+        headerName: "Sim",
+        field: "Sim",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+    ],
+  },
+];
 
-  window.open(googlesheeturl, "_blank");
-};
+export const RespostasColumnConfig4 = [
+  {
+    headerName: "Item",
+    field: "ID_Item",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 0.6,
+  },
+  {
+    headerName: "Princípio",
+    field: "Principio",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    flex: 1.5,
+  },
+  {
+    headerName: "Prática Recomendada",
+    field: "Pratica_Recomendada",
+    sortable: true,
+    filter: true,
+    resizable: true,
+    autoHeight: true,
+    // hide: true, // da pra simplificar o script de esconder a coluna! Tem callback
+    flex: 4,
+    cellStyle: { lineHeight: "1.5", whiteSpace: "pre-wrap" },
+  },
+  {
+    headerName: "Frequência das respostas (%)",
+    headerClass: "ag-header-cell-centered",
+    children: [
+      {
+        headerName: "Não",
+        field: "Não",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+      {
+        headerName: "Parcialmente",
+        field: "Parcialmente",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+      {
+        headerName: "Sim",
+        field: "Sim",
+        sortable: true,
+        filter: true,
+        resizable: true,
+        flex: 1,
+        cellStyle: { textAlign: "center" },
+      },
+    ],
+  },
+];

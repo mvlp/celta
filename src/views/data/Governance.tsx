@@ -12,22 +12,21 @@ import {
   Col,
   Row,
   Image,
+  Form,
 } from "react-bootstrap";
 
 import { AgGridReact } from "ag-grid-react";
 import { ColDef } from "ag-grid-community";
 
 import "ag-grid-community/styles/ag-grid.css";
-import "ag-grid-community/styles/ag-theme-alpine.css"; //so ta mudando o texto, pois a tabela eu seto a config visual manualmente
-import "../../assets/css/HeaderClassCenter.css";
+import "ag-grid-community/styles/ag-theme-alpine.css";
 
-import {
-  RedirectToCGVNData,
-  RespostasInterface,
-} from "../../components/table/DataItens";
+import { RespostasInterface } from "../../components/table/DataItens";
 import {
   RespostasColumnConfig,
   RespostasColumnConfig2,
+  RespostasColumnConfig3,
+  RespostasColumnConfig4,
 } from "../../components/table/DataItens";
 import AC from "../../assets/data/tablefreq/table_freq_responses_1_AC.json";
 import CA from "../../assets/data/tablefreq/table_freq_responses_2_CA.json";
@@ -102,22 +101,47 @@ export default function Governace() {
       case 1:
         setImage1(p1AC);
         setImage2(p2AC);
+        if (showPraticasRecomendadas) {
+          setColumnDefs(RespostasColumnConfig); // ativa
+        } else {
+          setColumnDefs(RespostasColumnConfig2); // desativa
+        }
         break;
       case 2:
         setImage1(p1CA);
         setImage2(p2CA);
+        if (showPraticasRecomendadas) {
+          setColumnDefs(RespostasColumnConfig4); //ativa
+        } else {
+          setColumnDefs(RespostasColumnConfig3); //desativa
+        }
         break;
       case 3:
         setImage1(p1DR);
         setImage2(p2DR);
+        if (showPraticasRecomendadas) {
+          setColumnDefs(RespostasColumnConfig4); //ativa
+        } else {
+          setColumnDefs(RespostasColumnConfig3); //desativa
+        }
         break;
       case 4:
         setImage1(p1OFC);
         setImage2(p2OFC);
+        if (showPraticasRecomendadas) {
+          setColumnDefs(RespostasColumnConfig); // ativa
+        } else {
+          setColumnDefs(RespostasColumnConfig2); // desativa
+        }
         break;
       case 5:
         setImage1(p1ECI);
         setImage2(p2ECI);
+        if (showPraticasRecomendadas) {
+          setColumnDefs(RespostasColumnConfig); // ativa
+        } else {
+          setColumnDefs(RespostasColumnConfig2); // desativa
+        }
         break;
       default:
         break;
@@ -125,20 +149,52 @@ export default function Governace() {
   };
   const togglePraticasRecomendadas = () => {
     setShowPraticasRecomendadas(!showPraticasRecomendadas);
-    setColumnDefs(
-      showPraticasRecomendadas ? RespostasColumnConfig2 : RespostasColumnConfig
-    );
+    if (showPraticasRecomendadas) {
+      if (activeButton === 2 || activeButton === 3) {
+        //desativa
+        setColumnDefs(RespostasColumnConfig3);
+      } else {
+        setColumnDefs(RespostasColumnConfig2);
+      }
+    } else {
+      if (activeButton === 2 || activeButton === 3) {
+        //ativa
+        setColumnDefs(RespostasColumnConfig4);
+      } else {
+        setColumnDefs(RespostasColumnConfig);
+      }
+    }
   };
 
   return (
     <div>
       <Container>
-        <h1>Índice de governança</h1>
+        <h1>Informe do Código de Governança (ICBGC)</h1>
+        <p>
+          O Informe do Código de Governança (ICBGC) é um documento eletrônico,
+          de encaminhamento periódico previsto no artigo 32 da Resolução CVM nº
+          80{" "}
+          <a
+            href="https://conteudo.cvm.gov.br/legislacao/resolucoes/resol080.html"
+            target="_blank"
+            style={{ cursor: "pointer" }}
+          >
+            https://conteudo.cvm.gov.br/legislacao/resolucoes/resol080.html
+          </a>
+          . A amostra contém 2143 documentos disponilizados do ICBGC,
+          pertencentes a 492 empresas distintas (listadas e não listadas em
+          bolsa de valores). A amostra compreende o período de Out/2018 a
+          Jan/2024.
+        </p>
         <a
-          onClick={RedirectToCGVNData}
-          style={{ color: "blue", textDecoration: "underline" }}
+          href="https://github.com/Yurovskyy/sitedeploy/raw/gh-pages/docs/dataset_CGVN.xlsx?download="
+          style={{
+            color: "blue",
+            textDecoration: "underline",
+            cursor: "pointer",
+          }}
         >
-          https://github.com/Yurovskyy/sitedeploy/raw/gh-pages/docs/dataset_CGVN.xlsx?download=
+          Base de dados ICBGC
         </a>{" "}
         <h2>Gráficos</h2>
         <Row>
@@ -153,6 +209,18 @@ export default function Governace() {
       </Container>
 
       <Container fluid>
+        <Form>
+          <Form.Check
+            type="switch"
+            label={
+              showPraticasRecomendadas
+                ? "Práticas Recomendadas Visíveis"
+                : "Práticas Recomendadas Ocultas"
+            }
+            checked={showPraticasRecomendadas}
+            onChange={togglePraticasRecomendadas}
+          />
+        </Form>
         <ButtonGroup>
           {[1, 2, 3, 4, 5].map((index) => (
             <Button
@@ -172,30 +240,17 @@ export default function Governace() {
               }`}
             </Button>
           ))}
-          <Button variant="success" onClick={togglePraticasRecomendadas}>
-            {showPraticasRecomendadas
-              ? "Ocultar Práticas Recomendadas"
-              : "Mostrar Práticas Recomendadas"}
-          </Button>
         </ButtonGroup>
       </Container>
 
       <Container fluid>
-        <div className="ag-theme-balham">
+        <div className="ag-theme-alpine">
           <AgGridReact
             rowData={rowData}
             columnDefs={ColumnDefs}
             domLayout="autoHeight"
           ></AgGridReact>
         </div>
-        <p>
-          Notas: O Informe do Código de Governança (ICBGC) é um documento
-          eletrônico, de encaminhamento periódico previsto no artigo 32 da
-          Resolução CVM nº 80. A amostra contém 2143 documentos disponilizados
-          do ICBGC, pertencentes a 492 empresas distintas (listadas e não
-          listadas em bolsa de valores). A amostra compreende o período de
-          Oct/2018 a Jan/2024.
-        </p>
       </Container>
     </div>
   );

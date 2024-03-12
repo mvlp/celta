@@ -1,3 +1,8 @@
 .ag-header-cell-centered {
   justify-content: center;
 }
+
+.ag-header-cell-label {
+  cursor: pointer;
+  justify-content: center;
+}
