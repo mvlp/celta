@@ -171,14 +171,13 @@ export default function Governace() {
         <h1>Informe do Código de Governança (ICBGC)</h1>
         <p>
           O Informe do Código de Governança (ICBGC) é um documento eletrônico,
-          de encaminhamento periódico previsto no artigo 32 da Resolução CVM nº
-          80{" "}
+          de encaminhamento periódico previsto no artigo 32 da
           <a
             href="https://conteudo.cvm.gov.br/legislacao/resolucoes/resol080.html"
             target="_blank"
             style={{ cursor: "pointer" }}
           >
-            https://conteudo.cvm.gov.br/legislacao/resolucoes/resol080.html
+            Resolução CVM nº80
           </a>
           . A amostra contém 2143 documentos disponilizados do ICBGC,
           pertencentes a 492 empresas distintas (listadas e não listadas em
