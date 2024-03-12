@@ -1,5 +1,4 @@
 // coisas adicionais para fazer
-// 1. fazer RespostasColumnConfig3 para nao mostrar a aba Nao se aplica quando ela nao existir (2 e 3)
 // 2. formatar o conteúdo de práticas recomendadas
 // 3. nightmode
 
