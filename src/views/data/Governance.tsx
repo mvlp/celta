@@ -18,7 +18,8 @@ import { AgGridReact } from "ag-grid-react";
 import { ColDef } from "ag-grid-community";
 
 import "ag-grid-community/styles/ag-grid.css";
-import "ag-grid-community/styles/ag-theme-alpine.css";
+import "ag-grid-community/styles/ag-theme-balham.css";
+import "../../assets/css/CustonTable.css";
 
 import { RespostasInterface } from "../../components/table/DataItens";
 import {
@@ -171,7 +172,7 @@ export default function Governace() {
         <h1>Informe do Código de Governança (ICBGC)</h1>
         <p>
           O Informe do Código de Governança (ICBGC) é um documento eletrônico,
-          de encaminhamento periódico previsto no artigo 32 da
+          de encaminhamento periódico previsto no artigo 32 da{" "}
           <a
             href="https://conteudo.cvm.gov.br/legislacao/resolucoes/resol080.html"
             target="_blank"
@@ -242,7 +243,7 @@ export default function Governace() {
       </Container>
 
       <Container fluid>
-        <div className="ag-theme-alpine">
+        <div className="ag-theme-balham">
           <AgGridReact
             rowData={rowData}
             columnDefs={ColumnDefs}

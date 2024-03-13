@@ -1,5 +1,5 @@
 import { ColDef, ColGroupDef } from "ag-grid-community";
-import "../../assets/css/HeaderClassCenter.css";
+import "../../assets/css/CustonTable.css";
 
 export interface TableInterface {
   CNPJ_Companhia: string;
@@ -22,77 +22,77 @@ export const ColumnConfig:
     field: "CNPJ_Companhia",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
   },
   {
     headerName: "Data Referencia",
     field: "Data_Referencia",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
   },
   {
     headerName: "Acionistas",
     field: "Acionistas",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
   },
   {
     headerName: "Conselho de Administracao",
     field: "Conselho de Administracao",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
   },
   {
     headerName: "Diretoria",
     field: "Diretoria",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
   },
   {
     headerName: "Etica e Conflito de Interesses",
     field: "Etica e Conflito de Interesses",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
   },
   {
     headerName: "Orgaos de Fiscalizacao e Controle",
     field: "Orgaos de Fiscalizacao e Controle",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
   },
   {
     headerName: "mean",
     field: "mean",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
   },
   {
     headerName: "median",
     field: "median",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
   },
   {
     headerName: "geomean",
     field: "geomean",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
   },
   {
     headerName: "harmonic.mean",
     field: "harmonic",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
   },
 ];
 
@@ -120,7 +120,7 @@ export const datasetCGVNColumnConfig = [
     field: "CNPJ_Companhia",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1,
   },
   {
@@ -128,7 +128,7 @@ export const datasetCGVNColumnConfig = [
     field: "Data_Referencia",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1,
   },
   {
@@ -136,7 +136,7 @@ export const datasetCGVNColumnConfig = [
     field: "Versao",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 0.5,
   },
   {
@@ -144,7 +144,7 @@ export const datasetCGVNColumnConfig = [
     field: "Nome_Empresarial",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1,
   },
   {
@@ -152,7 +152,7 @@ export const datasetCGVNColumnConfig = [
     field: "ID_Documento",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1,
   },
   {
@@ -160,7 +160,7 @@ export const datasetCGVNColumnConfig = [
     field: "ID_Item",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 0.5,
   },
   {
@@ -168,7 +168,7 @@ export const datasetCGVNColumnConfig = [
     field: "Capitulo",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1,
   },
   {
@@ -176,7 +176,7 @@ export const datasetCGVNColumnConfig = [
     field: "Principio",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1,
   },
   {
@@ -184,7 +184,7 @@ export const datasetCGVNColumnConfig = [
     field: "Pratica_Recomendada",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1,
   },
   {
@@ -192,7 +192,7 @@ export const datasetCGVNColumnConfig = [
     field: "Pratica_Adotada",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 0.5,
   },
   {
@@ -200,7 +200,7 @@ export const datasetCGVNColumnConfig = [
     field: "Explicacao",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1,
   },
   {
@@ -208,7 +208,7 @@ export const datasetCGVNColumnConfig = [
     field: "Data_Entrega",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1,
   },
 ];
@@ -230,7 +230,7 @@ export const RespostasColumnConfig = [
     field: "ID_Item",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 0.6,
   },
   {
@@ -238,7 +238,7 @@ export const RespostasColumnConfig = [
     field: "Principio",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1.5,
   },
   {
@@ -246,7 +246,7 @@ export const RespostasColumnConfig = [
     field: "Pratica_Recomendada",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     autoHeight: true,
     // hide: true, // da pra simplificar o script de esconder a coluna! Tem callback
     flex: 4,
@@ -261,7 +261,7 @@ export const RespostasColumnConfig = [
         field: "Não",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
         cellStyle: {
           display: "flex",
@@ -274,20 +274,24 @@ export const RespostasColumnConfig = [
         field: "Não se Aplica",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
       {
         headerName: "Parcialmente",
         field: "Parcialmente",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
         cellStyle: {
-          textAlign: "center",
           display: "flex",
+          alignItems: "center",
           justifyContent: "center",
         },
       },
@@ -296,11 +300,11 @@ export const RespostasColumnConfig = [
         field: "Sim",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
         cellStyle: {
-          textAlign: "center",
           display: "flex",
+          alignItems: "center",
           justifyContent: "center",
         },
       },
@@ -315,7 +319,7 @@ export const RespostasColumnConfig2 = [
     field: "ID_Item",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 0.6,
   },
   {
@@ -323,7 +327,7 @@ export const RespostasColumnConfig2 = [
     field: "Principio",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1.5,
   },
   {
@@ -335,48 +339,65 @@ export const RespostasColumnConfig2 = [
         field: "Não",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
       {
         headerName: "Não se Aplica",
         field: "Não se Aplica",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
       {
         headerName: "Parcialmente",
         field: "Parcialmente",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
       {
         headerName: "Sim",
         field: "Sim",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
     ],
   },
 ];
 
+// nao mostrar Não se aplica e não mostrar praticas recomendadas
 export const RespostasColumnConfig3 = [
   {
     headerName: "Item",
     field: "ID_Item",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 0.6,
   },
   {
@@ -384,7 +405,7 @@ export const RespostasColumnConfig3 = [
     field: "Principio",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1.5,
   },
   {
@@ -396,39 +417,52 @@ export const RespostasColumnConfig3 = [
         field: "Não",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
       {
         headerName: "Parcialmente",
         field: "Parcialmente",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
       {
         headerName: "Sim",
         field: "Sim",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
     ],
   },
 ];
 
+// não mostrar Não se aplica
 export const RespostasColumnConfig4 = [
   {
     headerName: "Item",
     field: "ID_Item",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 0.6,
   },
   {
@@ -436,7 +470,7 @@ export const RespostasColumnConfig4 = [
     field: "Principio",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     flex: 1.5,
   },
   {
@@ -444,7 +478,7 @@ export const RespostasColumnConfig4 = [
     field: "Pratica_Recomendada",
     sortable: true,
     filter: true,
-    resizable: true,
+    resizable: false,
     autoHeight: true,
     // hide: true, // da pra simplificar o script de esconder a coluna! Tem callback
     flex: 4,
@@ -459,28 +493,43 @@ export const RespostasColumnConfig4 = [
         field: "Não",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
       {
         headerName: "Parcialmente",
         field: "Parcialmente",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
       {
         headerName: "Sim",
         field: "Sim",
         sortable: true,
         filter: true,
-        resizable: true,
+        resizable: false,
         flex: 1,
-        cellStyle: { textAlign: "center" },
+        cellStyle: {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        },
       },
     ],
   },
 ];
+
+//--ag-header-background-color: #dbdbdb;
+//--ag-odd-row-background-color: #dbdbdb;

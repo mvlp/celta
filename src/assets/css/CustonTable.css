@@ -6,3 +6,8 @@
   cursor: pointer;
   justify-content: center;
 }
+
+.ag-theme-balham {
+  --ag-header-background-color: #dbdbdb !important;
+  --ag-odd-row-background-color: #dbdbdb !important;
+}
