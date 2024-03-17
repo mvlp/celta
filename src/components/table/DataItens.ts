@@ -1,4 +1,5 @@
 import { ColDef, ColGroupDef } from "ag-grid-community";
+import { NewLineRenderer } from "../../views/IndexSections/NewLineRenderer";
 import "../../assets/css/CustonTable.css";
 
 export interface TableInterface {
@@ -244,6 +245,7 @@ export const RespostasColumnConfig = [
   {
     headerName: "Prática Recomendada",
     field: "Pratica_Recomendada",
+    cellRenderer: NewLineRenderer,
     sortable: true,
     filter: true,
     resizable: false,
@@ -476,6 +478,7 @@ export const RespostasColumnConfig4 = [
   {
     headerName: "Prática Recomendada",
     field: "Pratica_Recomendada",
+    cellRenderer: NewLineRenderer,
     sortable: true,
     filter: true,
     resizable: false,
@@ -530,6 +533,3 @@ export const RespostasColumnConfig4 = [
     ],
   },
 ];
-
-//--ag-header-background-color: #dbdbdb;
-//--ag-odd-row-background-color: #dbdbdb;
