@@ -62,7 +62,7 @@ export default function MNavbar() {
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Dados" id="basic-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="sitedeploy/governance">
+                  <NavDropdown.Item as={Link} to="/sitedeploy/governance">
                     Governança
                   </NavDropdown.Item>
                 </NavDropdown>
