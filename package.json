@@ -2,6 +2,7 @@
   "name": "sitemarcos",
   "private": true,
   "version": "0.0.0",
+  "homegape": "https://yurovskyy.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
