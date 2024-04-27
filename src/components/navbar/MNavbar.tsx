@@ -62,7 +62,7 @@ export default function MNavbar() {
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Dados" id="basic-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/governance">
+                  <NavDropdown.Item as={Link} to="sitedeploy/governance">
                     Governança
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -101,7 +101,7 @@ export default function MNavbar() {
             <Route path="/tabelaCGVN" element={<Dataset_CGVNTable />} /> */}
             <Route path="/" element={<Home />} />
             <Route path="/WIP" element={<WIP />} />
-            <Route path="/governance" element={<Governance />} />
+            <Route path="/sitedeploy/governance" element={<Governance />} />
             <Route path="/sitedeploy/" element={<Home />} />
             <Route path="/hub" element={<HubPages data={Table} />} />
             {Object.entries(groupedByCNPJ).map(([cnpj, items]) => (
