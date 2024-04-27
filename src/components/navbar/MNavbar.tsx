@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, HashRouter } from "react-router-dom";
 
 import About from "../../views/About";
 import Contact from "../../views/Contact";
@@ -32,7 +32,7 @@ export default function MNavbar() {
   // isso é melhor doq fazer várias arrow function ( () => {}) em cada Nav.link
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <>
         <Navbar
           expand="lg"
@@ -62,7 +62,7 @@ export default function MNavbar() {
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Dados" id="basic-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/sitedeploy/governance">
+                  <NavDropdown.Item as={Link} to="/governance">
                     Governança
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -101,8 +101,8 @@ export default function MNavbar() {
             <Route path="/tabelaCGVN" element={<Dataset_CGVNTable />} /> */}
             <Route path="/" element={<Home />} />
             <Route path="/WIP" element={<WIP />} />
-            <Route path="/sitedeploy/governance" element={<Governance />} />
-            <Route path="/sitedeploy/" element={<Home />} />
+            <Route path="/governance" element={<Governance />} />
+            {/* <Route path="/sitedeploy/" element={<Home />} /> */}
             <Route path="/hub" element={<HubPages data={Table} />} />
             {Object.entries(groupedByCNPJ).map(([cnpj, items]) => (
               <Route
@@ -114,6 +114,6 @@ export default function MNavbar() {
           </Routes>
         </div>
       </>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
