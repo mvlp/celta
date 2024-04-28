@@ -102,7 +102,7 @@ export default function MNavbar() {
             <Route path="/" element={<Home />} />
             <Route path="/WIP" element={<WIP />} />
             <Route path="/governance" element={<Governance />} />
-            {/* <Route path="/sitedeploy/" element={<Home />} /> */}
+            <Route path="/sitedeploy/" element={<Home />} />
             <Route path="/hub" element={<HubPages data={Table} />} />
             {Object.entries(groupedByCNPJ).map(([cnpj, items]) => (
               <Route
