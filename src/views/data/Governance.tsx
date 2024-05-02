@@ -188,13 +188,26 @@ export default function Governace() {
         <a
           href="https://github.com/Yurovskyy/sitedeploy/raw/gh-pages/docs/dataset_CGVN.xlsx?download="
           style={{
+            color: "black",
+            textDecoration: "underline",
+            cursor: "pointer",
+          }}
+        >
+          <b>Fonte de dados</b>
+        </a>{" "}
+        <div></div>
+        <a
+          href="https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/CGVN/DADOS/"
+          style={{
             color: "blue",
             textDecoration: "underline",
             cursor: "pointer",
           }}
         >
-          Base de dados ICBGC
+          Base de dados original
         </a>{" "}
+        <div></div>
+        <p>Base de dados processada (última atualização feita em 02/05/24)</p>
         <h2>Gráficos</h2>
         <Row>
           <Col>
