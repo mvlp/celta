@@ -49,6 +49,8 @@ import p2ECI from "../../assets/data/graphs/p2_ECI.svg";
 import p1OFC from "../../assets/data/graphs/p1_OFC.svg";
 import p2OFC from "../../assets/data/graphs/p2_OFC.svg";
 
+import logoFapemig from "../../assets/img/nova_logo_eps.jpg";
+
 export default function Governace() {
   const formatAndRound = (value: string) => {
     if (!value) return ""; // Verificar se o valor está vazio
@@ -193,7 +195,7 @@ export default function Governace() {
             cursor: "pointer",
           }}
         >
-          <b>Fonte de dados</b>
+          <b>Base de dados processada</b>
         </a>{" "}
         <div></div>
         <a
@@ -263,6 +265,24 @@ export default function Governace() {
             domLayout="autoHeight"
           ></AgGridReact>
         </div>
+      </Container>
+
+      <Container >
+        <Row>
+          <Col>
+            <p>Apoiado por:</p>
+          </Col>
+          <Col>
+            <Image
+              src={logoFapemig}
+              style={{ width: "50%", height: "auto" }}
+              fluid
+            ></Image>
+          </Col>
+          <Col></Col>
+          <Col></Col>
+          <Col></Col>
+        </Row>
       </Container>
     </div>
   );
