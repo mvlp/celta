@@ -187,17 +187,7 @@ export default function Governace() {
           bolsa de valores). A amostra compreende o período de Out/2018 a
           Jan/2024.
         </p>
-        <a
-          href="https://github.com/Yurovskyy/sitedeploy/raw/gh-pages/docs/dataset_CGVN.xlsx?download="
-          style={{
-            color: "black",
-            textDecoration: "underline",
-            cursor: "pointer",
-          }}
-        >
-          <b>Base de dados processada</b>
-        </a>{" "}
-        <div></div>
+        <h2>Fonte de dados</h2>
         <a
           href="https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/CGVN/DADOS/"
           style={{
@@ -209,7 +199,18 @@ export default function Governace() {
           Base de dados original
         </a>{" "}
         <div></div>
-        <p>Base de dados processada (última atualização feita em 02/05/24)</p>
+        <a
+          href="https://github.com/Yurovskyy/sitedeploy/raw/gh-pages/docs/dataset_CGVN.xlsx?download="
+          style={{
+            color: "black",
+            textDecoration: "underline",
+            cursor: "pointer",
+          }}
+        >
+          <b>Base de dados processada (última atualização feita em 02/05/24)</b>
+        </a>{" "}
+        
+        <div></div>
         <h2>Gráficos</h2>
         <Row>
           <Col>
@@ -266,24 +267,16 @@ export default function Governace() {
           ></AgGridReact>
         </div>
       </Container>
-
-      <Container >
-        <Row>
-          <Col>
-            <p>Apoiado por:</p>
-          </Col>
-          <Col>
-            <Image
+      <div className="d-flex justify-content-center align-items-center" style={{ height: '20vh' }}>
+        <Container className="text-center">
+        <h2>Apoio</h2>
+        <Image
               src={logoFapemig}
-              style={{ width: "50%", height: "auto" }}
+              style={{ width: "10%", height: "auto" }}
               fluid
-            ></Image>
-          </Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-        </Row>
-      </Container>
+        ></Image>
+        </Container>
+      </div>
     </div>
   );
 }
