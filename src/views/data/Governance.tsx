@@ -267,12 +267,12 @@ export default function Governace() {
           ></AgGridReact>
         </div>
       </Container>
-      <div className="d-flex justify-content-center align-items-center" style={{ height: '20vh' }}>
+      <div className="d-flex justify-content-center align-items-center" style={{ height: '25vh' }}>
         <Container className="text-center">
         <h2>Apoio</h2>
         <Image
               src={logoFapemig}
-              style={{ width: "10%", height: "auto" }}
+              style={{ width: "13%", height: "auto" }}
               fluid
         ></Image>
         </Container>
