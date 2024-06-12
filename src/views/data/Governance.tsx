@@ -209,7 +209,6 @@ export default function Governace() {
         >
           <b>Base de dados processada (última atualização feita em 02/05/24)</b>
         </a>{" "}
-        
         <div></div>
         <h2>Gráficos</h2>
         <Row>
@@ -267,14 +266,17 @@ export default function Governace() {
           ></AgGridReact>
         </div>
       </Container>
-      <div className="d-flex justify-content-center align-items-center" style={{ height: '25vh' }}>
+      <div
+        className="d-flex justify-content-center align-items-center"
+        style={{ height: "25vh" }}
+      >
         <Container className="text-center">
-        <h2>Apoio</h2>
-        <Image
-              src={logoFapemig}
-              style={{ width: "13%", height: "auto" }}
-              fluid
-        ></Image>
+          <h2>Apoio</h2>
+          <Image
+            src={logoFapemig}
+            style={{ width: "13%", height: "auto" }}
+            fluid
+          ></Image>
         </Container>
       </div>
     </div>
