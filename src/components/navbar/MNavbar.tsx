@@ -89,7 +89,7 @@ export default function MNavbar() {
           </Container>
         </Navbar>
 
-        <div>
+        <>
           <Routes>
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
@@ -112,7 +112,7 @@ export default function MNavbar() {
               />
             ))}
           </Routes>
-        </div>
+        </>
       </>
     </HashRouter>
   );

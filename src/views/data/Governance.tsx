@@ -169,8 +169,8 @@ export default function Governace() {
   };
 
   return (
-    <div>
-      <Container>
+    <>
+      <Container className="my-3">
         <h1>Informe do Código de Governança (ICBGC)</h1>
         <p>
           O Informe do Código de Governança (ICBGC) é um documento eletrônico,
@@ -187,7 +187,7 @@ export default function Governace() {
           bolsa de valores). A amostra compreende o período de Out/2018 a
           Jan/2024.
         </p>
-        <h2>Fonte de dados</h2>
+        <h2 className="mt-3">Fonte de dados</h2>
         <a
           href="https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/CGVN/DADOS/"
           style={{
@@ -209,8 +209,7 @@ export default function Governace() {
         >
           <b>Base de dados processada (última atualização feita em 02/05/24)</b>
         </a>{" "}
-        <div></div>
-        <h2>Gráficos</h2>
+        <h2 className="mt-3">Gráficos</h2>
         <Row>
           <Col>
             <Image src={image1} fluid></Image>
@@ -219,7 +218,7 @@ export default function Governace() {
             <Image src={image2} fluid></Image>
           </Col>
         </Row>
-        <h2>Tabelas</h2>
+        <h2 className="my-3">Tabelas</h2>
       </Container>
 
       <Container fluid>
@@ -235,9 +234,10 @@ export default function Governace() {
             onChange={togglePraticasRecomendadas}
           />
         </Form>
-        <ButtonGroup>
+        <ButtonGroup className="d-flex d-md-inline-flex flex-column flex-md-row w-100">
           {[1, 2, 3, 4, 5].map((index) => (
             <Button
+              className="text-nowrap"
               key={index}
               variant="success"
               active={activeButton === index}
@@ -255,30 +255,22 @@ export default function Governace() {
             </Button>
           ))}
         </ButtonGroup>
+        <AgGridReact
+          className="ag-theme-balham"
+          rowData={rowData}
+          columnDefs={ColumnDefs}
+          domLayout="autoHeight"
+        ></AgGridReact>
       </Container>
 
-      <Container fluid>
-        <div className="ag-theme-balham">
-          <AgGridReact
-            rowData={rowData}
-            columnDefs={ColumnDefs}
-            domLayout="autoHeight"
-          ></AgGridReact>
-        </div>
+      <Container className="text-center my-3">
+        <h2>Apoio</h2>
+        <Image
+          src={logoFapemig}
+          style={{ width: "13%", height: "auto" }}
+          fluid
+        ></Image>
       </Container>
-      <div
-        className="d-flex justify-content-center align-items-center"
-        style={{ height: "25vh" }}
-      >
-        <Container className="text-center">
-          <h2>Apoio</h2>
-          <Image
-            src={logoFapemig}
-            style={{ width: "13%", height: "auto" }}
-            fluid
-          ></Image>
-        </Container>
-      </div>
-    </div>
+    </>
   );
 }
