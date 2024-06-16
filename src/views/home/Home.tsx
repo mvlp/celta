@@ -1,28 +1,13 @@
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 
-import serraImage from "../assets/img/serra.png";
-import fapemigImage from "../assets/img/nova_logo_eps.jpg";
+import fapemigImage from "../../assets/img/nova_logo_eps.jpg";
+
+import PageHeader from "../../components/pageheader/PageHeader";
 
 export default function Home() {
   return (
     <>
-      <Container
-        fluid
-        style={{
-          backgroundImage: `url(${serraImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          height: "50vh",
-        }}
-        className="mb-5"
-      >
-        <Row className="h-100 justify-content-center align-items-center">
-          <Col md={6} className="text-center text-white">
-            <h1>Welcome to Marcos's Website</h1>
-            <h2>Professor at UFSJ</h2>
-          </Col>
-        </Row>
-      </Container>
+      <PageHeader></PageHeader>
       <Container className="mb-5">
         <Row className="justify-content-md-center">
           <Col xs={12} md={6} className="text-start">

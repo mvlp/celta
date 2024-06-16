@@ -1,5 +1,5 @@
 import { ColDef, ColGroupDef } from "ag-grid-community";
-import { NewLineRenderer } from "../../views/IndexSections/NewLineRenderer";
+import { NewLineRenderer } from "../../views/outdated/NewLineRenderer";
 import "../../assets/css/CustonTable.css";
 
 export interface TableInterface {

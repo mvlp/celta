@@ -15,3 +15,6 @@ Pedir o marcos para colocar o nome da empresa em um campo logo abaixo do CNPJ_Co
 como é um arquivo muito grande, compensa já fazer upload dele em XLSX para download no site (nao comepnsa converter ele toda vez que alguem for baixar...)
 
 exibir as tabelas que estao dentro de tablefreq
+
+16-06-24 Acabou que tudo foi se organizando. Fiz algumas coisas desnecessárias, mas o site basicamente está pronto!
+Não vou deletar as outras coisas que eu fiz, vao ficar ai pra se alguem quiser usar

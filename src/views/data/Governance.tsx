@@ -1,5 +1,4 @@
 // coisas adicionais para fazer
-// 2. formatar o conteúdo de práticas recomendadas
 // 3. nightmode
 
 import { useState } from "react";
