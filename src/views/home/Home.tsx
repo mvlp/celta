@@ -1,10 +1,17 @@
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 import fapemigImage from "../../assets/img/nova_logo_eps.jpg";
 
 import PageHeader from "../../components/pageheader/PageHeader";
+import Footer from "../../components/footer/Footer";
 
 export default function Home() {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate("/about");
+  };
   return (
     <>
       <PageHeader></PageHeader>
@@ -32,13 +39,16 @@ export default function Home() {
               aliquet sem id risus posuere, vel mattis arcu viverra. Donec
               finibus ultricies metus ac interdum.
             </p>
-            <Button variant="primary">Learn More</Button>
+            <Button variant="primary" onClick={handleButtonClick}>
+              Learn More
+            </Button>
           </Col>
           <Col>
             <Image src={fapemigImage} />
           </Col>
         </Row>
       </Container>
+      <Footer headingText={"Marcos Vinícius"} showEmail={true} />
     </>
   );
 }

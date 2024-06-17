@@ -4,6 +4,10 @@ import fapemigImage from "../../assets/img/nova_logo_eps.jpg";
 
 import PageHeader from "../../components/pageheader/PageHeader";
 
+import Contact from "../contact/Contact";
+
+import Footer from "../../components/footer/Footer";
+
 export default function About() {
   return (
     <>
@@ -44,7 +48,9 @@ export default function About() {
             ultricies metus ac interdum.
           </p>
         </Row>
+        <Contact headingText="Fale com Marcos" showEmail={false} />
       </Container>
+      <Footer headingText={"Marcos Vinícius"} showEmail={true} />
     </>
   );
 }

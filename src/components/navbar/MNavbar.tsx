@@ -92,7 +92,12 @@ export default function MNavbar() {
         <>
           <Routes>
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route
+              path="/contact"
+              element={
+                <Contact headingText={"Entre em contato"} showEmail={true} />
+              }
+            />
             <Route path="/indice" element={<WIP />} />
             {/* <Route
               path="/sitedeploy/tabelaCGVN"
