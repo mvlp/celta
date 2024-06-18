@@ -95,7 +95,11 @@ export default function MNavbar() {
             <Route
               path="/contact"
               element={
-                <Contact headingText={"Entre em contato"} showEmail={true} />
+                <Contact
+                  headingText={"Entre em contato"}
+                  showEmail={true}
+                  showFooter={false}
+                />
               }
             />
             <Route path="/indice" element={<WIP />} />
