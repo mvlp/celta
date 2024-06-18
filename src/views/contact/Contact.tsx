@@ -5,11 +5,13 @@ import Footer from "../../components/footer/Footer";
 interface ContactProps {
   headingText: string;
   showEmail: boolean;
+  showFooter: boolean;
 }
 
 export default function Contact({
   headingText = "Entre em contato",
   showEmail = true,
+  showFooter = true,
 }: ContactProps) {
   const [formData, setFormData] = useState({
     name: "",
@@ -113,7 +115,9 @@ export default function Contact({
           </Col>
         </Row>
       </Container>
-      <Footer headingText={"Marcos Vinícius"} showEmail={true} />
+      {showFooter && (
+        <Footer headingText={"Marcos Vinícius"} showEmail={true} />
+      )}
     </>
   );
 }

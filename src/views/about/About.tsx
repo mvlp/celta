@@ -48,7 +48,11 @@ export default function About() {
             ultricies metus ac interdum.
           </p>
         </Row>
-        <Contact headingText="Fale com Marcos" showEmail={false} />
+        <Contact
+          headingText="Fale com Marcos"
+          showEmail={false}
+          showFooter={false}
+        />
       </Container>
       <Footer headingText={"Marcos Vinícius"} showEmail={true} />
     </>

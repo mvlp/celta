@@ -50,6 +50,8 @@ import p2OFC from "../../assets/data/graphs/p2_OFC.svg";
 
 import logoFapemig from "../../assets/img/nova_logo_eps.jpg";
 
+import Footer from "../../components/footer/Footer";
+
 export default function Governace() {
   const formatAndRound = (value: string) => {
     if (!value) return ""; // Verificar se o valor está vazio
@@ -220,7 +222,7 @@ export default function Governace() {
         <h2 className="my-3">Tabelas</h2>
       </Container>
 
-      <Container fluid>
+      <Container fluid className="my-3">
         <Form>
           <Form.Check
             type="switch"
@@ -270,6 +272,7 @@ export default function Governace() {
           fluid
         ></Image>
       </Container>
+      <Footer headingText={"Marcos Vinícius"} showEmail={true} />
     </>
   );
 }
