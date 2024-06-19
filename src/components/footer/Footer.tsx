@@ -16,12 +16,12 @@ export default function Footer({
       fluid
       style={{
         backgroundSize: "cover",
-        backgroundColor: "gray",
+        backgroundColor: "rgb(248, 249, 250)",
       }}
     >
       <Row className="mx-3">
-        <Col className="mt-5 text-center">
-          <h1>{headingText}</h1>
+        <Col className="mt-4">
+          <h2>{headingText}</h2>
           {showEmail && (
             <a
               href="mailto:marcos.vinicius@ufsj.edu.br"
@@ -35,11 +35,11 @@ export default function Footer({
             </a>
           )}
         </Col>
-        <Col md={6} className="order-2 order-md-1 mt-5 text-center">
-          <h1>Mapa do site</h1>
+        <Col md={6} className="order-2 order-md-1 mt-4 text-center">
+          <h2>Mapa do site</h2>
           <Navbar className="justify-content-center align-items-center">
-            <Nav variant="underline">
-              <Col>
+            <Nav variant="underline" className="flex-column flex-md-row">
+              <Col className="mx-5">
                 <Nav.Link as={Link} to="/">
                   Home
                 </Nav.Link>
@@ -47,7 +47,7 @@ export default function Footer({
                   Sobre
                 </Nav.Link>
               </Col>
-              <Col>
+              <Col className="mx-5">
                 <Nav.Link as={Link} to="/WIP">
                   Artigos
                 </Nav.Link>
@@ -55,7 +55,7 @@ export default function Footer({
                   Governança
                 </Nav.Link>
               </Col>
-              <Col>
+              <Col className="mx-5">
                 <Nav.Link as={Link} to="/WIP">
                   UFSJ
                 </Nav.Link>
