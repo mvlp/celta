@@ -1,10 +1,7 @@
 Nessa pasta ficam os arquivos que podem ser baixados pelo usuário.
 Outros arquivos que são usados na construção do proprio site ficam em assets.
 
-quando for dar deploy no site, não esquecer de preencher o
+Quando for dar deploy no site, não esquecer de preencher o
 
 manifest.json
 robots.txt (colocar aquelas tags pra bot no tsx tmb)
-
-arrumar os icones de fav e de site tmb
-

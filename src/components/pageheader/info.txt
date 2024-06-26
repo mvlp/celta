@@ -1,1 +1,0 @@
-O pageheader geralmente é uma animação que fica abaixo da navbar.

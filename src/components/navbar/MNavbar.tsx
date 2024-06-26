@@ -18,6 +18,7 @@ import IndividualPage from "../../views/data/IndividualPage";
 
 import { TableInterface } from "../table/DataItens";
 import Table from "../../assets/data/table.json";
+
 export default function MNavbar() {
   // para fazer as paginas individuais funcionarem corretamente
   const groupedByCNPJ: { [cnpj: string]: TableInterface[] } = {};

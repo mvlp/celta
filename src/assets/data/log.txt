@@ -1,5 +1,5 @@
 Nessa pasta ficará os json que serão exibidos
-esses json já existem e são os relatórios de condutância
+Esses json já existem e são os relatórios de condutância
 
 19-11-23 Acabei de colocar os primeiros arquivos testes.json
 
@@ -14,7 +14,7 @@ Pedir o marcos para colocar o nome da empresa em um campo logo abaixo do CNPJ_Co
 09-03-24 disponibilizar dataset_CGVN para download em XLSX
 como é um arquivo muito grande, compensa já fazer upload dele em XLSX para download no site (nao comepnsa converter ele toda vez que alguem for baixar...)
 
-exibir as tabelas que estao dentro de tablefreq
+Exibir as tabelas que estao dentro de tablefreq
 
 16-06-24 Acabou que tudo foi se organizando. Fiz algumas coisas desnecessárias, mas o site basicamente está pronto!
 Não vou deletar as outras coisas que eu fiz, vao ficar ai pra se alguem quiser usar

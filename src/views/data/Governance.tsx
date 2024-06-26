@@ -1,6 +1,3 @@
-// coisas adicionais para fazer
-// 3. nightmode
-
 import { useState } from "react";
 
 import {
@@ -48,8 +45,8 @@ import p2ECI from "../../assets/data/graphs/p2_ECI.svg";
 import p1OFC from "../../assets/data/graphs/p1_OFC.svg";
 import p2OFC from "../../assets/data/graphs/p2_OFC.svg";
 
-import logoFapemig from "../../assets/img/nova_logo_eps.jpg";
-
+import GovernanceHeader from "../../components/others/GovernanceHeader";
+import Fapemig from "../../components/others/Fapemig";
 import Footer from "../../components/footer/Footer";
 
 export default function Governace() {
@@ -172,44 +169,7 @@ export default function Governace() {
   return (
     <>
       <Container className="my-3">
-        <h1>Informe do Código de Governança (ICBGC)</h1>
-        <p>
-          O Informe do Código de Governança (ICBGC) é um documento eletrônico,
-          de encaminhamento periódico previsto no artigo 32 da{" "}
-          <a
-            href="https://conteudo.cvm.gov.br/legislacao/resolucoes/resol080.html"
-            target="_blank"
-            style={{ cursor: "pointer" }}
-          >
-            Resolução CVM nº80
-          </a>
-          . A amostra contém 2143 documentos disponilizados do ICBGC,
-          pertencentes a 492 empresas distintas (listadas e não listadas em
-          bolsa de valores). A amostra compreende o período de Out/2018 a
-          Jan/2024.
-        </p>
-        <h2 className="mt-3">Fonte de dados</h2>
-        <a
-          href="https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/CGVN/DADOS/"
-          style={{
-            color: "blue",
-            textDecoration: "underline",
-            cursor: "pointer",
-          }}
-        >
-          Base de dados original
-        </a>{" "}
-        <div></div>
-        <a
-          href="https://github.com/Yurovskyy/sitedeploy/raw/gh-pages/docs/dataset_CGVN.xlsx?download="
-          style={{
-            color: "black",
-            textDecoration: "underline",
-            cursor: "pointer",
-          }}
-        >
-          <b>Base de dados processada (última atualização feita em 02/05/24)</b>
-        </a>{" "}
+        <GovernanceHeader />
         <h2 className="mt-3">Gráficos</h2>
         <Row>
           <Col>
@@ -264,14 +224,7 @@ export default function Governace() {
         ></AgGridReact>
       </Container>
 
-      <Container className="text-center my-3">
-        <h2>Apoio</h2>
-        <Image
-          src={logoFapemig}
-          style={{ width: "13%", height: "auto" }}
-          fluid
-        ></Image>
-      </Container>
+      <Fapemig />
       <Footer headingText={"Marcos Vinícius"} showEmail={true} />
     </>
   );

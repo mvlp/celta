@@ -6,6 +6,8 @@ import fapemigImage from "../../assets/img/nova_logo_eps.jpg";
 import PageHeader from "../../components/pageheader/PageHeader";
 import Footer from "../../components/footer/Footer";
 
+import serraImage from "../../assets/img/serra.png";
+
 export default function Home() {
   const navigate = useNavigate();
 
@@ -14,7 +16,11 @@ export default function Home() {
   };
   return (
     <>
-      <PageHeader></PageHeader>
+      <PageHeader
+        headingText={"Welcome to Marcos's Website"}
+        bottomText="Professor at UFSJ"
+        image={serraImage}
+      />
       <Container className="mb-5">
         <Row className="justify-content-md-center">
           <Col xs={12} md={6} className="text-start">

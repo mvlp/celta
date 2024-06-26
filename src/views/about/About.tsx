@@ -8,10 +8,17 @@ import Contact from "../contact/Contact";
 
 import Footer from "../../components/footer/Footer";
 
+import serraImage from "../../assets/img/serra.png";
+
 export default function About() {
   return (
     <>
-      <PageHeader></PageHeader>;
+      <PageHeader
+        headingText={"Welcome to Marcos's Website"}
+        bottomText="Professor at UFSJ"
+        image={serraImage}
+      />
+      ;
       <Container className="mb-5">
         <Row className="justify-content-md-center">
           <p>
