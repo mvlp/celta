@@ -36,7 +36,7 @@ export default function GovernanceHeader() {
           cursor: "pointer",
         }}
       >
-        <b>Base de dados processada (última atualização feita em 02/05/24)</b>
+        <b>Base de dados processada (última atualização feita em 15/09/24)</b>
       </a>{" "}
     </>
   );
