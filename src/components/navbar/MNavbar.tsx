@@ -42,9 +42,7 @@ export default function MNavbar() {
           data-bs-theme="light"
         >
           <Container>
-            <Navbar.Brand as={Link} to="/">
-              Marcos's site
-            </Navbar.Brand>
+            <Navbar.Brand as={Link} to="/"></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse
               id="basic-navbar-nav"

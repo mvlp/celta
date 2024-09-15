@@ -12,9 +12,9 @@ export default function GovernanceHeader() {
         >
           Resolução CVM nº80
         </a>
-        . A amostra contém 2143 documentos disponilizados do ICBGC, pertencentes
-        a 492 empresas distintas (listadas e não listadas em bolsa de valores).
-        A amostra compreende o período de Out/2018 a Jan/2024.
+        . A amostra contém 2293 documentos disponilizados do ICBGC, pertencentes
+        a 494 empresas distintas (listadas e não listadas em bolsa de valores).
+        A amostra compreende o período de Oct/2018 a Sep/2024.
       </p>
       <h2 className="mt-3">Fonte de dados</h2>
       <a
