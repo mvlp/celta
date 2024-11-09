@@ -17,8 +17,8 @@ export default function Home() {
   return (
     <>
       <PageHeader
-        headingText={"Welcome to Marcos's Website"}
-        bottomText="Professor at UFSJ"
+        headingText={"Welcome to Celta's Website"}
+        bottomText="Research group at UFSJ"
         image={serraImage}
       />
       <Container className="mb-5">
@@ -54,7 +54,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <Footer headingText={"Marcos Vinícius"} showEmail={true} />
+      <Footer headingText={"Celta's member:"} showEmail={true} />
     </>
   );
 }

@@ -1,5 +1,5 @@
 {
-  "name": "sitemarcos",
+  "name": "Celta",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@types/node": "^20.9.2",
-    "ag-grid-community": "^30.2.1",
-    "ag-grid-react": "^30.2.1",
+    "ag-grid-community": "^32.3.2",
+    "ag-grid-react": "^32.3.2",
     "bootstrap": "^5.3.2",
     "file-saver": "^2.0.5",
     "react": "^18.2.0",
