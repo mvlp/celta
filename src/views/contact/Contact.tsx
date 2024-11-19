@@ -32,7 +32,7 @@ export default function Contact({
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const mailtoLink = `mailto:marcos.vinicius@ufsj.edu.br?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:xxx@xxxx.edu.br?subject=${encodeURIComponent(
       formData.subject
     )}&body=${encodeURIComponent(`n${formData.message}`)}`;
     window.location.href = mailtoLink;
@@ -46,14 +46,14 @@ export default function Contact({
             <h1 className="mb-4">{headingText}</h1>
             {showEmail && (
               <a
-                href="mailto:marcos.vinicius@ufsj.edu.br"
+                href="mailto:xxx@xxxx.edu.br"
                 style={{
                   color: "black",
                   textDecoration: "underline",
                   cursor: "pointer",
                 }}
               >
-                <p>marcos.vinicius@ufsj.edu.br</p>
+                <p>xxx@xxxx.edu.br</p>
               </a>
             )}
           </Col>
@@ -116,7 +116,7 @@ export default function Contact({
         </Row>
       </Container>
       {showFooter && (
-        <Footer headingText={"Marcos Vinícius"} showEmail={true} />
+        <Footer headingText={"CELTA"} showEmail={true} />
       )}
     </>
   );
