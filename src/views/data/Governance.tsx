@@ -225,7 +225,7 @@ export default function Governace() {
       </Container>
 
       <Fapemig />
-      <! –– <Footer headingText={"Marcos Vinícius"} showEmail={true} /> --> 
+      <Footer headingText={"Marcos Vinícius"} showEmail={true} />  
     </>
   );
 }
