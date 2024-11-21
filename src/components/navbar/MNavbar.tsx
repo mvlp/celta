@@ -90,8 +90,8 @@ export default function MNavbar() {
 
         <>
           <Routes>
-            <Route path="/about" element={<About />} />
-            <Route
+            <Route path="/about" element={<WIP />} />
+            {/*<Route
               path="/contact"
               element={
                 <Contact
@@ -100,7 +100,7 @@ export default function MNavbar() {
                   showFooter={false}
                 />
               }
-            />
+            />*/}
             <Route path="/indice" element={<WIP />} />
             {/* <Route
               path="/sitedeploy/tabelaCGVN"
@@ -110,15 +110,15 @@ export default function MNavbar() {
             <Route path="/" element={<Governance />} />
             <Route path="/WIP" element={<WIP />} />
             <Route path="/governance" element={<Governance />} />
-            <Route path="/sitedeploy/" element={<Home />} />
-            <Route path="/hub" element={<HubPages data={Table} />} />
+            <Route path="/sitedeploy/" element={<WIP />} />
+            {/*<Route path="/hub" element={<HubPages data={Table} />} />
             {Object.entries(groupedByCNPJ).map(([cnpj, items]) => (
               <Route
                 key={cnpj}
                 path={`/cnpj/${cnpj}`}
                 element={<IndividualPage item={items} />}
               />
-            ))}
+            ))}*/}
           </Routes>
         </>
       </>
