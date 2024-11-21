@@ -107,7 +107,7 @@ export default function MNavbar() {
               element={<Dataset_CGVNTable />}
             />
             <Route path="/tabelaCGVN" element={<Dataset_CGVNTable />} /> */}
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Governance />} />
             <Route path="/WIP" element={<WIP />} />
             <Route path="/governance" element={<Governance />} />
             <Route path="/sitedeploy/" element={<Home />} />
