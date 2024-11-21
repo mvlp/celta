@@ -47,7 +47,7 @@ import p2OFC from "../../assets/data/graphs/p2_OFC.svg";
 
 import GovernanceHeader from "../../components/others/GovernanceHeader";
 import Fapemig from "../../components/others/Fapemig";
-import Footer from "../../components/footer/Footer";
+//import Footer from "../../components/footer/Footer";
 
 export default function Governace() {
   const formatAndRound = (value: string) => {
@@ -225,7 +225,7 @@ export default function Governace() {
       </Container>
 
       <Fapemig />
-      <Footer headingText={"Marcos Vinícius"} showEmail={true} />
+      //<Footer headingText={"Marcos Vinícius"} showEmail={true} />
     </>
   );
 }
