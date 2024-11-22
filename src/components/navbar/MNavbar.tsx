@@ -76,9 +76,9 @@ export default function MNavbar() {
                     Projetos
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item as={Link} to="/WIP">
-                    UFSJ
-                  </NavDropdown.Item>
+                  {/* <NavDropdown.Item as={Link} to="/WIP"> */}
+                  {/* UFSJ */}
+                  {/* </NavDropdown.Item> */}
                 </NavDropdown>
                 <Nav.Link as={Link} to="/contact">
                   Contato
