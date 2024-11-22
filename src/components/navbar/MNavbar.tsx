@@ -7,13 +7,13 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 import { Routes, Route, Link, HashRouter } from "react-router-dom";
 
-import About from "../../views/about/About";
-import Contact from "../../views/contact/Contact";
+// import About from "../../views/about/About";
+// import Contact from "../../views/contact/Contact";
 import WIP from "../../views/WIP";
-import Home from "../../views/home/Home";
+// import Home from "../../views/home/Home";
 import Governance from "../../views/data/Governance";
-import HubPages from "../../views/data/HubPage";
-import IndividualPage from "../../views/data/IndividualPage";
+// import HubPages from "../../views/data/HubPage";
+// import IndividualPage from "../../views/data/IndividualPage";
 // import Dataset_CGVNTable from "../../views/IndexSections/DatasetCGVNTable";
 
 import { TableInterface } from "../table/DataItens";
