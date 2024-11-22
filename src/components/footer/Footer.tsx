@@ -8,7 +8,7 @@ interface FooterProps {
 }
 
 export default function Footer({
-  headingText = "Marcos Vinícius",
+  headingText = "",
   showEmail = true,
 }: FooterProps) {
   return (
@@ -24,7 +24,7 @@ export default function Footer({
           <h2>{headingText}</h2>
           {showEmail && (
             <a
-              href="mailto:marcos.vinicius@ufsj.edu.br"
+              href=""
               style={{
                 color: "black",
                 textDecoration: "underline",

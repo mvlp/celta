@@ -115,9 +115,7 @@ export default function Contact({
           </Col>
         </Row>
       </Container>
-      {showFooter && (
-        <Footer headingText={"CELTA"} showEmail={true} />
-      )}
+      {showFooter && <Footer headingText={""} showEmail={true} />}
     </>
   );
 }

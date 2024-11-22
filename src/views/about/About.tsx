@@ -14,8 +14,8 @@ export default function About() {
   return (
     <>
       <PageHeader
-        headingText={"Welcome to Celta's Website"}
-        bottomText="Research group at UFSJ"
+        headingText={"Welcome! "}
+        bottomText="Research group!"
         image={serraImage}
       />
       ;
@@ -55,13 +55,9 @@ export default function About() {
             ultricies metus ac interdum.
           </p>
         </Row>
-        <Contact
-          headingText="Fale com Marcos"
-          showEmail={false}
-          showFooter={false}
-        />
+        <Contact headingText="" showEmail={false} showFooter={false} />
       </Container>
-      <Footer headingText={"Celta's member:"} showEmail={true} />
+      <Footer headingText={" member:"} showEmail={true} />
     </>
   );
 }

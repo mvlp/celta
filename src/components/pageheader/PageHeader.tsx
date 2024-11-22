@@ -10,7 +10,7 @@ interface HeaderProps {
   image: string;
 }
 export default function PageHeader({
-  headingText = "Welcome to Marcos's Website",
+  headingText = "Welcome! ",
   bottomText,
   image = serraImage,
 }: HeaderProps) {
