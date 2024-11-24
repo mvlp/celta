@@ -31,6 +31,7 @@ export default function GovernanceHeader() {
       const [_, part1, link, part2, part3] = matches;
       setUpperParts([part1.trim(), link.trim(), part2.trim(), part3.trim()]);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <>
