@@ -99,7 +99,7 @@ export default function GovernanceHeader() {
       </a>{" "}
       <div></div>
       <a
-        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_05_dim_CG.xlsx?download="
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_07_dim_CG.xlsx?download="
         style={{
           color: "blue",
           textDecoration: "underline",
