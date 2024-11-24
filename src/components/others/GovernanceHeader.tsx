@@ -62,16 +62,29 @@ export default function GovernanceHeader() {
         Base de dados original
       </a>{" "}
       <div></div>
-      <a
-        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.xlsx?download="
-        style={{
-          color: "black",
-          textDecoration: "underline",
-          cursor: "pointer",
-        }}
-      >
-        <b>{bottomContent}</b>
-      </a>{" "}
+      <b>
+        {bottomContent + " : "}
+        <a
+          href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.xlsx?download="
+          style={{
+            color: "black",
+            textDecoration: "underline",
+            cursor: "pointer",
+          }}
+        >
+          <b>{"[xlsx]"}</b>
+        </a>{" "}
+        <a
+          href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.RData"
+          style={{
+            color: "black",
+            textDecoration: "underline",
+            cursor: "pointer",
+          }}
+        >
+          <b>{"[RData]"}</b>
+        </a>{" "}
+      </b>
     </>
   );
 }
