@@ -1,20 +1,46 @@
+import { useEffect, useState } from "react";
+import bottom from "../../assets/headertext/info_date_dataset.txt";
+import upper from "../../assets/headertext/info_ICBGC.txt";
+
 export default function GovernanceHeader() {
+  const [bottomContent, setBottomContent] = useState<string>("");
+  const [upperContent, setUpperContent] = useState<string>("");
+
+  useEffect(() => {
+    fetch(bottom)
+      .then((response) => response.text())
+      .then((text) => setBottomContent(text))
+      .catch((error) => console.error("Erro ao carregar o arquivo:", error));
+  }, []);
+  useEffect(() => {
+    fetch(upper)
+      .then((response) => response.text())
+      .then((text) => setUpperContent(text))
+      .catch((error) => console.error("Erro ao carregar o arquivo:", error));
+  }, []);
+
+  const [upperParts, setUpperParts] = useState<string[]>([]);
+
+  useEffect(() => {
+    // Processa o texto para dividi-lo em três partes
+    const regex = /(.*)<a href="([^"]+)"[^>]*>(.*)<\/a>(.*)/; // Captura o texto antes, dentro e depois da tag <a>
+    const matches = upperContent.match(regex);
+
+    if (matches) {
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const [_, part1, link, part2, part3] = matches;
+      setUpperParts([part1.trim(), link.trim(), part2.trim(), part3.trim()]);
+    }
+  }, []);
   return (
     <>
       <h1>Informe do Código de Governança (ICBGC)</h1>
       <p>
-        O Informe do Código de Governança (ICBGC) é um documento eletrônico, de
-        encaminhamento periódico previsto no artigo 32 da{" "}
-        <a
-          href="https://conteudo.cvm.gov.br/legislacao/resolucoes/resol080.html"
-          target="_blank"
-          style={{ cursor: "pointer" }}
-        >
-          Resolução CVM nº80
+        {upperParts[0] + " "}
+        <a href={upperParts[1]} target="_blank" style={{ cursor: "pointer" }}>
+          {upperParts[2]}
         </a>
-        . A amostra contém 2293 documentos disponilizados do ICBGC, pertencentes
-        a 494 empresas distintas (listadas e não listadas em bolsa de valores).
-        A amostra compreende o período de Oct/2018 a Sep/2024.
+        {upperParts[3]}
       </p>
       <h2 className="mt-3">Fonte de dados</h2>
       <a
@@ -36,7 +62,7 @@ export default function GovernanceHeader() {
           cursor: "pointer",
         }}
       >
-        <b>Base de dados processada (última atualização feita em 15/09/24)</b>
+        <b>{bottomContent}</b>
       </a>{" "}
     </>
   );
