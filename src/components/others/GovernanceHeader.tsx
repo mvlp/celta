@@ -89,31 +89,25 @@ export default function GovernanceHeader() {
       <a
         href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_05_dim_CG.xlsx?download="
         style={{
-          color: "black",
+          color: "blue",
           textDecoration: "underline",
           cursor: "pointer",
         }}
       >
-        <b>
-          {
-            "Índices de Governança Corporativa (5 dimensões, variáveis correlacionadas)"
-          }
-        </b>
+        Índices de Governança Corporativa (5 dimensões, variáveis
+        correlacionadas)
       </a>{" "}
       <div></div>
       <a
         href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_05_dim_CG.xlsx?download="
         style={{
-          color: "black",
+          color: "blue",
           textDecoration: "underline",
           cursor: "pointer",
         }}
       >
-        <b>
-          {
-            "Índices de Governança Corporativa (7 dimensões, variáveis não correlacionadas)"
-          }
-        </b>
+        Índices de Governança Corporativa (7 dimensões, variáveis não
+        correlacionadas)
       </a>{" "}
     </>
   );
