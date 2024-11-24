@@ -257,6 +257,7 @@ export const RespostasColumnConfig = [
   {
     headerName: "Frequência das respostas (%)",
     headerClass: "ag-header-cell-centered",
+    headerStyle: { display: "flex", alignItems: "center", justifyContent: "center" },
     children: [
       {
         headerName: "Não",

@@ -29,7 +29,7 @@ export default function GovernanceHeader() {
       </a>{" "}
       <div></div>
       <a
-        href="https://github.com/Yurovskyy/sitedeploy/raw/gh-pages/docs/dataset_CGVN.xlsx?download="
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.xlsx?download="
         style={{
           color: "black",
           textDecoration: "underline",
