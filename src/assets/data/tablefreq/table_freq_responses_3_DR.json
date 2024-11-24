@@ -1,72 +1,72 @@
 [
   {
-    "ID_Item": "3,1,1",
+    "ID_Item": "3.1.1",
     "Capitulo": "Diretoria",
     "Principio": "Atribuições",
-    "Pratica_Recomendada": "A diretoria deve, sem prejuízo de suas atribuições legais e estatutárias e de outras práticas previstas no Código: \\n\\n (i) executar a política de gestão de riscos e, sempre que necessário, propor ao conselho eventuais necessidades de revisão dessa política, em função de alterações nos riscos a que a companhia está exposta \\n\\n (ii) implementar e manter mecanismos, processos e programas eficazes de monitoramento e divulgação do desempenho financeiro e operacional e dos impactos das atividades da companhia na sociedade e no meio ambiente,",
+    "Pratica_Recomendada": "A diretoria deve, sem prejuízo de suas atribuições legais e estatutárias e de outras práticas previstas no Código: \\n\\n (i) executar a política de gestão de riscos e, sempre que necessário, propor ao conselho eventuais necessidades de revisão dessa política, em função de alterações nos riscos a que a companhia está exposta \\n\\n (ii) implementar e manter mecanismos, processos e programas eficazes de monitoramento e divulgação do desempenho financeiro e operacional e dos impactos das atividades da companhia na sociedade e no meio ambiente.",
     "Não": "8,06451612903226",
     "Parcialmente": "21,4036617262424",
     "Sim": "70,5318221447254"
   },
   {
-    "ID_Item": "3,1,2",
+    "ID_Item": "3.1.2",
     "Capitulo": "Diretoria",
     "Principio": "Atribuições",
-    "Pratica_Recomendada": "A diretoria deve ter um regimento interno próprio que estabeleça sua estrutura, seu funcionamento e seus papéis e responsabilidades,",
+    "Pratica_Recomendada": "A diretoria deve ter um regimento interno próprio que estabeleça sua estrutura, seu funcionamento e seus papéis e responsabilidades.",
     "Não": "46,4690496948561",
     "Parcialmente": "18,0906713164778",
     "Sim": "35,4402789886661"
   },
   {
-    "ID_Item": "3,2,1",
+    "ID_Item": "3.2.1",
     "Capitulo": "Diretoria",
     "Principio": "Indicação dos Diretores",
-    "Pratica_Recomendada": "Não deve existir reserva de cargos de diretoria ou posições gerenciais para indicação direta por acionistas,",
+    "Pratica_Recomendada": "Não deve existir reserva de cargos de diretoria ou posições gerenciais para indicação direta por acionistas.",
     "Não": "4,79511769834351",
     "Parcialmente": "3,35658238884045",
     "Sim": "91,848299912816"
   },
   {
-    "ID_Item": "3,3,1",
+    "ID_Item": "3.3.1",
     "Capitulo": "Diretoria",
     "Principio": "Avaliação do Diretor-Presidente e da Diretoria",
-    "Pratica_Recomendada": "O diretor-presidente deve ser avaliado, anualmente, em processo formal conduzido pelo conselho de administração, com base na verificação do atingimento das metas de desempenho financeiro e não financeiro estabelecidas pelo conselho de administração para a companhia,",
+    "Pratica_Recomendada": "O diretor-presidente deve ser avaliado, anualmente, em processo formal conduzido pelo conselho de administração, com base na verificação do atingimento das metas de desempenho financeiro e não financeiro estabelecidas pelo conselho de administração para a companhia.",
     "Não": "25,588491717524",
     "Parcialmente": "19,180470793374",
     "Sim": "55,231037489102"
   },
   {
-    "ID_Item": "3,3,2",
+    "ID_Item": "3.3.2",
     "Capitulo": "Diretoria",
     "Principio": "Avaliação do Diretor-Presidente e da Diretoria",
-    "Pratica_Recomendada": "Os resultados da avaliação dos demais diretores, incluindo as proposições do diretor-presidente quanto a metas a serem acordadas e à permanência, à promoção ou ao desligamento dos executivos nos respectivos cargos, devem ser apresentados, analisados, discutidos e aprovados em reunião do conselho de administração,",
+    "Pratica_Recomendada": "Os resultados da avaliação dos demais diretores, incluindo as proposições do diretor-presidente quanto a metas a serem acordadas e à permanência, à promoção ou ao desligamento dos executivos nos respectivos cargos, devem ser apresentados, analisados, discutidos e aprovados em reunião do conselho de administração.",
     "Não": "23,0165649520488",
     "Parcialmente": "24,0627724498692",
     "Sim": "52,920662598082"
   },
   {
-    "ID_Item": "3,4,1",
+    "ID_Item": "3.4.1",
     "Capitulo": "Diretoria",
     "Principio": "Remuneração da Diretoria",
-    "Pratica_Recomendada": "A remuneração da diretoria deve ser fixada por meio de uma política de remuneração aprovada pelo conselho de administração por meio de um procedimento formal e transparente que considere os custos e os riscos envolvidos,",
+    "Pratica_Recomendada": "A remuneração da diretoria deve ser fixada por meio de uma política de remuneração aprovada pelo conselho de administração por meio de um procedimento formal e transparente que considere os custos e os riscos envolvidos.",
     "Não": "20,7933740191805",
     "Parcialmente": "18,7009590235397",
     "Sim": "60,5056669572799"
   },
   {
-    "ID_Item": "3,4,2",
+    "ID_Item": "3.4.2",
     "Capitulo": "Diretoria",
     "Principio": "Remuneração da Diretoria",
-    "Pratica_Recomendada": "A remuneração da diretoria deve estar vinculada a resultados, com metas de médio e longo prazos relacionadas de forma clara e objetiva à geração de valor econômico para a companhia no longo prazo,",
+    "Pratica_Recomendada": "A remuneração da diretoria deve estar vinculada a resultados, com metas de médio e longo prazos relacionadas de forma clara e objetiva à geração de valor econômico para a companhia no longo prazo.",
     "Não": "14,0366172624237",
     "Parcialmente": "9,89537925021796",
     "Sim": "76,0680034873583"
   },
   {
-    "ID_Item": "3,4,3",
+    "ID_Item": "3.4.3",
     "Capitulo": "Diretoria",
     "Principio": "Remuneração da Diretoria",
-    "Pratica_Recomendada": "A estrutura de incentivos deve estar alinhada aos limites de risco definidos pelo conselho de administração e vedar que uma mesma pessoa controle o processo decisório e a sua respectiva fiscalização, Ninguém deve deliberar sobre sua própria remuneração,",
+    "Pratica_Recomendada": "A estrutura de incentivos deve estar alinhada aos limites de risco definidos pelo conselho de administração e vedar que uma mesma pessoa controle o processo decisório e a sua respectiva fiscalização. Ninguém deve deliberar sobre sua própria remuneração.",
     "Não": "10,5056669572799",
     "Parcialmente": "9,41586748038361",
     "Sim": "80,0784655623365"
