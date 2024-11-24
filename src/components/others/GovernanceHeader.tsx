@@ -67,22 +67,22 @@ export default function GovernanceHeader() {
         <a
           href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.xlsx?download="
           style={{
-            color: "black",
+            color: "blue",
             textDecoration: "underline",
             cursor: "pointer",
           }}
         >
-          <b>{"[xlsx]"}</b>
+          [xlsx]
         </a>{" "}
         <a
           href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.RData?download="
           style={{
-            color: "black",
+            color: "blue",
             textDecoration: "underline",
             cursor: "pointer",
           }}
         >
-          <b>{"[RData]"}</b>
+          [RData]
         </a>{" "}
       </b>
       <h2 className="mt-3">Índices</h2>
