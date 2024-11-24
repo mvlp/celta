@@ -75,7 +75,7 @@ export default function GovernanceHeader() {
           <b>{"[xlsx]"}</b>
         </a>{" "}
         <a
-          href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.RData"
+          href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.RData?download="
           style={{
             color: "black",
             textDecoration: "underline",
@@ -85,6 +85,36 @@ export default function GovernanceHeader() {
           <b>{"[RData]"}</b>
         </a>{" "}
       </b>
+      <h2 className="mt-3">Índices</h2>
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_05_dim_CG.xlsx?download="
+        style={{
+          color: "black",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        <b>
+          {
+            "Índices de Governança Corporativa (5 dimensões, variáveis correlacionadas)"
+          }
+        </b>
+      </a>{" "}
+      <div></div>
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_05_dim_CG.xlsx?download="
+        style={{
+          color: "black",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        <b>
+          {
+            "Índices de Governança Corporativa (7 dimensões, variáveis não correlacionadas)"
+          }
+        </b>
+      </a>{" "}
     </>
   );
 }
