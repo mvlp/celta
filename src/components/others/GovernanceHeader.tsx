@@ -62,30 +62,33 @@ export default function GovernanceHeader() {
         Base de dados original
       </a>{" "}
       <div></div>
-      <b>
-        {bottomContent + " : "}
-        <a
-          href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.xlsx?download="
-          style={{
-            color: "blue",
-            textDecoration: "underline",
-            cursor: "pointer",
-          }}
-        >
-          [xlsx]
-        </a>{" "}
-        <a
-          href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.RData?download="
-          style={{
-            color: "blue",
-            textDecoration: "underline",
-            cursor: "pointer",
-          }}
-        >
-          [RData]
-        </a>{" "}
-      </b>
+      <b>{bottomContent + " : "}</b>
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.xlsx?download="
+        style={{
+          color: "blue",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        [Excel]
+      </a>{" "}
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/dataset_CGVN.RData?download="
+        style={{
+          color: "blue",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        [R]
+      </a>{" "}
       <h2 className="mt-3">Índices</h2>
+      <b>
+        {
+          "Índices de Governança Corporativa (5 dimensões, variáveis correlacionadas) : "
+        }
+      </b>
       <a
         href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_05_dim_CG.xlsx?download="
         style={{
@@ -94,10 +97,54 @@ export default function GovernanceHeader() {
           cursor: "pointer",
         }}
       >
-        Índices de Governança Corporativa (5 dimensões, variáveis
-        correlacionadas)
+        [Excel]
+      </a>{" "}
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_05_dim_CG.RData?download="
+        style={{
+          color: "blue",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        [R]
+      </a>{" "}
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_05_dim_CG.sav?download="
+        style={{
+          color: "blue",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        [SPSS]
+      </a>{" "}
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_05_dim_CG.dta?download="
+        style={{
+          color: "blue",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        [Stata]
+      </a>{" "}
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_05_dim_CG.xpt?download="
+        style={{
+          color: "blue",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        [SAS]
       </a>{" "}
       <div></div>
+      <b>
+        {
+          "Índices de Governança Corporativa (7 dimensões, variáveis não correlacionadas) : "
+        }
+      </b>
       <a
         href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_07_dim_CG.xlsx?download="
         style={{
@@ -106,8 +153,47 @@ export default function GovernanceHeader() {
           cursor: "pointer",
         }}
       >
-        Índices de Governança Corporativa (7 dimensões, variáveis não
-        correlacionadas)
+        [Excel]
+      </a>{" "}
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_07_dim_CG.RData?download="
+        style={{
+          color: "blue",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        [R]
+      </a>{" "}
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_07_dim_CG.RData?download="
+        style={{
+          color: "blue",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        [SPSS]
+      </a>{" "}
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_07_dim_CG.dta?download="
+        style={{
+          color: "blue",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        [Stata]
+      </a>{" "}
+      <a
+        href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_07_dim_CG.xpt?download="
+        style={{
+          color: "blue",
+          textDecoration: "underline",
+          cursor: "pointer",
+        }}
+      >
+        [SAS]
       </a>{" "}
     </>
   );
