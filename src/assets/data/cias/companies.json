@@ -1,7 +1,1982 @@
-{
-  "08.773.135/0001-00": "2W ECOBANK S.A.",
-  "01.851.771/0001-55": "524 PARTICIPACOES S.A.",
-  "10.345.009/0001-98": "ADVANCED DIGITAL HEALTH MEDICINA PREVENTIVA S.A.",
-  "12.528.708/0001-07": "AERIS IND. E COM. DE EQUIP. PARA GER. DE ENG. S.A.",
-  "04.128.563/0001-10": "AES TIETE ENERGIA SA"
-}
+[
+  {
+    "CNPJ_Companhia": "08.773.135/0001-00",
+    "Nome_Empresarial": "2W ECOBANK S.A."
+  },
+  {
+    "CNPJ_Companhia": "01.851.771/0001-55",
+    "Nome_Empresarial": "524 PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "10.345.009/0001-98",
+    "Nome_Empresarial": "ADVANCED DIGITAL HEALTH MEDICINA PREVENTIVA S.A."
+  },
+  {
+    "CNPJ_Companhia": "12.528.708/0001-07",
+    "Nome_Empresarial": "AERIS IND. E COM. DE EQUIP. PARA GER. DE ENG. S.A."
+  },
+  {
+    "CNPJ_Companhia": "04.128.563/0001-10",
+    "Nome_Empresarial": "AES TIETE ENERGIA SA"
+  },
+  {
+    "CNPJ_Companhia": "10.338.320/0001-00",
+    "Nome_Empresarial": "AFLUENTE TRANSMISSÃO DE ENERGIA ELÉTRICA S/A"
+  },
+  {
+    "CNPJ_Companhia": "21.240.146/0001-84",
+    "Nome_Empresarial": "AGROGALAXY PARTICIPAÇÕES S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "17.167.396/0001-69",
+    "Nome_Empresarial": "ALFA HOLDINGS S.A."
+  },
+  {
+    "CNPJ_Companhia": "06.082.980/0001-03",
+    "Nome_Empresarial": "ALIANSCE SHOPPING CENTERS S.A."
+  },
+  {
+    "CNPJ_Companhia": "42.771.949/0001-35",
+    "Nome_Empresarial": "ALLIANÇA SAÚDE E PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "20.247.322/0001-47",
+    "Nome_Empresarial": "ALLIED TECNOLOGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "05.878.397/0001-32",
+    "Nome_Empresarial": "ALLOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "60.537.263/0001-66",
+    "Nome_Empresarial": "ALLPARK EMPREENDIMENTOS, PARTICIPAÇÕES E SERVIÇOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "23.041.875/0001-37",
+    "Nome_Empresarial": "ALMACENES ÉXITO S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.079.117/0001-05",
+    "Nome_Empresarial": "ALPARGATAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "11.721.921/0001-60",
+    "Nome_Empresarial": "ALPER CONSULTORIA E CORRETORA DE SEGUROS S.A."
+  },
+  {
+    "CNPJ_Companhia": "16.811.931/0001-00",
+    "Nome_Empresarial": "ALPHAVILLE S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.364.948/0001-38",
+    "Nome_Empresarial": "ALUPAR INVESTIMENTO S/A"
+  },
+  {
+    "CNPJ_Companhia": "42.233.757/0001-75",
+    "Nome_Empresarial": "ALVAREZ & MARSAL INVESTIMENTOS I S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.526.557/0001-00",
+    "Nome_Empresarial": "AMBEV S.A."
+  },
+  {
+    "CNPJ_Companhia": "12.648.266/0001-24",
+    "Nome_Empresarial": "AMBIPAR PARTICIPAÇÕES E EMPREENDIMENTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "00.776.574/0001-56",
+    "Nome_Empresarial": "AMERICANAS S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "03.494.776/0001-01",
+    "Nome_Empresarial": "AMMO VAREJO S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.050.071/0001-58",
+    "Nome_Empresarial": "AMPLA ENERGIA E SERVICOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "04.031.960/0001-70",
+    "Nome_Empresarial": "ANDRADE GUTIERREZ PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.288.252/0001-32",
+    "Nome_Empresarial": "ANIMA HOLDING S.A."
+  },
+  {
+    "CNPJ_Companhia": "00.242.184/0001-04",
+    "Nome_Empresarial": "ARMAC LOCAÇÃO, LOGÍSTICA E SERVIÇOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "75.315.333/0001-09",
+    "Nome_Empresarial": "ATACADÃO S.A."
+  },
+  {
+    "CNPJ_Companhia": "31.701.408/0001-14",
+    "Nome_Empresarial": "ATHENA SAÚDE BRASIL SA"
+  },
+  {
+    "CNPJ_Companhia": "04.032.433/0001-80",
+    "Nome_Empresarial": "ATMA PARTICIPAÇÕES S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "23.994.857/0001-70",
+    "Nome_Empresarial": "ATOM EDUCAÇÃO E EDITORA S.A."
+  },
+  {
+    "CNPJ_Companhia": "00.359.742/0001-08",
+    "Nome_Empresarial": "ATOM EMPREENDIMENTOS E PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.857.093/0001-14",
+    "Nome_Empresarial": "AURA MINERALS INC."
+  },
+  {
+    "CNPJ_Companhia": "28.594.234/0001-23",
+    "Nome_Empresarial": "AUREN ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "00.194.724/0001-13",
+    "Nome_Empresarial": "AUREN OPERAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "37.663.076/0001-07",
+    "Nome_Empresarial": "AUREN PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.351.532/0001-68",
+    "Nome_Empresarial": "AZEVEDO E TRAVASSOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.305.994/0001-29",
+    "Nome_Empresarial": "AZUL S.A."
+  },
+  {
+    "CNPJ_Companhia": "16.590.234/0001-76",
+    "Nome_Empresarial": "AZZAS 2154 S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.346.601/0001-25",
+    "Nome_Empresarial": "B3 S.A. - BRASIL, BOLSA, BALCÃO"
+  },
+  {
+    "CNPJ_Companhia": "45.987.245/0001-92",
+    "Nome_Empresarial": "BAHEMA EDUCAÇÃO S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.186.680/0001-74",
+    "Nome_Empresarial": "BANCO BMG S/A"
+  },
+  {
+    "CNPJ_Companhia": "00.416.968/0001-01",
+    "Nome_Empresarial": "BANCO INTER S.A."
+  },
+  {
+    "CNPJ_Companhia": "30.723.886/0001-62",
+    "Nome_Empresarial": "BANCO MODAL S.A."
+  },
+  {
+    "CNPJ_Companhia": "28.127.603/0001-78",
+    "Nome_Empresarial": "BANESTES S.A. - BCO EST ESPIRITO SANTO"
+  },
+  {
+    "CNPJ_Companhia": "60.851.615/0001-53",
+    "Nome_Empresarial": "BARDELLA S.A. INDUSTRIAS MECANICAS EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "61.374.161/0001-30",
+    "Nome_Empresarial": "BAUMER S.A."
+  },
+  {
+    "CNPJ_Companhia": "17.344.597/0001-94",
+    "Nome_Empresarial": "BB SEGURIDADE PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "01.107.327/0001-20",
+    "Nome_Empresarial": "BBM LOGÍSTICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "28.195.667/0001-06",
+    "Nome_Empresarial": "BCO ABC BRASIL S.A."
+  },
+  {
+    "CNPJ_Companhia": "60.770.336/0001-65",
+    "Nome_Empresarial": "BCO ALFA DE INVESTIMENTO S.A."
+  },
+  {
+    "CNPJ_Companhia": "04.902.979/0001-44",
+    "Nome_Empresarial": "BCO AMAZONIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "60.746.948/0001-12",
+    "Nome_Empresarial": "BCO BRADESCO S.A."
+  },
+  {
+    "CNPJ_Companhia": "00.000.000/0001-91",
+    "Nome_Empresarial": "BCO BRASIL S.A."
+  },
+  {
+    "CNPJ_Companhia": "30.306.294/0001-45",
+    "Nome_Empresarial": "BCO BTG PACTUAL S.A."
+  },
+  {
+    "CNPJ_Companhia": "13.009.717/0001-46",
+    "Nome_Empresarial": "BCO ESTADO DE SERGIPE S.A. - BANESE"
+  },
+  {
+    "CNPJ_Companhia": "04.913.711/0001-08",
+    "Nome_Empresarial": "BCO ESTADO DO PARA S.A."
+  },
+  {
+    "CNPJ_Companhia": "92.702.067/0001-96",
+    "Nome_Empresarial": "BCO ESTADO DO RIO GRANDE DO SUL S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.024.352/0001-71",
+    "Nome_Empresarial": "BCO INDUSVAL S.A."
+  },
+  {
+    "CNPJ_Companhia": "34.169.557/0001-72",
+    "Nome_Empresarial": "BCO MERCANTIL DE INVESTIMENTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "17.184.037/0001-10",
+    "Nome_Empresarial": "BCO MERCANTIL DO BRASIL S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.237.373/0001-20",
+    "Nome_Empresarial": "BCO NORDESTE DO BRASIL S.A."
+  },
+  {
+    "CNPJ_Companhia": "59.285.411/0001-13",
+    "Nome_Empresarial": "BCO PAN S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.884.213/0001-35",
+    "Nome_Empresarial": "BCO PATAGONIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "62.144.175/0001-20",
+    "Nome_Empresarial": "BCO PINE S.A"
+  },
+  {
+    "CNPJ_Companhia": "90.400.888/0001-42",
+    "Nome_Empresarial": "BCO SANTANDER (BRASIL) S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.042.817/0001-05",
+    "Nome_Empresarial": "BEMOBI MOBILE TECH S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.762.124/0001-30",
+    "Nome_Empresarial": "BETAPART PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "56.992.423/0001-90",
+    "Nome_Empresarial": "BICICLETAS MONARK S.A."
+  },
+  {
+    "CNPJ_Companhia": "04.752.991/0001-10",
+    "Nome_Empresarial": "BIOMM S.A."
+  },
+  {
+    "CNPJ_Companhia": "15.527.906/0001-36",
+    "Nome_Empresarial": "BIOSEV S.A."
+  },
+  {
+    "CNPJ_Companhia": "19.688.956/0001-56",
+    "Nome_Empresarial": "BIOTOSCANA INVESTMENTS S.A."
+  },
+  {
+    "CNPJ_Companhia": "58.430.828/0001-60",
+    "Nome_Empresarial": "BLAU FARMACÊUTICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "60.637.238/0001-54",
+    "Nome_Empresarial": "BLUE TECH SOLUTIONS EQI S.A."
+  },
+  {
+    "CNPJ_Companhia": "24.921.465/0001-43",
+    "Nome_Empresarial": "BLUEFIT ACADEMIAS DE GINÁSTICA E PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "10.807.374/0001-77",
+    "Nome_Empresarial": "BOA SAFRA SEMENTES S.A."
+  },
+  {
+    "CNPJ_Companhia": "11.725.176/0001-27",
+    "Nome_Empresarial": "BOA VISTA SERVIÇOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "50.564.053/0001-03",
+    "Nome_Empresarial": "BOMBRIL S.A."
+  },
+  {
+    "CNPJ_Companhia": "10.739.356/0001-03",
+    "Nome_Empresarial": "BR ADVISORY PARTNERS PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "11.102.250/0001-59",
+    "Nome_Empresarial": "BR HOME CENTERS S.A."
+  },
+  {
+    "CNPJ_Companhia": "06.977.745/0001-91",
+    "Nome_Empresarial": "BR MALLS PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "06.977.751/0001-49",
+    "Nome_Empresarial": "BR PROPERTIES S.A."
+  },
+  {
+    "CNPJ_Companhia": "03.847.461/0001-92",
+    "Nome_Empresarial": "BRADESPAR S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.628.528/0001-59",
+    "Nome_Empresarial": "BRASILAGRO - CIA BRAS DE PROP AGRICOLAS"
+  },
+  {
+    "CNPJ_Companhia": "42.150.391/0001-70",
+    "Nome_Empresarial": "BRASKEM S.A."
+  },
+  {
+    "CNPJ_Companhia": "12.091.809/0001-55",
+    "Nome_Empresarial": "BRAVA ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "00.000.208/0001-00",
+    "Nome_Empresarial": "BRB BANCO DE BRASILIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "01.838.723/0001-27",
+    "Nome_Empresarial": "BRF S.A."
+  },
+  {
+    "CNPJ_Companhia": "19.796.586/0001-70",
+    "Nome_Empresarial": "BRISANET PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "36.542.025/0001-64",
+    "Nome_Empresarial": "BRQ SOLUCOES EM INFORMATICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "21.948.105/0001-47",
+    "Nome_Empresarial": "BTGI QUARTZO PARTICIPAÇÕES S/A"
+  },
+  {
+    "CNPJ_Companhia": "21.976.510/0001-79",
+    "Nome_Empresarial": "BTGI SAFIRA PARTICIPAÇÕES S/A"
+  },
+  {
+    "CNPJ_Companhia": "45.242.914/0001-05",
+    "Nome_Empresarial": "C&A MODAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "04.030.182/0001-02",
+    "Nome_Empresarial": "CABINDA PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "04.031.213/0001-31",
+    "Nome_Empresarial": "CACONDE PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.040.108/0001-57",
+    "Nome_Empresarial": "CAGECE - CIA DE AGUA E ESGOTO DO CEARA"
+  },
+  {
+    "CNPJ_Companhia": "22.543.331/0001-00",
+    "Nome_Empresarial": "CAIXA SEGURIDADE PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.088.894/0001-08",
+    "Nome_Empresarial": "CAMBUCI S.A."
+  },
+  {
+    "CNPJ_Companhia": "64.904.295/0001-03",
+    "Nome_Empresarial": "CAMIL ALIMENTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.591.787/0001-39",
+    "Nome_Empresarial": "CAPITALPART PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "00.080.671/0001-00",
+    "Nome_Empresarial": "CARAMURU ALIMENTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.846.056/0001-97",
+    "Nome_Empresarial": "CCR S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.950.674/0001-04",
+    "Nome_Empresarial": "CCX CARVÃO DA COLÔMBIA S.A. - EM LIQUIDAÇÃO"
+  },
+  {
+    "CNPJ_Companhia": "93.828.986/0001-73",
+    "Nome_Empresarial": "CEMEPE INVESTIMENTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "00.001.180/0001-26",
+    "Nome_Empresarial": "CENTRAIS ELET BRAS S.A. - ELETROBRAS"
+  },
+  {
+    "CNPJ_Companhia": "83.878.892/0001-55",
+    "Nome_Empresarial": "CENTRAIS ELET DE SANTA CATARINA S.A."
+  },
+  {
+    "CNPJ_Companhia": "60.933.603/0001-78",
+    "Nome_Empresarial": "CESP - CIA ENERGETICA DE SAO PAULO"
+  },
+  {
+    "CNPJ_Companhia": "19.014.221/0001-47",
+    "Nome_Empresarial": "CHINA THREE GORGES BRASIL ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "47.508.411/0001-56",
+    "Nome_Empresarial": "CIA BRASILEIRA DE DISTRIBUICAO"
+  },
+  {
+    "CNPJ_Companhia": "82.508.433/0001-17",
+    "Nome_Empresarial": "CIA CATARINENSE DE AGUAS E SANEAM.-CASAN"
+  },
+  {
+    "CNPJ_Companhia": "08.560.444/0001-93",
+    "Nome_Empresarial": "CIA CELG DE PARTICIPACOES - CELGPAR"
+  },
+  {
+    "CNPJ_Companhia": "33.938.119/0001-69",
+    "Nome_Empresarial": "CIA DISTRIB DE GAS DO RIO DE JANEIRO-CEG"
+  },
+  {
+    "CNPJ_Companhia": "15.139.629/0001-94",
+    "Nome_Empresarial": "CIA ELETRICIDADE EST. DA BAHIA - COELBA"
+  },
+  {
+    "CNPJ_Companhia": "17.155.730/0001-64",
+    "Nome_Empresarial": "CIA ENERGETICA DE MINAS GERAIS - CEMIG"
+  },
+  {
+    "CNPJ_Companhia": "10.835.932/0001-08",
+    "Nome_Empresarial": "CIA ENERGETICA DE PERNAMBUCO - CELPE"
+  },
+  {
+    "CNPJ_Companhia": "07.047.251/0001-70",
+    "Nome_Empresarial": "CIA ENERGETICA DO CEARA - COELCE"
+  },
+  {
+    "CNPJ_Companhia": "08.324.196/0001-81",
+    "Nome_Empresarial": "CIA ENERGETICA DO RIO GDE NORTE - COSERN"
+  },
+  {
+    "CNPJ_Companhia": "08.467.115/0001-00",
+    "Nome_Empresarial": "CIA ESTADUAL DE DISTRIB ENER ELET-CEEE-D"
+  },
+  {
+    "CNPJ_Companhia": "15.141.799/0001-03",
+    "Nome_Empresarial": "CIA FERRO LIGAS DA BAHIA - FERBASA"
+  },
+  {
+    "CNPJ_Companhia": "17.245.234/0001-00",
+    "Nome_Empresarial": "CIA FIACAO TECIDOS CEDRO CACHOEIRA"
+  },
+  {
+    "CNPJ_Companhia": "61.856.571/0001-17",
+    "Nome_Empresarial": "CIA GAS DE SAO PAULO - COMGAS"
+  },
+  {
+    "CNPJ_Companhia": "87.762.563/0001-03",
+    "Nome_Empresarial": "CIA HABITASUL DE PARTICIPACOES"
+  },
+  {
+    "CNPJ_Companhia": "78.876.950/0001-71",
+    "Nome_Empresarial": "CIA HERING"
+  },
+  {
+    "CNPJ_Companhia": "19.526.748/0001-50",
+    "Nome_Empresarial": "CIA INDUSTRIAL CATAGUASES"
+  },
+  {
+    "CNPJ_Companhia": "60.730.348/0001-66",
+    "Nome_Empresarial": "CIA MELHORAMENTOS DE SAO PAULO"
+  },
+  {
+    "CNPJ_Companhia": "76.483.817/0001-20",
+    "Nome_Empresarial": "CIA PARANAENSE DE ENERGIA - COPEL"
+  },
+  {
+    "CNPJ_Companhia": "01.938.783/0001-11",
+    "Nome_Empresarial": "CIA PARTICIPACOES ALIANCA DA BAHIA"
+  },
+  {
+    "CNPJ_Companhia": "43.776.517/0001-80",
+    "Nome_Empresarial": "CIA SANEAMENTO BASICO EST SAO PAULO"
+  },
+  {
+    "CNPJ_Companhia": "17.281.106/0001-03",
+    "Nome_Empresarial": "CIA SANEAMENTO DE MINAS GERAIS-COPASA MG"
+  },
+  {
+    "CNPJ_Companhia": "76.484.013/0001-45",
+    "Nome_Empresarial": "CIA SANEAMENTO DO PARANA - SANEPAR"
+  },
+  {
+    "CNPJ_Companhia": "15.144.017/0001-90",
+    "Nome_Empresarial": "CIA SEGUROS ALIANCA DA BAHIA"
+  },
+  {
+    "CNPJ_Companhia": "33.042.730/0001-04",
+    "Nome_Empresarial": "CIA SIDERURGICA NACIONAL"
+  },
+  {
+    "CNPJ_Companhia": "22.677.520/0001-76",
+    "Nome_Empresarial": "CIA TECIDOS NORTE DE MINAS COTEMINAS"
+  },
+  {
+    "CNPJ_Companhia": "21.255.567/0001-89",
+    "Nome_Empresarial": "CIA TECIDOS SANTANENSE EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "01.027.058/0001-91",
+    "Nome_Empresarial": "CIELO S.A. -  INSTITUIÇÃO DE PAGAMENTO"
+  },
+  {
+    "CNPJ_Companhia": "00.272.185/0001-93",
+    "Nome_Empresarial": "CIMS S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.437.016/0001-05",
+    "Nome_Empresarial": "CINESYSTEM S.A."
+  },
+  {
+    "CNPJ_Companhia": "68.400.225/0001-79",
+    "Nome_Empresarial": "CLARANET TECHNOLOGY S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.043.628/0001-13",
+    "Nome_Empresarial": "CLARO TELECOM PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "03.802.115/0001-98",
+    "Nome_Empresarial": "CLEAR SALE S.A."
+  },
+  {
+    "CNPJ_Companhia": "12.420.164/0001-57",
+    "Nome_Empresarial": "CM HOSPITALAR S.A"
+  },
+  {
+    "CNPJ_Companhia": "02.800.026/0001-40",
+    "Nome_Empresarial": "COGNA EDUCAÇÃO S.A."
+  },
+  {
+    "CNPJ_Companhia": "25.369.840/0001-57",
+    "Nome_Empresarial": "COMERC ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.409.892/0001-73",
+    "Nome_Empresarial": "COMPANHIA BRASILEIRA DE ALUMÍNIO"
+  },
+  {
+    "CNPJ_Companhia": "10.215.988/0001-60",
+    "Nome_Empresarial": "COMPANHIA DE LOCAÇÃO DAS AMÉRICAS"
+  },
+  {
+    "CNPJ_Companhia": "00.070.698/0001-11",
+    "Nome_Empresarial": "COMPANHIA ENERGÉTICA DE BRASÍLIA - CEB"
+  },
+  {
+    "CNPJ_Companhia": "39.881.421/0001-04",
+    "Nome_Empresarial": "COMPANHIA ESTADUAL DE GERAÇÃO DE ENERGIA ELÉTRICA - CEEE-G"
+  },
+  {
+    "CNPJ_Companhia": "21.254.073/0001-80",
+    "Nome_Empresarial": "COMPANHIA ITAUNENSE ENERGIA E PARTICIPAÇÕES"
+  },
+  {
+    "CNPJ_Companhia": "21.389.501/0001-81",
+    "Nome_Empresarial": "COMPASS GÁS E ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.116.278/0001-01",
+    "Nome_Empresarial": "CONPEL CIA NORDESTINA PAPEL - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "97.191.902/0001-94",
+    "Nome_Empresarial": "CONSERVAS ODERICH S.A."
+  },
+  {
+    "CNPJ_Companhia": "17.193.806/0001-46",
+    "Nome_Empresarial": "CONSORCIO ALFA DE ADMINISTRACAO S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.022.042/0001-18",
+    "Nome_Empresarial": "CONSTRUTORA ADOLPHO LINDENBERG S.A."
+  },
+  {
+    "CNPJ_Companhia": "71.476.527/0001-35",
+    "Nome_Empresarial": "CONSTRUTORA TENDA S.A."
+  },
+  {
+    "CNPJ_Companhia": "15.101.405/0001-93",
+    "Nome_Empresarial": "CORREA RIBEIRO S.A. COMERCIO E INDUSTRIA"
+  },
+  {
+    "CNPJ_Companhia": "17.346.997/0001-39",
+    "Nome_Empresarial": "COSAN LOGISTICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "50.746.577/0001-15",
+    "Nome_Empresarial": "COSAN S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.429.144/0001-93",
+    "Nome_Empresarial": "CPFL ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.439.659/0001-50",
+    "Nome_Empresarial": "CPFL ENERGIAS RENOVÁVEIS S.A."
+  },
+  {
+    "CNPJ_Companhia": "92.715.812/0001-31",
+    "Nome_Empresarial": "CPFL TRANSMISSÃO S.A."
+  },
+  {
+    "CNPJ_Companhia": "62.984.091/0001-02",
+    "Nome_Empresarial": "CRUZEIRO DO SUL EDUCACIONAL S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.902.291/0001-15",
+    "Nome_Empresarial": "CSN MINERAÇÃO S.A."
+  },
+  {
+    "CNPJ_Companhia": "01.896.779/0001-38",
+    "Nome_Empresarial": "CSU DIGITAL S.A."
+  },
+  {
+    "CNPJ_Companhia": "06.981.381/0001-13",
+    "Nome_Empresarial": "CTC - CENTRO DE TECNOLOGIA CANAVIEIRA S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.797.760/0001-83",
+    "Nome_Empresarial": "CURY CONSTRUTORA E INCORPORADORA S.A."
+  },
+  {
+    "CNPJ_Companhia": "10.760.260/0001-19",
+    "Nome_Empresarial": "CVC BRASIL OPERADORA E AGÊNCIA DE VIAGENS S.A."
+  },
+  {
+    "CNPJ_Companhia": "16.233.389/0001-55",
+    "Nome_Empresarial": "CVLB BRASIL S.A"
+  },
+  {
+    "CNPJ_Companhia": "73.178.600/0001-18",
+    "Nome_Empresarial": "CYRELA BRAZIL REALTY S.A.EMPREEND E PART"
+  },
+  {
+    "CNPJ_Companhia": "12.108.897/0001-50",
+    "Nome_Empresarial": "D1000 VAREJO FARMA PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.704.246/0001-93",
+    "Nome_Empresarial": "DATORA PARTICIPAÇÕES E SERVIÇOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.170.849/0001-15",
+    "Nome_Empresarial": "DESKTOP S.A."
+  },
+  {
+    "CNPJ_Companhia": "97.837.181/0001-47",
+    "Nome_Empresarial": "DEXCO S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.193.750/0001-52",
+    "Nome_Empresarial": "DEXXOS PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.486.650/0001-83",
+    "Nome_Empresarial": "DIAGNOSTICOS DA AMERICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "92.665.611/0001-77",
+    "Nome_Empresarial": "DIMED S.A. DISTRIBUIDORA DE MEDICAMENTOS"
+  },
+  {
+    "CNPJ_Companhia": "16.614.075/0001-00",
+    "Nome_Empresarial": "DIRECIONAL ENGENHARIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "91.669.747/0001-92",
+    "Nome_Empresarial": "DM FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO"
+  },
+  {
+    "CNPJ_Companhia": "84.683.408/0001-03",
+    "Nome_Empresarial": "DOHLER S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.926.302/0001-05",
+    "Nome_Empresarial": "DOMMO ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "18.174.270/0001-84",
+    "Nome_Empresarial": "DOTZ S.A."
+  },
+  {
+    "CNPJ_Companhia": "03.303.999/0001-36",
+    "Nome_Empresarial": "DTCOM - DIRECT TO COMPANY S.A."
+  },
+  {
+    "CNPJ_Companhia": "04.149.454/0001-80",
+    "Nome_Empresarial": "ECORODOVIAS INFRAESTRUTURA E LOGÍSTICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "03.983.431/0001-03",
+    "Nome_Empresarial": "EDP - ENERGIAS DO BRASIL S.A."
+  },
+  {
+    "CNPJ_Companhia": "82.643.537/0001-34",
+    "Nome_Empresarial": "ELECTRO ACO ALTONA S.A."
+  },
+  {
+    "CNPJ_Companhia": "13.788.120/0001-47",
+    "Nome_Empresarial": "ELEKEIROZ S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.328.280/0001-97",
+    "Nome_Empresarial": "ELEKTRO REDES S.A."
+  },
+  {
+    "CNPJ_Companhia": "01.104.937/0001-70",
+    "Nome_Empresarial": "ELETROBRÁS PARTICIPAÇÕES S.A. - ELETROPAR"
+  },
+  {
+    "CNPJ_Companhia": "09.347.516/0001-81",
+    "Nome_Empresarial": "ELETROMIDIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "00.514.998/0001-42",
+    "Nome_Empresarial": "ELETRON S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.695.227/0001-93",
+    "Nome_Empresarial": "ELETROPAULO METROP. ELET. SAO PAULO S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.302.101/0001-42",
+    "Nome_Empresarial": "EMAE - EMPRESA METROP.AGUAS ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "42.331.462/0001-31",
+    "Nome_Empresarial": "EMBPAR PARTICIPAÇÕES S/A"
+  },
+  {
+    "CNPJ_Companhia": "07.689.002/0001-89",
+    "Nome_Empresarial": "EMBRAER S.A."
+  },
+  {
+    "CNPJ_Companhia": "06.626.253/0001-51",
+    "Nome_Empresarial": "EMPREENDIMENTOS PAGUE MENOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.066.408/0001-15",
+    "Nome_Empresarial": "EMPRESA FINANCEIRA"
+  },
+  {
+    "CNPJ_Companhia": "01.971.614/0001-83",
+    "Nome_Empresarial": "EMPRESA NAC COM REDITO PART S.A.ENCORPAR"
+  },
+  {
+    "CNPJ_Companhia": "11.669.021/0001-10",
+    "Nome_Empresarial": "ENAUTA PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "21.262.638/0001-70",
+    "Nome_Empresarial": "ENCALSO PARTICIPAÇÕES EM CONCESSÕES S/A"
+  },
+  {
+    "CNPJ_Companhia": "03.467.321/0001-99",
+    "Nome_Empresarial": "ENERGISA MATO GROSSO-DISTRIBUIDORA DE ENERGIA S/A"
+  },
+  {
+    "CNPJ_Companhia": "00.864.214/0001-06",
+    "Nome_Empresarial": "ENERGISA S.A."
+  },
+  {
+    "CNPJ_Companhia": "04.423.567/0001-21",
+    "Nome_Empresarial": "ENEVA S.A"
+  },
+  {
+    "CNPJ_Companhia": "02.474.103/0001-19",
+    "Nome_Empresarial": "ENGIE BRASIL ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "16.922.038/0001-51",
+    "Nome_Empresarial": "ENJOEI S.A."
+  },
+  {
+    "CNPJ_Companhia": "06.272.793/0001-84",
+    "Nome_Empresarial": "EQUATORIAL MARANHÃO DISTRIBUIDORA DE ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "04.895.728/0001-80",
+    "Nome_Empresarial": "EQUATORIAL PARÁ DISTRIBUIDORA DE ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "03.220.438/0001-73",
+    "Nome_Empresarial": "EQUATORIAL S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.092.037/0001-81",
+    "Nome_Empresarial": "ETERNIT S.A."
+  },
+  {
+    "CNPJ_Companhia": "56.643.018/0001-66",
+    "Nome_Empresarial": "EUCATEX S.A. INDUSTRIA E COMERCIO"
+  },
+  {
+    "CNPJ_Companhia": "61.190.096/0001-92",
+    "Nome_Empresarial": "EUROFARMA LABORATÓRIOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "43.470.988/0001-65",
+    "Nome_Empresarial": "EVEN CONSTRUTORA E INCORPORADORA S.A."
+  },
+  {
+    "CNPJ_Companhia": "95.426.862/0001-97",
+    "Nome_Empresarial": "EXCELSIOR ALIMENTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.312.229/0001-73",
+    "Nome_Empresarial": "EZ TEC EMPREEND. E PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "00.924.429/0001-75",
+    "Nome_Empresarial": "FERROVIA CENTRO-ATLANTICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "22.266.175/0001-88",
+    "Nome_Empresarial": "FERTILIZANTES HERINGER S.A."
+  },
+  {
+    "CNPJ_Companhia": "60.643.228/0001-21",
+    "Nome_Empresarial": "FIBRIA CELULOSE S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.820.907/0001-46",
+    "Nome_Empresarial": "FICA EMPREENDIMENTOS IMOBILIÁRIOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "17.167.412/0001-13",
+    "Nome_Empresarial": "FINANCEIRA ALFA S.A.- CRED FINANC E INVS"
+  },
+  {
+    "CNPJ_Companhia": "60.840.055/0001-31",
+    "Nome_Empresarial": "FLEURY S.A."
+  },
+  {
+    "CNPJ_Companhia": "10.851.805/0001-00",
+    "Nome_Empresarial": "FLEX GESTÃO DE RELACIONAMENTOS S.A.-EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "26.735.020/0001-02",
+    "Nome_Empresarial": "FOCUS ENERGIA HOLDING PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "88.610.126/0001-29",
+    "Nome_Empresarial": "FRAS-LE S.A."
+  },
+  {
+    "CNPJ_Companhia": "38.307.135/0001-77",
+    "Nome_Empresarial": "G2D INVESTMENTS, LTD."
+  },
+  {
+    "CNPJ_Companhia": "01.545.826/0001-07",
+    "Nome_Empresarial": "GAFISA S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.796.775/0001-40",
+    "Nome_Empresarial": "GAMA PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.764.621/0001-53",
+    "Nome_Empresarial": "GENERAL SHOPPING E OUTLETS DO BRASIL BRASIL S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.611.500/0001-19",
+    "Nome_Empresarial": "GERDAU S.A."
+  },
+  {
+    "CNPJ_Companhia": "10.440.482/0001-54",
+    "Nome_Empresarial": "GETNET ADQ E SERV PARA MEIOS DE PAGTO S.A. - INST PAGTO"
+  },
+  {
+    "CNPJ_Companhia": "14.127.813/0001-51",
+    "Nome_Empresarial": "GETNINJAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "06.164.253/0001-87",
+    "Nome_Empresarial": "GOL LINHAS AEREAS INTELIGENTES S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.857.850/0001-50",
+    "Nome_Empresarial": "GP INVESTMENTS, LTD."
+  },
+  {
+    "CNPJ_Companhia": "09.229.201/0001-30",
+    "Nome_Empresarial": "GPS PARTICIPAÇÕES E EMPREENDIMENTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "92.012.467/0001-70",
+    "Nome_Empresarial": "GRAZZIOTIN S.A."
+  },
+  {
+    "CNPJ_Companhia": "89.850.341/0001-60",
+    "Nome_Empresarial": "GRENDENE S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.041.260/0652-90",
+    "Nome_Empresarial": "GRUPO CASAS BAHIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "10.285.590/0001-08",
+    "Nome_Empresarial": "GRUPO DE MODA SOMA S.A."
+  },
+  {
+    "CNPJ_Companhia": "24.990.777/0001-09",
+    "Nome_Empresarial": "GRUPO MATEUS S.A."
+  },
+  {
+    "CNPJ_Companhia": "59.717.553/0001-02",
+    "Nome_Empresarial": "GRUPO MULTI S.A."
+  },
+  {
+    "CNPJ_Companhia": "13.217.485/0001-11",
+    "Nome_Empresarial": "GRUPO SBF S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.402.943/0001-52",
+    "Nome_Empresarial": "GUARARAPES CONFECCOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.810.422/0001-34",
+    "Nome_Empresarial": "GUARARAPES PAINÉIS S.A."
+  },
+  {
+    "CNPJ_Companhia": "30.540.991/0001-66",
+    "Nome_Empresarial": "HAGA S.A. INDUSTRIA E COMERCIO"
+  },
+  {
+    "CNPJ_Companhia": "05.197.443/0001-38",
+    "Nome_Empresarial": "HAPVIDA PARTICIPAÇÕES E INVESTIMENTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "14.785.152/0001-51",
+    "Nome_Empresarial": "HBR REALTY EMPREENDIMENTOS IMOBILIÁRIOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "49.263.189/0001-02",
+    "Nome_Empresarial": "HELBOR EMPREENDIMENTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "92.749.225/0001-63",
+    "Nome_Empresarial": "HERCULES S.A. FABRICA DE TALHERES"
+  },
+  {
+    "CNPJ_Companhia": "12.648.327/0001-53",
+    "Nome_Empresarial": "HIDROVIAS DO BRASIL S.A."
+  },
+  {
+    "CNPJ_Companhia": "40.159.947/0001-64",
+    "Nome_Empresarial": "HMOBI PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "25.249.439/0001-83",
+    "Nome_Empresarial": "HOSPITAL CARE CALEDONIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "16.676.520/0001-59",
+    "Nome_Empresarial": "HOSPITAL MATER DEI S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.200.049/0001-47",
+    "Nome_Empresarial": "HOTEIS OTHON S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "18.483.666/0001-03",
+    "Nome_Empresarial": "HUMBERG AGRIBRASIL COMÉRCIO E EXPORTAÇÃO DE GRÃOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.932.074/0001-91",
+    "Nome_Empresarial": "HYPERA S.A."
+  },
+  {
+    "CNPJ_Companhia": "43.185.362/0001-07",
+    "Nome_Empresarial": "IGB ELETRONICA S.A - EM RECUPERACAO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "08.159.965/0001-33",
+    "Nome_Empresarial": "IGUA SANEAMENTO S.A."
+  },
+  {
+    "CNPJ_Companhia": "51.218.147/0001-93",
+    "Nome_Empresarial": "IGUATEMI EMPRESA DE SHOPPING CENTERS S.A"
+  },
+  {
+    "CNPJ_Companhia": "60.543.816/0001-93",
+    "Nome_Empresarial": "IGUATEMI S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.054.385/0001-44",
+    "Nome_Empresarial": "INBRANDS S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.611.768/0001-76",
+    "Nome_Empresarial": "INC EMPREENDIMENTOS IMOBILIÁRIOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "76.627.504/0001-06",
+    "Nome_Empresarial": "INEPAR S.A. INDUSTRIA E CONSTRUCOES EM RECUPERACAO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "38.456.921/0001-36",
+    "Nome_Empresarial": "INFRACOMMERCE CXAAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "19.378.769/0001-76",
+    "Nome_Empresarial": "INSTITUTO HERMES PARDINI S.A."
+  },
+  {
+    "CNPJ_Companhia": "82.901.000/0001-27",
+    "Nome_Empresarial": "INTELBRAS S.A. IND. DE TELECOMUNICAÇÃO ELETRÔNICA BRASILEIRA"
+  },
+  {
+    "CNPJ_Companhia": "42.737.954/0001-21",
+    "Nome_Empresarial": "INTER & CO, INC."
+  },
+  {
+    "CNPJ_Companhia": "62.258.884/0001-36",
+    "Nome_Empresarial": "INTERCEMENT BRASIL S.A."
+  },
+  {
+    "CNPJ_Companhia": "17.314.329/0001-20",
+    "Nome_Empresarial": "INTERNATIONAL MEAL COMPANY ALIMENTACAO S.A."
+  },
+  {
+    "CNPJ_Companhia": "01.548.981/0001-79",
+    "Nome_Empresarial": "INVESTIMENTOS BEMGE S.A."
+  },
+  {
+    "CNPJ_Companhia": "03.758.318/0001-24",
+    "Nome_Empresarial": "INVESTIMENTOS E PARTICIP. EM INFRA S.A. - INVEPAR"
+  },
+  {
+    "CNPJ_Companhia": "61.156.113/0001-75",
+    "Nome_Empresarial": "IOCHPE MAXION S.A."
+  },
+  {
+    "CNPJ_Companhia": "92.791.243/0001-03",
+    "Nome_Empresarial": "IRANI PAPEL E EMBALAGEM S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.376.989/0001-91",
+    "Nome_Empresarial": "IRB - BRASIL RESSEGUROS S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.998.611/0001-04",
+    "Nome_Empresarial": "ISA ENERGIA BRASIL"
+  },
+  {
+    "CNPJ_Companhia": "60.872.504/0001-23",
+    "Nome_Empresarial": "ITAU UNIBANCO HOLDING S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.532.644/0001-15",
+    "Nome_Empresarial": "ITAÚSA S.A."
+  },
+  {
+    "CNPJ_Companhia": "54.526.082/0001-31",
+    "Nome_Empresarial": "ITAUTEC S.A. - GRUPO ITAUTEC"
+  },
+  {
+    "CNPJ_Companhia": "02.635.522/0001-95",
+    "Nome_Empresarial": "JALLES MACHADO S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.916.265/0001-60",
+    "Nome_Empresarial": "JBS S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.859.510/0001-68",
+    "Nome_Empresarial": "JHSF MALLS S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.294.224/0001-65",
+    "Nome_Empresarial": "JHSF PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.035.536/0001-00",
+    "Nome_Empresarial": "JOAO FORTES ENGENHARIA S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "87.456.562/0001-22",
+    "Nome_Empresarial": "JOSAPAR-JOAQUIM OLIVEIRA S.A. - PARTICIP"
+  },
+  {
+    "CNPJ_Companhia": "52.548.435/0001-79",
+    "Nome_Empresarial": "JSL S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.146.451/0001-06",
+    "Nome_Empresarial": "KALLAS INCORPORAÇÕES E CONSTRUÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "82.640.558/0001-04",
+    "Nome_Empresarial": "KARSTEN S.A."
+  },
+  {
+    "CNPJ_Companhia": "91.983.056/0001-69",
+    "Nome_Empresarial": "KEPLER WEBER S.A."
+  },
+  {
+    "CNPJ_Companhia": "89.637.490/0001-45",
+    "Nome_Empresarial": "KLABIN S.A."
+  },
+  {
+    "CNPJ_Companhia": "13.270.520/0001-66",
+    "Nome_Empresarial": "KORA SAÚDE PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "26.462.693/0001-28",
+    "Nome_Empresarial": "LAVVI EMPREENDIMENTOS IMOBILIÁRIOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.357.251/0001-53",
+    "Nome_Empresarial": "LIFEMED INDUSTRIAL DE EQUIP. E ART. MEDICOS E HOSP. S.A"
+  },
+  {
+    "CNPJ_Companhia": "03.378.521/0001-75",
+    "Nome_Empresarial": "LIGHT S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "06.948.969/0001-75",
+    "Nome_Empresarial": "LINX S.A."
+  },
+  {
+    "CNPJ_Companhia": "00.743.065/0001-27",
+    "Nome_Empresarial": "LITEL PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "05.495.546/0001-84",
+    "Nome_Empresarial": "LITELA PARTICIPAÇÕES S.A. - EM LIQUIDAÇÃO"
+  },
+  {
+    "CNPJ_Companhia": "05.917.486/0001-40",
+    "Nome_Empresarial": "LIVETECH DA BAHIA INDÚSTRIA E COMÉRCIO S.A."
+  },
+  {
+    "CNPJ_Companhia": "16.670.085/0001-55",
+    "Nome_Empresarial": "LOCALIZA RENT A CAR S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.041.168/0001-10",
+    "Nome_Empresarial": "LOG COMMERCIAL PROPERTIES E PARTICIPAÇÕES"
+  },
+  {
+    "CNPJ_Companhia": "42.278.291/0001-24",
+    "Nome_Empresarial": "LOG-IN LOGISTICA INTERMODAL S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.014.556/0001-96",
+    "Nome_Empresarial": "LOJAS AMERICANAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "96.418.264/0218-02",
+    "Nome_Empresarial": "LOJAS QUERO QUERO S.A."
+  },
+  {
+    "CNPJ_Companhia": "92.754.738/0001-62",
+    "Nome_Empresarial": "LOJAS RENNER S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.338.534/0001-58",
+    "Nome_Empresarial": "LONGDIS S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.078.847/0001-09",
+    "Nome_Empresarial": "LPS BRASIL - CONSULTORIA DE IMOVEIS S.A."
+  },
+  {
+    "CNPJ_Companhia": "89.463.822/0001-12",
+    "Nome_Empresarial": "LUPATECH S.A"
+  },
+  {
+    "CNPJ_Companhia": "43.948.405/0001-69",
+    "Nome_Empresarial": "LUPO S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.351.877/0001-52",
+    "Nome_Empresarial": "LWSA S/A"
+  },
+  {
+    "CNPJ_Companhia": "07.206.816/0001-15",
+    "Nome_Empresarial": "M.DIAS BRANCO S.A. IND COM DE ALIMENTOS"
+  },
+  {
+    "CNPJ_Companhia": "13.783.221/0004-78",
+    "Nome_Empresarial": "MADERO INDÚSTRIA E COMÉRCIO S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.795.211/0001-70",
+    "Nome_Empresarial": "MAESTRO LOCADORA DE VEICULOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "47.960.950/0001-21",
+    "Nome_Empresarial": "MAGAZINE LUIZA S.A."
+  },
+  {
+    "CNPJ_Companhia": "60.476.884/0001-87",
+    "Nome_Empresarial": "MAHLE-METAL LEVE S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.065.298/0001-02",
+    "Nome_Empresarial": "MANGELS INDUSTRIAL S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.082.004/0001-50",
+    "Nome_Empresarial": "MANUFATURA DE BRINQUEDOS ESTRELA S.A."
+  },
+  {
+    "CNPJ_Companhia": "88.611.835/0001-29",
+    "Nome_Empresarial": "MARCOPOLO S.A."
+  },
+  {
+    "CNPJ_Companhia": "03.853.896/0001-40",
+    "Nome_Empresarial": "MARFRIG GLOBAL FOODS S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.189.288/0001-89",
+    "Nome_Empresarial": "MARISA LOJAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.762.115/0001-49",
+    "Nome_Empresarial": "MASSA FALIDA DA MMX MINERACAO E METALICOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "14.110.585/0001-07",
+    "Nome_Empresarial": "MÉLIUZ S.A."
+  },
+  {
+    "CNPJ_Companhia": "12.181.987/0001-77",
+    "Nome_Empresarial": "MELNICK DESENVOLVIMENTO IMOBILIÁRIO S.A."
+  },
+  {
+    "CNPJ_Companhia": "17.162.082/0001-73",
+    "Nome_Empresarial": "MENDES JUNIOR ENGENHARIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.040.601/0001-87",
+    "Nome_Empresarial": "MERCANTIL FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTI"
+  },
+  {
+    "CNPJ_Companhia": "04.821.041/0001-08",
+    "Nome_Empresarial": "METALFRIO SOLUTIONS S.A."
+  },
+  {
+    "CNPJ_Companhia": "80.227.184/0001-66",
+    "Nome_Empresarial": "METALGRAFICA IGUACU S.A."
+  },
+  {
+    "CNPJ_Companhia": "92.690.783/0001-09",
+    "Nome_Empresarial": "METALURGICA GERDAU S.A."
+  },
+  {
+    "CNPJ_Companhia": "85.778.074/0001-06",
+    "Nome_Empresarial": "METALURGICA RIOSULENSE S.A."
+  },
+  {
+    "CNPJ_Companhia": "86.375.425/0001-09",
+    "Nome_Empresarial": "METISA METALURGICA TIMBOENSE S.A."
+  },
+  {
+    "CNPJ_Companhia": "27.093.558/0001-15",
+    "Nome_Empresarial": "MILLS LOCAÇÃO, SERVIÇOS E LOGÍSTICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "17.161.241/0001-15",
+    "Nome_Empresarial": "MINASMAQUINAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "67.620.377/0001-14",
+    "Nome_Empresarial": "MINERVA S.A."
+  },
+  {
+    "CNPJ_Companhia": "90.076.886/0001-40",
+    "Nome_Empresarial": "MINUPAR PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.882.930/0001-65",
+    "Nome_Empresarial": "MITRE REALTY EMPREENDIMENTOS E PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "31.553.627/0001-01",
+    "Nome_Empresarial": "MOBLY S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.102.476/0001-92",
+    "Nome_Empresarial": "MONTEIRO ARANHA S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.083.175/0001-84",
+    "Nome_Empresarial": "MOSAICO TECNOLOGIA AO CONSUMIDOR S.A."
+  },
+  {
+    "CNPJ_Companhia": "12.049.631/0001-84",
+    "Nome_Empresarial": "MOURA DUBEUX ENGENHARIA S/A"
+  },
+  {
+    "CNPJ_Companhia": "21.314.559/0001-66",
+    "Nome_Empresarial": "MOVIDA PARTICIPACOES SA"
+  },
+  {
+    "CNPJ_Companhia": "26.659.061/0001-59",
+    "Nome_Empresarial": "MPM CORPÓREOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "01.417.222/0001-77",
+    "Nome_Empresarial": "MRS LOGISTICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.343.492/0001-20",
+    "Nome_Empresarial": "MRV ENGENHARIA E PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.816.890/0001-53",
+    "Nome_Empresarial": "MULTIPLAN - EMPREEND IMOBILIARIOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "11.094.546/0001-75",
+    "Nome_Empresarial": "MULTIPLUS S.A."
+  },
+  {
+    "CNPJ_Companhia": "88.610.191/0001-54",
+    "Nome_Empresarial": "MUNDIAL S.A. - PRODUTOS DE CONSUMO"
+  },
+  {
+    "CNPJ_Companhia": "61.067.161/0001-97",
+    "Nome_Empresarial": "NADIR FIGUEIREDO IND E COM S.A."
+  },
+  {
+    "CNPJ_Companhia": "32.785.497/0001-97",
+    "Nome_Empresarial": "NATURA &CO HOLDING S.A."
+  },
+  {
+    "CNPJ_Companhia": "71.673.990/0001-77",
+    "Nome_Empresarial": "NATURA COSMETICOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "01.083.200/0001-18",
+    "Nome_Empresarial": "NEOENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "10.139.870/0001-08",
+    "Nome_Empresarial": "NEOGRID PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.613.550/0001-98",
+    "Nome_Empresarial": "NEXPE PARTICIPAÇÕES S.A"
+  },
+  {
+    "CNPJ_Companhia": "60.884.319/0001-59",
+    "Nome_Empresarial": "NORDON INDUSTRIAS METALURGICAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "29.950.060/0001-57",
+    "Nome_Empresarial": "NORTEC QUÍMICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "19.853.511/0001-84",
+    "Nome_Empresarial": "NOTRE DAME INTERMÉDICA PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "24.410.913/0001-44",
+    "Nome_Empresarial": "NU HOLDINGS LTD."
+  },
+  {
+    "CNPJ_Companhia": "02.084.220/0001-76",
+    "Nome_Empresarial": "NUMERAL 80 PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "51.128.999/0001-90",
+    "Nome_Empresarial": "NUTRIPLANT INDUSTRIA E COMERCIO S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.114.805/0001-30",
+    "Nome_Empresarial": "OCEANPACT SERVIÇOS MARITIMOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "58.119.199/0001-51",
+    "Nome_Empresarial": "ODONTOPREV S.A."
+  },
+  {
+    "CNPJ_Companhia": "76.535.764/0001-43",
+    "Nome_Empresarial": "OI S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "12.104.241/0004-02",
+    "Nome_Empresarial": "ONCOCLÍNICAS DO BRASIL SERVIÇOS MÉDICOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.318.346/0001-68",
+    "Nome_Empresarial": "OPPORTUNITY ENERGIA E PARTICIPACOES S.A. - EM LIQUIDAÇÃO"
+  },
+  {
+    "CNPJ_Companhia": "11.421.994/0001-36",
+    "Nome_Empresarial": "ORIZON VALORIZAÇÃO DE RESÍDUOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.112.685/0001-32",
+    "Nome_Empresarial": "OSX BRASIL S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "20.258.278/0001-70",
+    "Nome_Empresarial": "OUROFINO S.A."
+  },
+  {
+    "CNPJ_Companhia": "96.298.013/0001-68",
+    "Nome_Empresarial": "PACAEMBU CONSTRUTORA S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.365.069/0001-44",
+    "Nome_Empresarial": "PADTEC HOLDING S.A."
+  },
+  {
+    "CNPJ_Companhia": "92.693.019/0001-89",
+    "Nome_Empresarial": "PANATLANTICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "60.398.369/0004-79",
+    "Nome_Empresarial": "PARANAPANEMA S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "23.236.821/0001-27",
+    "Nome_Empresarial": "PATRIMAR ENGENHARIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "83.475.913/0001-91",
+    "Nome_Empresarial": "PBG S/A"
+  },
+  {
+    "CNPJ_Companhia": "02.950.811/0001-89",
+    "Nome_Empresarial": "PDG REALTY S.A. EMPREEND E PARTICIPACOES"
+  },
+  {
+    "CNPJ_Companhia": "18.328.118/0001-09",
+    "Nome_Empresarial": "PET CENTER COMÉRCIO E PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.000.167/0001-01",
+    "Nome_Empresarial": "PETROLEO BRASILEIRO S.A. PETROBRAS"
+  },
+  {
+    "CNPJ_Companhia": "03.342.704/0001-30",
+    "Nome_Empresarial": "PETRORECÔNCAVO S.A."
+  },
+  {
+    "CNPJ_Companhia": "88.613.658/0001-10",
+    "Nome_Empresarial": "PETTENATI S.A. INDUSTRIA TEXTIL"
+  },
+  {
+    "CNPJ_Companhia": "24.230.275/0001-80",
+    "Nome_Empresarial": "PLANO & PLANO DESENVOLVIMENTO IMOBILIÁRIO S.A."
+  },
+  {
+    "CNPJ_Companhia": "51.928.174/0001-50",
+    "Nome_Empresarial": "PLASCAR PARTICIPACOES INDUSTRIAIS S.A."
+  },
+  {
+    "CNPJ_Companhia": "59.789.545/0001-71",
+    "Nome_Empresarial": "POLPAR S.A."
+  },
+  {
+    "CNPJ_Companhia": "86.550.951/0001-50",
+    "Nome_Empresarial": "POMIFRUTAS S/A EM RECUPERACAO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "02.149.205/0001-69",
+    "Nome_Empresarial": "PORTO SEGURO S.A."
+  },
+  {
+    "CNPJ_Companhia": "81.243.735/0001-48",
+    "Nome_Empresarial": "POSITIVO TECNOLOGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "15.073.274/0001-88",
+    "Nome_Empresarial": "PPLA PARTICIPATIONS LTD."
+  },
+  {
+    "CNPJ_Companhia": "08.574.411/0001-00",
+    "Nome_Empresarial": "PRÁTICA PRODUTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "18.593.815/0001-97",
+    "Nome_Empresarial": "PRINER SERVIÇOS INDUSTRIAIS S.A."
+  },
+  {
+    "CNPJ_Companhia": "10.629.105/0001-68",
+    "Nome_Empresarial": "PRIO S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.291.077/0001-93",
+    "Nome_Empresarial": "PRODUTORES ENERGET.DE MANSO S.A.- PROMAN"
+  },
+  {
+    "CNPJ_Companhia": "45.453.214/0001-51",
+    "Nome_Empresarial": "PROFARMA DISTRIB PROD FARMACEUTICOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.992.449/0001-09",
+    "Nome_Empresarial": "PROMPT PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "11.992.680/0001-93",
+    "Nome_Empresarial": "QUALICORP CONSULTORIA E CORRETORA DE SEGUROS S.A."
+  },
+  {
+    "CNPJ_Companhia": "35.791.391/0001-94",
+    "Nome_Empresarial": "QUALITY SOFTWARE S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.585.865/0001-51",
+    "Nome_Empresarial": "RAIA DROGASIL S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.453.598/0001-23",
+    "Nome_Empresarial": "RAÍZEN S.A."
+  },
+  {
+    "CNPJ_Companhia": "89.086.144/0001-16",
+    "Nome_Empresarial": "RANDON S.A. IMPLEMENTOS E PARTICIPACOES"
+  },
+  {
+    "CNPJ_Companhia": "91.333.666/0001-17",
+    "Nome_Empresarial": "RECRUSUL S.A."
+  },
+  {
+    "CNPJ_Companhia": "06.047.087/0001-39",
+    "Nome_Empresarial": "REDE D'OR SÃO LUIZ S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.584.140/0001-49",
+    "Nome_Empresarial": "REDE ENERGIA PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.412.081/0001-96",
+    "Nome_Empresarial": "REFINARIA DE PETROLEOS MANGUINHOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.534.605/0001-74",
+    "Nome_Empresarial": "RENOVA ENERGIA S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "02.998.301/0001-81",
+    "Nome_Empresarial": "RIO PARANAPANEMA ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "67.010.660/0001-24",
+    "Nome_Empresarial": "RNI NEGÓCIOS IMOBILIÁRIOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "59.981.829/0001-65",
+    "Nome_Empresarial": "RODOBENS SA"
+  },
+  {
+    "CNPJ_Companhia": "56.720.428/0001-63",
+    "Nome_Empresarial": "ROMI S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.065.751/0001-80",
+    "Nome_Empresarial": "ROSSI RESIDENCIAL S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "02.387.241/0001-60",
+    "Nome_Empresarial": "RUMO S.A."
+  },
+  {
+    "CNPJ_Companhia": "01.616.929/0001-02",
+    "Nome_Empresarial": "SANEAMENTO DE GOIAS SA"
+  },
+  {
+    "CNPJ_Companhia": "14.807.945/0001-24",
+    "Nome_Empresarial": "SANSUY S.A. INDUSTRIA DE PLASTICOS"
+  },
+  {
+    "CNPJ_Companhia": "02.762.121/0001-04",
+    "Nome_Empresarial": "SANTOS BRASIL PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "29.780.061/0001-09",
+    "Nome_Empresarial": "SAO CARLOS EMPREEND E PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "51.466.860/0001-56",
+    "Nome_Empresarial": "SAO MARTINHO S.A."
+  },
+  {
+    "CNPJ_Companhia": "62.002.886/0001-60",
+    "Nome_Empresarial": "SAO PAULO TURISMO S.A."
+  },
+  {
+    "CNPJ_Companhia": "60.500.139/0001-26",
+    "Nome_Empresarial": "SARAIVA LIVREIROS S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "84.693.183/0001-68",
+    "Nome_Empresarial": "SCHULZ S.A."
+  },
+  {
+    "CNPJ_Companhia": "87.043.832/0001-73",
+    "Nome_Empresarial": "SEIVA S.A. - FLORESTAS E INDÚSTRIAS"
+  },
+  {
+    "CNPJ_Companhia": "06.057.223/0001-71",
+    "Nome_Empresarial": "SENDAS DISTRIBUIDORA S.A."
+  },
+  {
+    "CNPJ_Companhia": "01.599.101/0001-93",
+    "Nome_Empresarial": "SEQUOIA LOGÍSTICA E TRANSPORTES S.A."
+  },
+  {
+    "CNPJ_Companhia": "04.986.320/0001-13",
+    "Nome_Empresarial": "SER EDUCACIONAL S.A."
+  },
+  {
+    "CNPJ_Companhia": "42.500.384/0001-51",
+    "Nome_Empresarial": "SERENA ENERGIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.149.503/0001-06",
+    "Nome_Empresarial": "SERENA GERAÇÃO S.A."
+  },
+  {
+    "CNPJ_Companhia": "61.156.931/0001-78",
+    "Nome_Empresarial": "SIDERURGICA J. L. ALIPERTI S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.415.333/0001-20",
+    "Nome_Empresarial": "SIMPAR S.A."
+  },
+  {
+    "CNPJ_Companhia": "04.065.791/0001-99",
+    "Nome_Empresarial": "SINQIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "89.096.457/0001-55",
+    "Nome_Empresarial": "SLC AGRICOLA S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.594.978/0001-78",
+    "Nome_Empresarial": "SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A."
+  },
+  {
+    "CNPJ_Companhia": "05.730.375/0001-20",
+    "Nome_Empresarial": "SMILES FIDELIDADE S.A."
+  },
+  {
+    "CNPJ_Companhia": "46.119.855/0001-37",
+    "Nome_Empresarial": "SOCIEDADE ABASTECIMENTO DE ÁGUA E SANEAMENTO S.A - SANASA"
+  },
+  {
+    "CNPJ_Companhia": "41.052.420/0001-07",
+    "Nome_Empresarial": "SOLAR BEBIDAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.386.210/0001-19",
+    "Nome_Empresarial": "SONDOTECNICA ENGENHARIA SOLOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "92.929.520/0001-00",
+    "Nome_Empresarial": "SPRINGER S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.718.269/0001-57",
+    "Nome_Empresarial": "SPRINGS GLOBAL PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "91.495.499/0001-00",
+    "Nome_Empresarial": "STARA S.A. - INDÚSTRIA DE IMPLEMENTOS AGRÍCOLAS"
+  },
+  {
+    "CNPJ_Companhia": "00.622.416/0001-41",
+    "Nome_Empresarial": "STATKRAFT ENERGIAS RENOVAVEIS S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.062.747/0001-08",
+    "Nome_Empresarial": "SUDESTE S.A."
+  },
+  {
+    "CNPJ_Companhia": "29.978.814/0001-87",
+    "Nome_Empresarial": "SUL AMERICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "60.651.809/0001-05",
+    "Nome_Empresarial": "SUZANO HOLDING S.A."
+  },
+  {
+    "CNPJ_Companhia": "16.404.287/0001-55",
+    "Nome_Empresarial": "SUZANO S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.801.621/0001-86",
+    "Nome_Empresarial": "SYN PROP & TECH S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.860.694/0001-62",
+    "Nome_Empresarial": "T4F ENTRETENIMENTO S.A."
+  },
+  {
+    "CNPJ_Companhia": "92.781.335/0001-02",
+    "Nome_Empresarial": "TAURUS ARMAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "26.345.998/0001-50",
+    "Nome_Empresarial": "TC S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.424.178/0001-71",
+    "Nome_Empresarial": "TECBLU TECELAGEM BLUMENAU S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.295.063/0001-97",
+    "Nome_Empresarial": "TECHNOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.065.557/0001-12",
+    "Nome_Empresarial": "TECNISA S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.111.246/0001-90",
+    "Nome_Empresarial": "TECNOSOLO ENGENHARIA S.A. - EMPRESA FALIDA"
+  },
+  {
+    "CNPJ_Companhia": "02.351.144/0001-18",
+    "Nome_Empresarial": "TEGMA GESTAO LOGISTICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "30.213.493/0001-09",
+    "Nome_Empresarial": "TEGRA INCORPORADORA S.A."
+  },
+  {
+    "CNPJ_Companhia": "82.636.986/0001-55",
+    "Nome_Empresarial": "TEKA-TECELAGEM KUEHNRICH S.A. - EM RECUPERAÇÃO JUDICIAL"
+  },
+  {
+    "CNPJ_Companhia": "33.467.572/0001-34",
+    "Nome_Empresarial": "TEKNO S.A. - INDUSTRIA E COMERCIO"
+  },
+  {
+    "CNPJ_Companhia": "00.336.701/0001-04",
+    "Nome_Empresarial": "TELEC BRASILEIRAS S.A. TELEBRAS"
+  },
+  {
+    "CNPJ_Companhia": "02.558.157/0001-62",
+    "Nome_Empresarial": "TELEFÔNICA BRASIL S.A"
+  },
+  {
+    "CNPJ_Companhia": "02.664.042/0001-52",
+    "Nome_Empresarial": "TERMINAL GARAGEM MENEZES CORTES S.A."
+  },
+  {
+    "CNPJ_Companhia": "05.799.312/0001-20",
+    "Nome_Empresarial": "TERRA SANTA AGRO S.A."
+  },
+  {
+    "CNPJ_Companhia": "40.337.136/0001-06",
+    "Nome_Empresarial": "TERRA SANTA PROPRIEDADES AGRÍCOLAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "82.982.075/0001-80",
+    "Nome_Empresarial": "TEXTIL RENAUXVIEW S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.558.115/0001-21",
+    "Nome_Empresarial": "TIM PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.421.421/0001-11",
+    "Nome_Empresarial": "TIM S.A."
+  },
+  {
+    "CNPJ_Companhia": "53.113.791/0001-22",
+    "Nome_Empresarial": "TOTVS S.A."
+  },
+  {
+    "CNPJ_Companhia": "03.014.553/0001-91",
+    "Nome_Empresarial": "TPI - TRIUNFO PARTICIP. E INVEST. S.A."
+  },
+  {
+    "CNPJ_Companhia": "59.418.806/0001-47",
+    "Nome_Empresarial": "TRACK & FIELD CO S.A."
+  },
+  {
+    "CNPJ_Companhia": "07.859.971/0001-30",
+    "Nome_Empresarial": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "94.813.102/0001-70",
+    "Nome_Empresarial": "TRÊS TENTOS AGROINDUSTRIAL S/A"
+  },
+  {
+    "CNPJ_Companhia": "92.660.570/0001-26",
+    "Nome_Empresarial": "TREVISA INVESTIMENTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "23.438.929/0001-00",
+    "Nome_Empresarial": "TRIPLE PLAY BRASIL PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.811.643/0001-27",
+    "Nome_Empresarial": "TRISUL S.A."
+  },
+  {
+    "CNPJ_Companhia": "15.115.504/0001-24",
+    "Nome_Empresarial": "TRONOX PIGMENTOS DO BRASIL S.A."
+  },
+  {
+    "CNPJ_Companhia": "84.683.374/0001-49",
+    "Nome_Empresarial": "TUPY S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.256.439/0001-39",
+    "Nome_Empresarial": "ULTRAPAR PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "90.441.460/0001-48",
+    "Nome_Empresarial": "UNICASA INDÚSTRIA DE MÓVEIS S.A."
+  },
+  {
+    "CNPJ_Companhia": "75.609.123/0001-23",
+    "Nome_Empresarial": "UNIDAS LOCAÇÕES E SERVIÇOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "45.736.131/0001-70",
+    "Nome_Empresarial": "UNIDAS LOCADORA S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.255.187/0001-08",
+    "Nome_Empresarial": "UNIFIQUE TELECOMUNICAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.958.695/0001-78",
+    "Nome_Empresarial": "UNIPAR CARBOCLORO S.A."
+  },
+  {
+    "CNPJ_Companhia": "34.591.574/0001-01",
+    "Nome_Empresarial": "UP ENGENHARIA E URBANISMO S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.162.616/0001-94",
+    "Nome_Empresarial": "UPTICK PARTICIPACOES S.A. - EM LIQUIDAÇÃO"
+  },
+  {
+    "CNPJ_Companhia": "60.894.730/0001-05",
+    "Nome_Empresarial": "USINAS SID DE MINAS GERAIS S.A.-USIMINAS"
+  },
+  {
+    "CNPJ_Companhia": "33.592.510/0001-54",
+    "Nome_Empresarial": "VALE S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.113.309/0001-47",
+    "Nome_Empresarial": "VALID SOLUÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "23.373.000/0001-32",
+    "Nome_Empresarial": "VAMOS LOCAÇÃO DE CAMINHÕES, MÁQUINAS E EQUIPAMENTOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "31.748.174/0001-60",
+    "Nome_Empresarial": "VERO S.A."
+  },
+  {
+    "CNPJ_Companhia": "49.669.856/0001-43",
+    "Nome_Empresarial": "VESTE S.A. ESTILO"
+  },
+  {
+    "CNPJ_Companhia": "34.274.233/0001-02",
+    "Nome_Empresarial": "VIBRA ENERGIA S/A"
+  },
+  {
+    "CNPJ_Companhia": "20.512.706/0001-40",
+    "Nome_Empresarial": "VITRU BRASIL EMPREENDIMENTOS, PARTICIPAÇÕES E COMÉRCIO S.A."
+  },
+  {
+    "CNPJ_Companhia": "45.365.558/0001-09",
+    "Nome_Empresarial": "VITTIA S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.839.910/0001-11",
+    "Nome_Empresarial": "VIVARA PARTICIPAÇÕES S.A."
+  },
+  {
+    "CNPJ_Companhia": "67.571.414/0001-41",
+    "Nome_Empresarial": "VIVER INCORPORADORA E CONSTRUTORA S.A."
+  },
+  {
+    "CNPJ_Companhia": "32.681.371/0001-72",
+    "Nome_Empresarial": "VIX LOGÍSTICA S.A."
+  },
+  {
+    "CNPJ_Companhia": "50.926.955/0001-42",
+    "Nome_Empresarial": "VULCABRAS S.A."
+  },
+  {
+    "CNPJ_Companhia": "09.813.204/0001-16",
+    "Nome_Empresarial": "W2W E-COMMERCE DE VINHOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "84.429.695/0001-11",
+    "Nome_Empresarial": "WEG S.A."
+  },
+  {
+    "CNPJ_Companhia": "14.776.142/0001-50",
+    "Nome_Empresarial": "WESTWING COMÉRCIO VAREJISTA S.A."
+  },
+  {
+    "CNPJ_Companhia": "84.683.671/0001-94",
+    "Nome_Empresarial": "WETZEL S.A."
+  },
+  {
+    "CNPJ_Companhia": "59.105.999/0001-86",
+    "Nome_Empresarial": "WHIRLPOOL S.A."
+  },
+  {
+    "CNPJ_Companhia": "05.721.735/0001-28",
+    "Nome_Empresarial": "WILSON SONS LTD."
+  },
+  {
+    "CNPJ_Companhia": "33.130.691/0001-05",
+    "Nome_Empresarial": "WILSON SONS S.A."
+  },
+  {
+    "CNPJ_Companhia": "42.278.473/0001-03",
+    "Nome_Empresarial": "WIZ CO PARTICIPAÇÕES E CORRETAGEM DE SEGUROS S.A."
+  },
+  {
+    "CNPJ_Companhia": "33.228.024/0001-51",
+    "Nome_Empresarial": "WLM PART. E COMÉRCIO DE MÁQUINAS E VEÍCULOS S.A."
+  },
+  {
+    "CNPJ_Companhia": "02.217.319/0001-07",
+    "Nome_Empresarial": "YBYRÁ CAPITAL S.A."
+  },
+  {
+    "CNPJ_Companhia": "08.807.432/0001-10",
+    "Nome_Empresarial": "YDUQS PARTICIPACOES S.A."
+  },
+  {
+    "CNPJ_Companhia": "11.284.204/0001-18",
+    "Nome_Empresarial": "YOU INC INCORPORADORA E PARTICIPAÇÃO S.A"
+  },
+  {
+    "CNPJ_Companhia": "13.574.594/0001-96",
+    "Nome_Empresarial": "ZAMP SA"
+  }
+]
