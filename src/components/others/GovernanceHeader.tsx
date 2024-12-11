@@ -86,7 +86,7 @@ export default function GovernanceHeader() {
       <h2 className="mt-3">Índices</h2>
       <b>
         {
-          "Índices de Governança Corporativa (5 dimensões, variáveis correlacionadas) : "
+          "Índices de Governança Corporativa (IGCs) 5 dimensões (variáveis correlacionadas) : "
         }
       </b>
       <a
@@ -142,7 +142,7 @@ export default function GovernanceHeader() {
       <div></div>
       <b>
         {
-          "Índices de Governança Corporativa (7 dimensões, variáveis não correlacionadas) : "
+          "Índices de Governança Corporativa (IGCs) 7 dimensões (variáveis não correlacionadas) : "
         }
       </b>
       <a

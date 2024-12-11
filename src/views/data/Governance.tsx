@@ -48,6 +48,7 @@ import p2OFC from "../../assets/data/graphs/p2_OFC.svg";
 import GovernanceHeader from "../../components/others/GovernanceHeader";
 import Fapemig from "../../components/others/Fapemig";
 // import Footer from "../../components/footer/Footer";
+import RadarCompanies from "./RadarCompanies";
 
 export default function Governace() {
   const formatAndRound = (value: string) => {
@@ -223,6 +224,7 @@ export default function Governace() {
           domLayout="autoHeight"
         ></AgGridReact>
       </Container>
+      <RadarCompanies></RadarCompanies>
 
       <Fapemig />
     </>
