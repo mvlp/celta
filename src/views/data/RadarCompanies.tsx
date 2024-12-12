@@ -215,15 +215,22 @@ const App: React.FC = () => {
     setSelectedYear(year);
   };
 
-  const filteredCompanies = fiveDim.filter(
-    (entry) =>
-      entry.CNPJ_Companhia[0].includes(searchTerm) ||
-      entry.Nome_Empresarial[0].toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredCompanies =
+    searchTerm.length >= 3
+      ? fiveDim.filter(
+          (entry) =>
+            entry.CNPJ_Companhia[0].includes(searchTerm) ||
+            entry.Nome_Empresarial[0]
+              .toLowerCase()
+              .includes(searchTerm.toLowerCase())
+        )
+      : [];
 
   return (
     <Container className="py-4">
-      <h1 className="text-center mb-4">Comparativo de Empresas</h1>
+      <h1 className="text-center mb-4">
+        Perfil de Governança Corporativa: Análise por Empresa
+      </h1>
       <InputGroup className="mb-3">
         <Form.Control
           type="text"
@@ -235,7 +242,11 @@ const App: React.FC = () => {
         <DropdownButton
           variant="outline-secondary"
           title="Selecione"
-          show={showSuggestions && !!searchTerm}
+          show={
+            showSuggestions &&
+            searchTerm.length >= 3 &&
+            !!filteredCompanies.length
+          }
           className="w-100"
         >
           {filteredCompanies.map((entry) => (
