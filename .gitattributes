@@ -1,2 +1,5 @@
-public/docs/dataset_CGVN.xlsx filter=lfs diff=lfs merge=lfs -text
-*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.xlsx binary
+*.xls binary
+*.dta binary
+*.sav binary
+*.xpt binary
