@@ -179,16 +179,26 @@ const RadarChart: React.FC<RadarChartProps> = ({
         min: 0,
         max: 1,
         ticks: {
-          stepSize: 0.2, // Define o espaçamento entre os valores da escala
-          showLabelBackdrop: false, // Remove fundo dos rótulos
+          stepSize: 0.2,
+          showLabelBackdrop: false,
+          // font: {
+          //   size: 14,
+          //   weight: "bold", // Alterado para um valor válido
+          // },
           callback: function (value: string | number) {
             const numericValue =
               typeof value === "string" ? parseFloat(value) : value;
-            // Mostra apenas valores específicos (0, 0.2, 0.4, 0.6, 0.8, 1)
             return [0, 0.2, 0.4, 0.6, 0.8, 1].includes(numericValue)
               ? numericValue.toString()
               : "";
           },
+        },
+        pointLabels: {
+          font: {
+            size: 14,
+            weight: 700, // Alterado para um valor válido
+          },
+          color: "rgba(0, 0, 0, 0.8)", // Cor das labels ao redor
         },
       },
     },
