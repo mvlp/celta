@@ -142,7 +142,7 @@ const RadarChart: React.FC<RadarChartProps> = ({
       ...(showAverage && averageData
         ? [
             {
-              label: "Média de Mercado",
+              label: `${averageData.Nome_Empresarial[0]}`,
               data: isAdditional
                 ? isAdditionalData(averageData)
                   ? [
@@ -190,7 +190,7 @@ const App: React.FC = () => {
   const [selectedCompany, setSelectedCompany] = useState<string | null>(null);
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
   const [showSuggestions, setShowSuggestions] = useState(false);
-  const [showAverage, setShowAverage] = useState(false);
+  // const [showAverage, setShowAverage] = useState(false);
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value);
@@ -269,7 +269,7 @@ const App: React.FC = () => {
             </ButtonGroup>
           </div>
 
-          <div className="d-flex justify-content-center mb-3">
+          {/* <div className="d-flex justify-content-center mb-3">
             <Button
               variant={showAverage ? "danger" : "outline-danger"}
               onClick={() => setShowAverage(!showAverage)}
@@ -278,7 +278,7 @@ const App: React.FC = () => {
                 ? "Ocultar Média de Mercado"
                 : "Mostrar Média de Mercado"}
             </Button>
-          </div>
+          </div> */}
 
           {selectedYear && (
             <Row>
@@ -288,7 +288,7 @@ const App: React.FC = () => {
                     companyKey={selectedCompany}
                     selectedYear={selectedYear}
                     mergedData={fiveDim}
-                    showAverage={showAverage}
+                    showAverage={true}
                     averageData={fiveDimAvg}
                   />
                 </div>
@@ -301,7 +301,7 @@ const App: React.FC = () => {
                     mergedData={[]}
                     additionalData={sevenDim}
                     isAdditional={true}
-                    showAverage={showAverage}
+                    showAverage={true}
                     averageData={sevenDimAvg}
                   />
                 </div>
