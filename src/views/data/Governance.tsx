@@ -171,6 +171,8 @@ export default function Governace() {
     <>
       <Container className="my-3">
         <GovernanceHeader />
+        <div></div>
+        <RadarCompanies></RadarCompanies>
         <h2 className="mt-3">Gráficos</h2>
         <Row>
           <Col>
@@ -224,7 +226,6 @@ export default function Governace() {
           domLayout="autoHeight"
         ></AgGridReact>
       </Container>
-      <RadarCompanies></RadarCompanies>
 
       <Fapemig />
     </>

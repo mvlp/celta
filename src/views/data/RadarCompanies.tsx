@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Radar } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -15,34 +15,17 @@ import {
   InputGroup,
   Dropdown,
   DropdownButton,
+  ButtonGroup,
+  Button,
+  Row,
+  Col,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import companiesJson from "../../assets/data/cias/companies.json"; // Importando o primeiro JSON
-import dataJson from "../../assets/data/cias/index_05_dim_CG.json"; // Importando o segundo JSON
-
-// Ajustar o tipo de entrada para refletir o JSON real
-type XlsxEntry = { cnpj: string; data: string[][] };
-
-// Função para combinar os dados dos dois arquivos
-const combineData = (
-  companies: Record<string, string>,
-  xlsxData: XlsxEntry[]
-): Record<string, { nome: string; dados: string[][] }> => {
-  const result: Record<string, { nome: string; dados: string[][] }> = {};
-
-  xlsxData.forEach((entry) => {
-    const companyName = companies[entry.cnpj] || "Desconhecido";
-    result[entry.cnpj] = {
-      nome: companyName,
-      dados: entry.data, // Mantém como string[][]
-    };
-  });
-
-  return result;
-};
-
-// inicio da configuração de exibição
+import fiveDim from "../../assets/data/cias/index_05_dim_CG.json";
+import sevenDim from "../../assets/data/cias/index_07_dim_CG.json";
+import fiveDimAvg from "../../assets/data/cias/index_05_dim_CG_avg.json";
+import sevenDimAvg from "../../assets/data/cias/index_07_dim_CG_avg.json";
 
 ChartJS.register(
   RadialLinearScale,
@@ -53,68 +36,161 @@ ChartJS.register(
   Legend
 );
 
-type CompanyData = {
-  [key: string]: {
-    nome: string;
-    dados: string[][];
-  };
+type fiveDimData = {
+  CNPJ_Companhia: (string | null)[];
+  Nome_Empresarial: string[];
+  Ano_Referencia: number[];
+  Mes_Referencia: (number | null)[];
+  Ano_Entrega: (number | null)[];
+  Mes_Entrega: (number | null)[];
+  AC: number[];
+  CA: number[];
+  DR: number[];
+  OFC: number[];
+  ECI: number[];
+};
+
+type sevenDimData = {
+  CNPJ_Companhia: (string | null)[];
+  Nome_Empresarial: string[];
+  Ano_Referencia: number[];
+  Mes_Referencia: (number | null)[];
+  Ano_Entrega: (number | null)[];
+  Mes_Entrega: (number | null)[];
+  CC: number[];
+  REG: number[];
+  ADM: number[];
+  DIR: number[];
+  SEM: number[];
+  DEF: number[];
+  FIS: number[];
 };
 
 type RadarChartProps = {
   companyKey: string;
-  mergedData: CompanyData;
+  selectedYear: number;
+  mergedData: fiveDimData[] | sevenDimData[];
+  additionalData?: sevenDimData[];
+  isAdditional?: boolean;
+  showAverage?: boolean;
+  averageData?: fiveDimData | sevenDimData;
 };
 
-const RadarChart: React.FC<RadarChartProps> = ({ companyKey, mergedData }) => {
-  const company = mergedData[companyKey];
-  const dataPoints = company.dados.map((entry) =>
-    entry.slice(-5).map((value) => parseFloat(value.replace(",", ".")))
+const RadarChart: React.FC<RadarChartProps> = ({
+  companyKey,
+  selectedYear,
+  mergedData,
+  additionalData,
+  isAdditional = false,
+  showAverage = false,
+  averageData,
+}) => {
+  const dataSet = isAdditional ? additionalData : mergedData;
+  const company = dataSet?.find(
+    (entry) => entry.CNPJ_Companhia[0] === companyKey
   );
 
-  const data = {
-    labels: ["AC", "CA", "DR", "OFC", "ECI"],
-    datasets: dataPoints.map((points, index) => ({
-      label: `${company.nome} (${index + 1})`,
-      data: points,
-      backgroundColor: `rgba(54, 162, 235, ${0.2 + 0.1 * index})`,
-      borderColor: "rgba(54, 162, 235, 1)",
-      borderWidth: 1,
-    })),
+  if (!company) return null;
+
+  const yearIndex = company.Ano_Referencia.indexOf(selectedYear);
+  if (yearIndex === -1) return null;
+
+  const isAdditionalData = (
+    data: fiveDimData | sevenDimData
+  ): data is sevenDimData => {
+    return (data as sevenDimData).CC !== undefined;
   };
 
-  return <Radar data={data} />;
+  const isCompanyData = (
+    data: fiveDimData | sevenDimData
+  ): data is fiveDimData => {
+    return (data as fiveDimData).AC !== undefined;
+  };
+
+  const data = {
+    labels: isAdditional
+      ? ["CC", "REG", "ADM", "DIR", "SEM", "DEF", "FIS"]
+      : ["AC", "CA", "DR", "OFC", "ECI"],
+    datasets: [
+      {
+        label: `${company.Nome_Empresarial[0]}`,
+        data: isAdditional
+          ? isAdditionalData(company)
+            ? [
+                company.CC[yearIndex],
+                company.REG[yearIndex],
+                company.ADM[yearIndex],
+                company.DIR[yearIndex],
+                company.SEM[yearIndex],
+                company.DEF[yearIndex],
+                company.FIS[yearIndex],
+              ]
+            : []
+          : isCompanyData(company)
+          ? [
+              company.AC[yearIndex],
+              company.CA[yearIndex],
+              company.DR[yearIndex],
+              company.OFC[yearIndex],
+              company.ECI[yearIndex],
+            ]
+          : [],
+        backgroundColor: "rgba(54, 162, 235, 0.2)",
+        borderColor: "rgba(54, 162, 235, 1)",
+        borderWidth: 1,
+      },
+      ...(showAverage && averageData
+        ? [
+            {
+              label: "Média de Mercado",
+              data: isAdditional
+                ? isAdditionalData(averageData)
+                  ? [
+                      averageData.CC[yearIndex],
+                      averageData.REG[yearIndex],
+                      averageData.ADM[yearIndex],
+                      averageData.DIR[yearIndex],
+                      averageData.SEM[yearIndex],
+                      averageData.DEF[yearIndex],
+                      averageData.FIS[yearIndex],
+                    ]
+                  : []
+                : isCompanyData(averageData)
+                ? [
+                    averageData.AC[yearIndex],
+                    averageData.CA[yearIndex],
+                    averageData.DR[yearIndex],
+                    averageData.OFC[yearIndex],
+                    averageData.ECI[yearIndex],
+                  ]
+                : [],
+              backgroundColor: "rgba(255, 99, 132, 0.2)",
+              borderColor: "rgba(255, 99, 132, 1)",
+              borderWidth: 1,
+            },
+          ]
+        : []),
+    ],
+  };
+
+  const options = {
+    scales: {
+      r: {
+        min: 0,
+        max: 1,
+      },
+    },
+  };
+
+  return <Radar data={data} options={options} />;
 };
 
 const App: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCompany, setSelectedCompany] = useState<string | null>(null);
+  const [selectedYear, setSelectedYear] = useState<number | null>(null);
   const [showSuggestions, setShowSuggestions] = useState(false);
-
-  const [mergedData, setMergedData] = useState<Record<
-    string,
-    { nome: string; dados: string[][] }
-  > | null>(null);
-
-  useEffect(() => {
-    const processFiles = async () => {
-      try {
-        // Lendo os arquivos JSON diretamente
-        const companies = companiesJson;
-        const xlsxData = dataJson;
-
-        // Combinando os dados
-        const combined = combineData(companies, xlsxData);
-        setMergedData(combined);
-      } catch (error) {
-        console.error("Erro ao processar os arquivos:", error);
-        alert(
-          "Houve um erro ao processar os arquivos. Verifique os formatos e tente novamente."
-        );
-      }
-    };
-
-    processFiles();
-  }, []);
+  const [showAverage, setShowAverage] = useState(false);
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value);
@@ -123,21 +199,31 @@ const App: React.FC = () => {
 
   const handleSelectCompany = (key: string) => {
     setSelectedCompany(key);
-    setSearchTerm(mergedData ? mergedData[key].nome : "");
+    setSearchTerm(
+      fiveDim.find((entry) => entry.CNPJ_Companhia[0] === key)
+        ?.Nome_Empresarial[0] || ""
+    );
     setShowSuggestions(false);
+    const mostRecentYear = Math.max(
+      ...(fiveDim.find((entry) => entry.CNPJ_Companhia[0] === key)
+        ?.Ano_Referencia || [])
+    );
+    setSelectedYear(mostRecentYear);
   };
 
-  const filteredCompanies = mergedData
-    ? Object.entries(mergedData).filter(
-        ([key, value]) =>
-          key.includes(searchTerm) ||
-          value.nome.toLowerCase().includes(searchTerm.toLowerCase())
-      )
-    : [];
+  const handleYearSelect = (year: number) => {
+    setSelectedYear(year);
+  };
+
+  const filteredCompanies = fiveDim.filter(
+    (entry) =>
+      entry.CNPJ_Companhia[0].includes(searchTerm) ||
+      entry.Nome_Empresarial[0].toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <Container className="py-4">
-      <h1 className="text-center mb-4">Comparativo de empresas</h1>
+      <h1 className="text-center mb-4">Comparativo de Empresas</h1>
       <InputGroup className="mb-3">
         <Form.Control
           type="text"
@@ -148,23 +234,81 @@ const App: React.FC = () => {
         />
         <DropdownButton
           variant="outline-secondary"
-          title="Select"
+          title="Selecione"
           show={showSuggestions && !!searchTerm}
           className="w-100"
         >
-          {filteredCompanies.map(([key, value]) => (
-            <Dropdown.Item key={key} onClick={() => handleSelectCompany(key)}>
-              {value.nome} ({key})
+          {filteredCompanies.map((entry) => (
+            <Dropdown.Item
+              key={entry.CNPJ_Companhia[0]}
+              onClick={() => handleSelectCompany(entry.CNPJ_Companhia[0])}
+            >
+              {entry.Nome_Empresarial[0]} ({entry.CNPJ_Companhia[0]})
             </Dropdown.Item>
           ))}
         </DropdownButton>
       </InputGroup>
-      {selectedCompany && mergedData && (
-        <div className="d-flex justify-content-center">
-          <div style={{ width: "60%" }}>
-            <RadarChart companyKey={selectedCompany} mergedData={mergedData} />
+
+      {selectedCompany && (
+        <>
+          <div className="d-flex justify-content-center mb-3">
+            <ButtonGroup>
+              {fiveDim
+                .find((entry) => entry.CNPJ_Companhia[0] === selectedCompany)
+                ?.Ano_Referencia.map((year) => (
+                  <Button
+                    key={year}
+                    variant={
+                      selectedYear === year ? "primary" : "outline-primary"
+                    }
+                    onClick={() => handleYearSelect(year)}
+                  >
+                    {year}
+                  </Button>
+                ))}
+            </ButtonGroup>
           </div>
-        </div>
+
+          <div className="d-flex justify-content-center mb-3">
+            <Button
+              variant={showAverage ? "danger" : "outline-danger"}
+              onClick={() => setShowAverage(!showAverage)}
+            >
+              {showAverage
+                ? "Ocultar Média de Mercado"
+                : "Mostrar Média de Mercado"}
+            </Button>
+          </div>
+
+          {selectedYear && (
+            <Row>
+              <Col md={6} className="d-flex justify-content-center">
+                <div style={{ width: "80%" }}>
+                  <RadarChart
+                    companyKey={selectedCompany}
+                    selectedYear={selectedYear}
+                    mergedData={fiveDim}
+                    showAverage={showAverage}
+                    averageData={fiveDimAvg}
+                  />
+                </div>
+              </Col>
+              <Col md={6} className="d-flex justify-content-center">
+                <div style={{ width: "80%" }}>
+                  <RadarChart
+                    companyKey={selectedCompany}
+                    selectedYear={selectedYear}
+                    mergedData={[]}
+                    additionalData={sevenDim}
+                    isAdditional={true}
+                    showAverage={showAverage}
+                    averageData={sevenDimAvg}
+                  />
+                </div>
+              </Col>
+            </Row>
+          )}
+        </>
       )}
     </Container>
   );

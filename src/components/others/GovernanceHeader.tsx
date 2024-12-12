@@ -83,12 +83,8 @@ export default function GovernanceHeader() {
       >
         [R]
       </a>{" "}
-      <h2 className="mt-3">Índices</h2>
-      <b>
-        {
-          "Índices de Governança Corporativa (IGCs) 5 dimensões (variáveis correlacionadas) : "
-        }
-      </b>
+      <h2 className="mt-3">Índices de Governança Corporativa (IGCs) </h2>
+      <b>{"5 dimensões (variáveis correlacionadas) : "}</b>
       <a
         href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_05_dim_CG.xlsx?download="
         style={{
@@ -140,11 +136,7 @@ export default function GovernanceHeader() {
         [SAS]
       </a>{" "}
       <div></div>
-      <b>
-        {
-          "Índices de Governança Corporativa (IGCs) 7 dimensões (variáveis não correlacionadas) : "
-        }
-      </b>
+      <b>{"7 dimensões (variáveis não correlacionadas) : "}</b>
       <a
         href="https://github.com/mvlp/celta/raw/refs/heads/main/public/docs/index_07_dim_CG.xlsx?download="
         style={{
