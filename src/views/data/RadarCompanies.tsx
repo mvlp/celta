@@ -15,10 +15,9 @@ import {
   InputGroup,
   Dropdown,
   DropdownButton,
-  ButtonGroup,
-  Button,
   Row,
   Col,
+  Nav,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -281,37 +280,23 @@ const App: React.FC = () => {
           ))}
         </DropdownButton>
       </InputGroup>
-
       {selectedCompany && (
         <>
           <div className="d-flex justify-content-center mb-3">
-            <ButtonGroup>
+            <Nav
+              variant="tabs"
+              activeKey={selectedYear ?? undefined}
+              onSelect={(eventKey) => handleYearSelect(Number(eventKey))}
+            >
               {fiveDim
                 .find((entry) => entry.CNPJ_Companhia[0] === selectedCompany)
                 ?.Ano_Referencia.map((year) => (
-                  <Button
-                    key={year}
-                    variant={
-                      selectedYear === year ? "primary" : "outline-primary"
-                    }
-                    onClick={() => handleYearSelect(year)}
-                  >
-                    {year}
-                  </Button>
+                  <Nav.Item key={year}>
+                    <Nav.Link eventKey={year}>{year}</Nav.Link>
+                  </Nav.Item>
                 ))}
-            </ButtonGroup>
+            </Nav>
           </div>
-
-          {/* <div className="d-flex justify-content-center mb-3">
-            <Button
-              variant={showAverage ? "danger" : "outline-danger"}
-              onClick={() => setShowAverage(!showAverage)}
-            >
-              {showAverage
-                ? "Ocultar Média de Mercado"
-                : "Mostrar Média de Mercado"}
-            </Button>
-          </div> */}
 
           {selectedYear && (
             <Row>
