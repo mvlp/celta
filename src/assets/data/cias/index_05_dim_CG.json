@@ -403,19 +403,6 @@
     "ECI": [0.4722]
   },
   {
-    "CNPJ_Companhia": ["00.359.742/0001-08"],
-    "Nome_Empresarial": ["ATOM EMPREENDIMENTOS E PARTICIPAÇÕES S.A."],
-    "Ano_Referencia": [2024, 2023, 2022, 2021, 2020, 2019],
-    "Mes_Referencia": [12, 12, 12, 12, 12, 12],
-    "Ano_Entrega": [2024, 2023, 2022, 2021, 2020, 2019],
-    "Mes_Entrega": [7, 7, 8, 8, 9, 9],
-    "AC": [0.3056, 0.3056, 0.3056, 0.3056, 0.25, 0.3056],
-    "CA": [0.4722, 0.4722, 0.4722, 0.4722, 0.4444, 0.3889],
-    "DR": [0.4167, 0.4167, 0.4167, 0.4167, 0.4167, 0.4167],
-    "OFC": [0.4667, 0.4667, 0.4333, 0.4333, 0.4333, 0.4],
-    "ECI": [0.5278, 0.5278, 0.5278, 0.5278, 0.4722, 0.4167]
-  },
-  {
     "CNPJ_Companhia": ["07.857.093/0001-14"],
     "Nome_Empresarial": ["AURA MINERALS INC."],
     "Ano_Referencia": [2023, 2022, 2021, 2020],
@@ -2808,6 +2795,19 @@
     "ECI": [0.5, 0.5, 0.5, 0.5, 0.5556, 0.5556]
   },
   {
+    "CNPJ_Companhia": ["00.359.742/0001-08"],
+    "Nome_Empresarial": ["FICTOR ALIMENTOS S.A."],
+    "Ano_Referencia": [2024, 2023, 2022, 2021, 2020, 2019],
+    "Mes_Referencia": [12, 12, 12, 12, 12, 12],
+    "Ano_Entrega": [2024, 2023, 2022, 2021, 2020, 2019],
+    "Mes_Entrega": [7, 7, 8, 8, 9, 9],
+    "AC": [0.3056, 0.3056, 0.3056, 0.3056, 0.25, 0.3056],
+    "CA": [0.4722, 0.4722, 0.4722, 0.4722, 0.4444, 0.3889],
+    "DR": [0.4167, 0.4167, 0.4167, 0.4167, 0.4167, 0.4167],
+    "OFC": [0.4667, 0.4667, 0.4333, 0.4333, 0.4333, 0.4],
+    "ECI": [0.5278, 0.5278, 0.5278, 0.5278, 0.4722, 0.4167]
+  },
+  {
     "CNPJ_Companhia": ["17.167.412/0001-13"],
     "Nome_Empresarial": ["FINANCEIRA ALFA S.A.- CRED FINANC E INVS"],
     "Ano_Referencia": [2023, 2022, 2021, 2020, 2019, 2018],
@@ -3420,7 +3420,7 @@
   },
   {
     "CNPJ_Companhia": ["62.258.884/0001-36"],
-    "Nome_Empresarial": ["INTERCEMENT BRASIL S.A."],
+    "Nome_Empresarial": ["INTERCEMENT BRASIL S.A. - EM RECUPERAÇÃO JUDICIAL"],
     "Ano_Referencia": [2022, 2021],
     "Mes_Referencia": [12, 12],
     "Ano_Entrega": [2022, 2021],
