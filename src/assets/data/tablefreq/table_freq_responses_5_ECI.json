@@ -4,119 +4,131 @@
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Código de Conduta e Canal de Denúncias",
     "Pratica_Recomendada": "A companhia deve ter um comitê de conduta, dotado de independência e autonomia e vinculado diretamente ao conselho de administração, encarregado de implementação, disseminação, treinamento, revisão e atualização do código de conduta e do canal de denúncias, bem como da condução de apurações e propositura de medidas corretivas relativas às infrações ao código de conduta.",
-    "Não": "21,7239878101872",
+    "Var.5": "2,52465483234714",
+    "Não": "20,3550295857988",
     "Não se Aplica": "0",
-    "Parcialmente": "33,3913800609491",
-    "Sim": "44,8846321288637"
+    "Parcialmente": "32,189349112426",
+    "Sim": "44,930966469428"
   },
   {
     "ID_Item": "5.1.2",
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Código de Conduta e Canal de Denúncias",
     "Pratica_Recomendada": "O código de conduta, elaborado pela diretoria, com apoio do comitê de conduta, e aprovado pelo conselho de administração, deve: \\n\\n (i) disciplinar as relações internas e externas da companhia, expressando o comprometimento esperado da companhia, de seus conselheiros, diretores, acionistas, colaboradores, fornecedores e partes interessadas com a adoção de padrões adequados de conduta \\n\\n (ii) administrar conflitos de interesses e prever a abstenção do membro do conselho de administração, do comitê de auditoria ou do comitê de conduta, se houver, que, conforme o caso, estiver conflitado \\n\\n (iii) definir, com clareza, o escopo e a abrangência das ações destinadas a apurar a ocorrência de situações compreendidas como realizadas com o uso de informação privilegiada (por exemplo, utilização da informação privilegiada para finalidades comerciais ou para obtenção de vantagens na negociação de valores mobiliários) \\n\\n (iv) estabelecer que os princípios éticos fundamentem a negociação de contratos, acordos, propostas de alteração do estatuto social, bem como as políticas que orientam toda a companhia, e estabelecer um valor máximo dos bens ou serviços de terceiros que administradores e colaboradores possam aceitar de forma gratuita ou favorecida.",
-    "Não": "9,53417501088376",
+    "Var.5": "2,52465483234714",
+    "Não": "8,91518737672584",
     "Não se Aplica": "0",
-    "Parcialmente": "21,8110579016108",
-    "Sim": "68,6547670875054"
+    "Parcialmente": "20,5128205128205",
+    "Sim": "68,0473372781065"
   },
   {
     "ID_Item": "5.1.3",
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Código de Conduta e Canal de Denúncias",
     "Pratica_Recomendada": "O canal de denúncias deve ser dotado de independência, autonomia e imparcialidade, operando diretrizes de funcionamento definidas pela diretoria e aprovadas pelo conselho de administração. Deve ser operado de forma independente e imparcial, e garantir o anonimato de seus usuários, além de promover, de forma tempestiva, as apurações e providências necessárias. Este serviço pode ficar a cargo de um terceiro de reconhecida capacidade.",
-    "Não": "12,1898127993034",
+    "Var.5": "2,52465483234714",
+    "Não": "11,3609467455621",
     "Não se Aplica": "0",
-    "Parcialmente": "6,6173269481933",
-    "Sim": "81,1928602525033"
+    "Parcialmente": "6,232741617357",
+    "Sim": "79,8816568047337"
   },
   {
     "ID_Item": "5.2.1",
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Conflito de Interesses",
     "Pratica_Recomendada": "As regras de governança da companhia devem zelar pela separação e definição clara de funções, papéis e responsabilidades associados aos mandatos de todos os agentes de governança. Devem ainda ser definidas as alçadas de decisão de cada instância, com o objetivo de minimizar possíveis focos de conflitos de interesses.",
-    "Não": "4,65824989116239",
+    "Var.5": "2,44575936883629",
+    "Não": "4,37869822485207",
     "Não se Aplica": "0",
-    "Parcialmente": "6,39965171963431",
-    "Sim": "88,9420983892033"
+    "Parcialmente": "6,03550295857988",
+    "Sim": "87,1400394477318"
   },
   {
     "ID_Item": "5.2.2",
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Conflito de Interesses",
     "Pratica_Recomendada": "As regras de governança da companhia devem ser tornadas públicas e determinar que a pessoa que não é independente em relação à matéria em discussão ou deliberação nos órgãos de administração ou fiscalização da companhia deve manifestar, tempestivamente, seu conflito de interesses ou interesse particular. Caso não o faça, essas regras devem prever que outra pessoa manifeste o conflito, caso dele tenha ciência, e que, tão logo identificado o conflito de interesses em relação a um tema específico, a pessoa envolvida se afaste, inclusive fisicamente, das discussões e deliberações. As regras devem prever que esse afastamento temporário seja registrado em ata.",
-    "Não": "16,6303874619068",
+    "Var.5": "2,48520710059172",
+    "Não": "15,6213017751479",
     "Não se Aplica": "0",
-    "Parcialmente": "17,6316935132782",
-    "Sim": "65,737919024815"
+    "Parcialmente": "16,7258382642998",
+    "Sim": "65,1676528599606"
   },
   {
     "ID_Item": "5.2.3",
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Conflito de Interesses",
     "Pratica_Recomendada": "A companhia deve ter mecanismos de administração de conflitos de interesses nas votações submetidas à assembleia geral, para receber e processar alegações de conflitos de interesses, e de anulação de votos proferidos em conflito, ainda que posteriormente ao conclave.",
-    "Não": "30,0827165868524",
+    "Var.5": "2,44575936883629",
+    "Não": "28,9151873767258",
     "Não se Aplica": "0",
-    "Parcialmente": "15,6290814105355",
-    "Sim": "54,2882020026121"
+    "Parcialmente": "15,2662721893491",
+    "Sim": "53,3727810650888"
   },
   {
     "ID_Item": "5.3.1",
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Transações com Partes Relacionadas",
     "Pratica_Recomendada": "O estatuto social deve definir quais transações com partes relacionadas devem ser aprovadas pelo conselho de administração, com a exclusão de eventuais membros com interesses potencialmente conflitantes.",
-    "Não": "29,0814105354811",
+    "Var.5": "2,44575936883629",
+    "Não": "27,7317554240631",
     "Não se Aplica": "0",
-    "Parcialmente": "21,0274270787984",
-    "Sim": "49,8911623857205"
+    "Parcialmente": "20,4339250493097",
+    "Sim": "49,3885601577909"
   },
   {
     "ID_Item": "5.3.2",
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Transações com Partes Relacionadas",
     "Pratica_Recomendada": "O conselho de administração deve aprovar e implementar uma política de transações com partes relacionadas, que inclua, entre outras regras: \\n\\n (i) previsão de que, previamente à aprovação de transações específicas ou diretrizes para a contratação de transações, o conselho de administração solicite à diretoria alternativas de mercado à transação com partes relacionadas em questão, ajustadas pelos fatores de risco envolvidos \\n\\n (ii) vedação a formas de remuneração de assessores, consultores ou intermediários que gerem conflito de interesses com a companhia, os administradores, os acionistas ou classes de acionistas \\n\\n (iii) proibição a empréstimos em favor do controlador e dos administradores \\n\\n (iv) as hipóteses de transações com partes relacionadas que devem ser embasadas por laudos de avaliação independentes, elaborados sem a participação de nenhuma parte envolvida na operação em questão, seja ela banco, advogado, empresa de consultoria especializada, entre outros, com base em premissas realistas e informações referendadas por terceiros \\n\\n (v) que reestruturações societárias envolvendo partes relacionadas devem assegurar tratamento equitativo para todos os acionistas.",
-    "Não": "28,2107096212451",
+    "Var.5": "2,52465483234714",
+    "Não": "26,508875739645",
     "Não se Aplica": "0",
-    "Parcialmente": "35,4375272094036",
-    "Sim": "36,3517631693513"
+    "Parcialmente": "34,792899408284",
+    "Sim": "36,1735700197239"
   },
   {
     "ID_Item": "5.4.1",
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Política de Negociação de Valores Mobiliários",
     "Pratica_Recomendada": "A companhia deve adotar, por deliberação do conselho de administração, uma política de negociação de valores mobiliários de sua emissão, que, sem prejuízo do atendimento às regras estabelecidas pela regulamentação da CVM, estabeleça controles que viabilizem o monitoramento das negociações realizadas, bem como a apuração e punição dos responsáveis em caso de descumprimento da política.",
-    "Não": "14,9760557248585",
+    "Var.5": "2,44575936883629",
+    "Não": "14,0039447731755",
     "Não se Aplica": "0",
-    "Parcialmente": "9,49063996517196",
-    "Sim": "75,5333043099695"
+    "Parcialmente": "9,15187376725838",
+    "Sim": "74,3984220907298"
   },
   {
     "ID_Item": "5.5.1",
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Política sobre Contribuições e Doações",
     "Pratica_Recomendada": "No intuito de assegurar maior transparência quanto à utilização dos recursos da companhia, deve ser elaborada política sobre suas contribuições voluntárias, inclusive aquelas relacionadas às atividades políticas, a ser aprovada pelo conselho de administração e executada pela diretoria, contendo princípios e regras claros e objetivos.",
-    "Não": "31,1275576839356",
+    "Var.5": "2,48520710059172",
+    "Não": "29,7830374753452",
     "Não se Aplica": "0",
-    "Parcialmente": "22,420548541576",
-    "Sim": "46,4518937744885"
+    "Parcialmente": "21,4201183431953",
+    "Sim": "46,3116370808679"
   },
   {
     "ID_Item": "5.5.2",
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Política sobre Contribuições e Doações",
     "Pratica_Recomendada": "A política deve prever que o conselho de administração seja o órgão responsável pela aprovação de todos os desembolsos relacionados às atividades políticas.",
-    "Não": "52,0243796255986",
+    "Var.5": "2,64299802761341",
+    "Não": "49,7435897435897",
     "Não se Aplica": "0",
-    "Parcialmente": "14,5407052677405",
-    "Sim": "33,4349151066609"
+    "Parcialmente": "14,2800788954635",
+    "Sim": "33,3333333333333"
   },
   {
     "ID_Item": "5.5.3",
     "Capitulo": "Ética e Conflito de Interesses",
     "Principio": "Política sobre Contribuições e Doações",
     "Pratica_Recomendada": "A política sobre contribuições voluntárias das companhias controladas pelo Estado, ou que tenham relações comerciais reiteradas e relevantes com o Estado, deve vedar contribuições ou doações a partidos políticos ou pessoas a eles ligadas, ainda que permitidas por lei.",
-    "Não": "7,53156290814105",
-    "Não se Aplica": "72,7035263387026",
-    "Parcialmente": "2,87331301697867",
-    "Sim": "16,8915977361776"
+    "Var.5": "2,48520710059172",
+    "Não": "7,17948717948718",
+    "Não se Aplica": "71,0059171597633",
+    "Parcialmente": "2,68244575936884",
+    "Sim": "16,646942800789"
   }
 ]
