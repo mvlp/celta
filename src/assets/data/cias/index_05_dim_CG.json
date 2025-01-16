@@ -2496,19 +2496,6 @@
     "ECI": [0.9722, 0.9722, 0.9722, 0.9722, 0.9722, 0.9722, 0.9722]
   },
   {
-    "CNPJ_Companhia": ["19.403.252/0001-90"],
-    "Nome_Empresarial": ["EMCCAMP RESIDENCIAL S.A."],
-    "Ano_Referencia": [],
-    "Mes_Referencia": [],
-    "Ano_Entrega": [],
-    "Mes_Entrega": [],
-    "AC": [],
-    "CA": [],
-    "DR": [],
-    "OFC": [],
-    "ECI": []
-  },
-  {
     "CNPJ_Companhia": ["06.626.253/0001-51"],
     "Nome_Empresarial": ["EMPREENDIMENTOS PAGUE MENOS S.A."],
     "Ano_Referencia": [2023, 2022, 2021, 2020],
