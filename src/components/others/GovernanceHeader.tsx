@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import bottom from "../../assets/headertext/info_date_dataset.txt";
 import upper from "../../assets/headertext/info_ICBGC.txt";
+import GovernanceMissing from "./GovernanceMissing";
 
 export default function GovernanceHeader() {
   const [bottomContent, setBottomContent] = useState<string>("");
@@ -83,6 +84,7 @@ export default function GovernanceHeader() {
       >
         [R]
       </a>{" "}
+      <GovernanceMissing></GovernanceMissing>
       <h2 className="mt-3">Índices de Governança Corporativa (IGCs) </h2>
       <b>{"5 dimensões (variáveis correlacionadas) : "}</b>
       <a
