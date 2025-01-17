@@ -59,8 +59,8 @@ export default function GovernanceMissing() {
         {missingDataCGVN.length > 0 ? ( // Verifica se o array não está vazio
           <div>
             <p>
-              As seguintes empresas dessa tabela enviaram relatórios incorretos,
-              por isso não estão incluídas na tabela principal
+              A base de dados fornecida pela CVM contém lacunas de informações
+              para as seguintes empresas nas respectivas datas:
             </p>
             <AgGridReact
               className="ag-theme-balham"
