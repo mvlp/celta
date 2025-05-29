@@ -1,26 +1,26 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-
 import { Routes, Route, Link, HashRouter } from "react-router-dom";
-
-// import About from "../../views/about/About";
-// import Contact from "../../views/contact/Contact";
 import WIP from "../../views/WIP";
-// import Home from "../../views/home/Home";
 import Governance from "../../views/data/Governance";
-// import HubPages from "../../views/data/HubPage";
-// import IndividualPage from "../../views/data/IndividualPage";
-// import Dataset_CGVNTable from "../../views/IndexSections/DatasetCGVNTable";
-
+import Students from "../../views/others/Students";
+import Team from "../../views/others/Team";
+import Projects from "../../views/others/Projects";
+import Contact from "../../views/contact/Contact";
+import Home from "../../views/home/Home";
+import PapersPage from "../../views/research/PapersPage";
+import About from "../../views/about/About";
 import { TableInterface } from "../table/DataItens";
 import Table from "../../assets/data/table.json";
+import NotFound from "../../views/NotFound";
 
 export default function MNavbar() {
-  // para fazer as paginas individuais funcionarem corretamente
+  const [expanded, setExpanded] = useState(false);
+
   const groupedByCNPJ: { [cnpj: string]: TableInterface[] } = {};
   Table.forEach((item) => {
     if (!groupedByCNPJ[item.CNPJ_Companhia]) {
@@ -29,58 +29,99 @@ export default function MNavbar() {
     groupedByCNPJ[item.CNPJ_Companhia].push(item);
   });
 
-  // posso fazer funções para resetar a navbar e trocar o estado da navbar automaticamente.
-  // isso é melhor doq fazer várias arrow function ( () => {}) em cada Nav.link
-
   return (
     <HashRouter>
       <>
         <Navbar
           expand="lg"
-          className="bg-body-tertiary"
-          bg="dark"
+          className="bg-body-tertiary shadow-sm"
+          bg="light"
           data-bs-theme="light"
+          expanded={expanded}
+          onToggle={(expanded) => setExpanded(expanded)}
         >
           <Container>
-            <Navbar.Brand as={Link} to="/"></Navbar.Brand>
+            <Navbar.Brand as={Link} to="/" className="fw-bold">
+              UFSJ
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse
               id="basic-navbar-nav"
               className="justify-content-end"
             >
-              <Nav variant="underline">
-                <Nav.Link as={Link} to="/">
+              <Nav className="gap-2">
+                <Nav.Link
+                  as={Link}
+                  to="/"
+                  className="nav-link-custom"
+                >
                   Home
                 </Nav.Link>
-                <Nav.Link as={Link} to="/about">
+                <Nav.Link
+                  as={Link}
+                  to="/about"
+                  className="nav-link-custom"
+                >
                   Sobre
                 </Nav.Link>
-                <NavDropdown title="Pesquisas" id="basic-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/WIP">
+                <NavDropdown
+                  title="Pesquisas"
+                  id="research-dropdown"
+                  className="nav-link-custom"
+                >
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/WIP"
+                    className="dropdown-item-custom"
+                  >
                     Artigos
                   </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title="Dados" id="basic-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/governance">
+                <NavDropdown
+                  title="Dados"
+                  id="data-dropdown"
+                  className="nav-link-custom"
+                >
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/governance"
+                    className="dropdown-item-custom"
+                  >
                     Governança
                   </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title="Outros" id="basic-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/WIP">
+                <NavDropdown
+                  title="Outros"
+                  id="others-dropdown"
+                  className="nav-link-custom"
+                >
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/students"
+                    className="dropdown-item-custom"
+                  >
                     Alunos
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/WIP">
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/team"
+                    className="dropdown-item-custom"
+                  >
                     Time
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/WIP">
+                  <NavDropdown.Item
+                    as={Link}
+                    to="/projects"
+                    className="dropdown-item-custom"
+                  >
                     Projetos
                   </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  {/* <NavDropdown.Item as={Link} to="/WIP"> */}
-                  {/* UFSJ */}
-                  {/* </NavDropdown.Item> */}
                 </NavDropdown>
-                <Nav.Link as={Link} to="/contact">
+                <Nav.Link
+                  as={Link}
+                  to="/contact"
+                  className="nav-link-custom"
+                >
                   Contato
                 </Nav.Link>
               </Nav>
@@ -88,39 +129,19 @@ export default function MNavbar() {
           </Container>
         </Navbar>
 
-        <>
-          <Routes>
-            <Route path="/about" element={<WIP />} />
-            {/*<Route
-              path="/contact"
-              element={
-                <Contact
-                  headingText={"Entre em contato"}
-                  showEmail={true}
-                  showFooter={false}
-                />
-              }
-            />*/}
-            <Route path="/indice" element={<WIP />} />
-            {/* <Route
-              path="/sitedeploy/tabelaCGVN"
-              element={<Dataset_CGVNTable />}
-            />
-            <Route path="/tabelaCGVN" element={<Dataset_CGVNTable />} /> */}
-            <Route path="/" element={<Governance />} />
-            <Route path="/WIP" element={<WIP />} />
-            <Route path="/governance" element={<Governance />} />
-            <Route path="/sitedeploy/" element={<WIP />} />
-            {/*<Route path="/hub" element={<HubPages data={Table} />} />
-            {Object.entries(groupedByCNPJ).map(([cnpj, items]) => (
-              <Route
-                key={cnpj}
-                path={`/cnpj/${cnpj}`}
-                element={<IndividualPage item={items} />}
-              />
-            ))}*/}
-          </Routes>
-        </>
+        <Routes>
+          <Route path="*" element={<NotFound />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/indice" element={<WIP />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/WIP" element={<PapersPage />} />
+          <Route path="/governance" element={<Governance />} />
+          <Route path="/sitedeploy/" element={<WIP />} />
+          <Route path="/students" element={<Students />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </>
     </HashRouter>
   );

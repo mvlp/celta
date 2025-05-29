@@ -15,7 +15,7 @@ import { ColDef } from "ag-grid-community";
 
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-balham.css";
-import "../../assets/css/CustonTable.css";
+import "../../components/table/CustonTable.css";
 
 import { RespostasInterface } from "../../components/table/DataItens";
 import {
@@ -207,15 +207,14 @@ export default function Governace() {
               active={activeButton === index}
               onClick={() => handleButtonClick(index)}
             >
-              {`${index}.${
-                [
-                  "Acionistas",
-                  "Conselho de Administração",
-                  "Diretoria",
-                  "Órgãos de Fiscalização e Controle",
-                  "Ética e Conflitos de Interesse",
-                ][index - 1]
-              }`}
+              {`${index}.${[
+                "Acionistas",
+                "Conselho de Administração",
+                "Diretoria",
+                "Órgãos de Fiscalização e Controle",
+                "Ética e Conflitos de Interesse",
+              ][index - 1]
+                }`}
             </Button>
           ))}
         </ButtonGroup>

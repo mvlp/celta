@@ -1,7 +1,7 @@
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
-import "../../assets/css/CustonTable.css";
+import "../table/CustonTable.css";
 
 import { Container } from "react-bootstrap";
 
@@ -26,32 +26,32 @@ export default function GovernanceMissing() {
     sortable: boolean;
     filter: boolean;
   }[] = [
-    {
-      headerName: "CNPJ",
-      field: "CNPJ_Companhia",
-      sortable: true,
-      filter: true,
-    },
-    {
-      headerName: "Data de Entrega",
-      field: "Data_Entrega",
-      sortable: true,
-      filter: true,
-    },
-    {
-      headerName: "Data de Referência",
-      field: "Data_Referencia",
-      sortable: true,
-      filter: true,
-    },
-    { headerName: "Versão", field: "Versao", sortable: true, filter: true },
-    {
-      headerName: "Nome Empresarial",
-      field: "Nome_Empresarial",
-      sortable: true,
-      filter: true,
-    },
-  ];
+      {
+        headerName: "CNPJ",
+        field: "CNPJ_Companhia",
+        sortable: true,
+        filter: true,
+      },
+      {
+        headerName: "Data de Entrega",
+        field: "Data_Entrega",
+        sortable: true,
+        filter: true,
+      },
+      {
+        headerName: "Data de Referência",
+        field: "Data_Referencia",
+        sortable: true,
+        filter: true,
+      },
+      { headerName: "Versão", field: "Versao", sortable: true, filter: true },
+      {
+        headerName: "Nome Empresarial",
+        field: "Nome_Empresarial",
+        sortable: true,
+        filter: true,
+      },
+    ];
 
   return (
     <>

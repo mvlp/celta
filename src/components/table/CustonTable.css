@@ -1,0 +1,19 @@
+.ag-header-cell-centered {
+    justify-content: center;
+}
+
+.ag-header-cell-label {
+    cursor: pointer;
+    justify-content: center;
+}
+
+.ag-header-cell.ag-header-cell-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ag-theme-balham {
+    --ag-header-background-color: #dbdbdb !important;
+    --ag-odd-row-background-color: #dbdbdb !important;
+}

@@ -1,60 +1,21 @@
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
-
-import fapemigImage from "../../assets/img/nova_logo_eps.jpg";
-
+import React from 'react';
+import { Container } from 'react-bootstrap';
 import PageHeader from "../../components/pageheader/PageHeader";
 import Footer from "../../components/footer/Footer";
+import SerraImage from "../../assets/img/serra.png";
 
-import serraImage from "../../assets/img/serra.png";
 
-export default function Home() {
-  const navigate = useNavigate();
-
-  const handleButtonClick = () => {
-    navigate("/about");
-  };
+const Home: React.FC = () => {
   return (
     <>
-      <PageHeader
-        headingText={"Welcome! "}
-        bottomText="Research group!"
-        image={serraImage}
-      />
-      <Container className="mb-5">
-        <Row className="justify-content-md-center">
-          <Col xs={12} md={6} className="text-start">
-            <h1>Welcome!</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-              aliquet sem id risus posuere, vel mattis arcu viverra. Donec
-              finibus ultricies metus ac interdum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-              aliquet sem id risus posuere, vel mattis arcu viverra. Donec
-              finibus ultricies metus ac interdum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-              aliquet sem id risus posuere, vel mattis arcu viverra. Donec
-              finibus ultricies metus ac interdum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-              aliquet sem id risus posuere, vel mattis arcu viverra. Donec
-              finibus ultricies metus ac interdum.
-            </p>
-            <Button variant="primary" onClick={handleButtonClick}>
-              Learn More
-            </Button>
-          </Col>
-          <Col>
-            <Image src={fapemigImage} />
-          </Col>
-        </Row>
+      <PageHeader headingText="Bem vindo!" image={SerraImage} />
+      <Container className="mt-5">
+        <h1>Página Inicial</h1>
+        <p>Bem-vindo à página inicial!</p>
       </Container>
-      <Footer headingText={""} showEmail={true} />
+      <Footer headingText="" showEmail={true} />
     </>
   );
-}
+};
+
+export default Home;
