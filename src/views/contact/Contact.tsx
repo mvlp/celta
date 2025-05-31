@@ -75,8 +75,8 @@ const Contact: React.FC<ContactProps> = ({
           </Col>
         </Row>
 
-        {showFooter && <Footer headingText={""} showEmail={true} />}
       </Container>
+      {showFooter && <Footer headingText={"Entre em contato"} showEmail={true} />}
     </>
   );
 };

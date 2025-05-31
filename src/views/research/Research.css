@@ -1,19 +1,37 @@
+.page-content-container {
+    max-width: 900px;
+    /* Ajuste conforme necessário para o seu layout */
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .paper-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .paper-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
 .paper-title {
     font-size: 1.25rem;
-    font-weight: 600;
+    /* Tamanho um pouco maior para o título do artigo */
+    color: #333;
+}
+
+/* Se você tiver um cabeçalho específico para a seção de artigos dentro do Papers.tsx */
+.papers-section-header {
+    font-size: 2rem;
     color: #2c3e50;
-    margin-bottom: 0.5rem;
+    /* Cor um pouco mais escura para o cabeçalho da seção */
+    border-bottom: 2px solid #3498db;
+    /* Linha azul abaixo do título */
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    /* Mais espaço abaixo do título da seção */
 }
 
 .paper-abstract {

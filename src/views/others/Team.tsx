@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 import './Others.css';
 import PageHeader from "../../components/pageheader/PageHeader";
 import Footer from "../../components/footer/Footer";
@@ -43,10 +43,11 @@ const Team: React.FC = () => {
                                     <div className="text-center mb-3">
                                         <div className="team-image-placeholder">
                                             {member.image ? (
-                                                <img
+                                                <Image
                                                     src={member.image}
                                                     alt={member.name}
                                                     className="team-image"
+                                                    fluid
                                                 />
                                             ) : (
                                                 <div className="team-initial">

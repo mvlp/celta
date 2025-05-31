@@ -42,7 +42,7 @@ export default function MNavbar() {
         >
           <Container>
             <Navbar.Brand as={Link} to="/" className="fw-bold">
-              UFSJ
+              Marcos Pereira
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse
@@ -71,7 +71,7 @@ export default function MNavbar() {
                 >
                   <NavDropdown.Item
                     as={Link}
-                    to="/WIP"
+                    to="/papers"
                     className="dropdown-item-custom"
                   >
                     Artigos
@@ -131,12 +131,13 @@ export default function MNavbar() {
 
         <Routes>
           <Route path="*" element={<NotFound />} />
-          <Route path="/about" element={<About />} />
           <Route path="/indice" element={<WIP />} />
+          <Route path="/WIP" element={<WIP />} />
           <Route path="/" element={<Home />} />
-          <Route path="/WIP" element={<PapersPage />} />
+          <Route path="/sitedeploy/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/papers" element={<PapersPage />} />
           <Route path="/governance" element={<Governance />} />
-          <Route path="/sitedeploy/" element={<WIP />} />
           <Route path="/students" element={<Students />} />
           <Route path="/team" element={<Team />} />
           <Route path="/projects" element={<Projects />} />
