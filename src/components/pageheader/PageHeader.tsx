@@ -2,7 +2,6 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import serraImage from "../../assets/img/serra.png";
 
-// passar como prop a iamgem e o texto a ser exibido
 
 interface HeaderProps {
   headingText: string;
