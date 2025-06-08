@@ -4,99 +4,99 @@
     "Capitulo": "Órgãos de Fiscalização e Controle",
     "Principio": "Comitê de Auditoria",
     "Pratica_Recomendada": "O comitê de auditoria estatutário deve: \\n\\n (i) ter entre suas atribuições a de assessorar o conselho de administração no monitoramento e controle da qualidade das demonstrações financeiras, nos controles internos, no gerenciamento de riscos e compliance \\n\\n (ii) ser formado em sua maioria por membros independentes e coordenado por um conselheiro independente \\n\\n (iii) ter ao menos um de seus membros independentes com experiência comprovada na área contábil-societária, de controles internos, financeira e de auditoria, cumulativamente e \\n\\n(iv) possuir orçamento próprio para a contratação de consultores para assuntos contábeis, jurídicos ou outros temas, quando necessária a opinião de um especialista externo.",
-    "Não": "35,8757062146893",
+    "Não": "35,8612343686971",
     "Não se Aplica": "0",
-    "Parcialmente": "31,7998385794996",
-    "Sim": "32,3244552058111"
+    "Parcialmente": "31,7870108914885",
+    "Sim": "32,3517547398144"
   },
   {
     "ID_Item": "4.2.1",
     "Capitulo": "Órgãos de Fiscalização e Controle",
     "Principio": "Conselho Fiscal",
     "Pratica_Recomendada": "O conselho fiscal deve ter um regimento interno próprio que descreva sua estrutura, seu funcionamento, programa de trabalho, seus papéis e responsabilidades, sem criar embaraço à atuação individual de seus membros.",
-    "Não": "15,4963680387409",
-    "Não se Aplica": "32,001614205004",
-    "Parcialmente": "3,3091202582728",
-    "Sim": "49,1928974979822"
+    "Não": "15,4901169826543",
+    "Não se Aplica": "31,9887051230335",
+    "Parcialmente": "3,30778539733764",
+    "Sim": "49,2133924969746"
   },
   {
     "ID_Item": "4.2.2",
     "Capitulo": "Órgãos de Fiscalização e Controle",
     "Principio": "Conselho Fiscal",
     "Pratica_Recomendada": "As atas das reuniões do conselho fiscal devem observar as mesmas regras de divulgação das atas do conselho de administração.",
-    "Não": "7,38200887454619",
-    "Não se Aplica": "35,2964905203711",
-    "Parcialmente": "2,78338039532069",
-    "Sim": "54,538120209762"
+    "Não": "7,37903225806452",
+    "Não se Aplica": "35,2822580645161",
+    "Parcialmente": "2,78225806451613",
+    "Sim": "54,5564516129032"
   },
   {
     "ID_Item": "4.3.1",
     "Capitulo": "Órgãos de Fiscalização e Controle",
     "Principio": "Auditoria Independente",
     "Pratica_Recomendada": "A companhia deve estabelecer uma política para contratação de serviços extra-auditoria de seus auditores independentes, aprovada pelo conselho de administração, que proíba a contratação de serviços extra-auditoria que possam comprometer a independência dos auditores. A companhia não deve contratar como auditor independente quem tenha prestado serviços de auditoria interna para a companhia há menos de três anos.",
-    "Não": "28,9112903225806",
+    "Não": "28,8996372430472",
     "Não se Aplica": "0",
-    "Parcialmente": "36,0887096774194",
-    "Sim": "35"
+    "Parcialmente": "36,0741636436921",
+    "Sim": "35,0261991132608"
   },
   {
     "ID_Item": "4.3.2",
     "Capitulo": "Órgãos de Fiscalização e Controle",
     "Principio": "Auditoria Independente",
     "Pratica_Recomendada": "A equipe de auditoria independente deve reportar-se ao conselho de administração, por meio do comitê de auditoria, se existente. O comitê de auditoria deverá monitorar a efetividade do trabalho dos auditores independentes, assim como sua independência. Deve, ainda, avaliar e discutir o plano anual de trabalho do auditor independente e encaminhá-lo para a apreciação do conselho de administração.",
-    "Não": "16,7541380702463",
+    "Não": "16,7473769168684",
     "Não se Aplica": "0",
-    "Parcialmente": "18,0460234154219",
-    "Sim": "65,1998385143319"
+    "Parcialmente": "18,0387409200969",
+    "Sim": "65,2138821630347"
   },
   {
     "ID_Item": "4.4.1",
     "Capitulo": "Órgãos de Fiscalização e Controle",
     "Principio": "Auditoria Interna",
     "Pratica_Recomendada": "A companhia deve ter uma área de auditoria interna vinculada diretamente ao conselho de administração.",
-    "Não": "31,5577078288943",
+    "Não": "31,5449778136345",
     "Não se Aplica": "0",
-    "Parcialmente": "14,8506860371267",
-    "Sim": "53,591606133979"
+    "Parcialmente": "14,8446954417104",
+    "Sim": "53,6103267446551"
   },
   {
     "ID_Item": "4.4.2",
     "Capitulo": "Órgãos de Fiscalização e Controle",
     "Principio": "Auditoria Interna",
     "Pratica_Recomendada": "Em caso de terceirização dessa atividade, os serviços de auditoria interna não devem ser exercidos pela mesma empresa que presta serviços de auditoria das demonstrações financeiras. A companhia não deve contratar para auditoria interna quem tenha prestado serviços de auditoria independente para a companhia há menos de três anos.",
-    "Não": "3,10609116579266",
-    "Não se Aplica": "73,7797498991529",
-    "Parcialmente": "1,8555869302138",
-    "Sim": "21,2585720048407"
+    "Não": "3,10483870967742",
+    "Não se Aplica": "73,75",
+    "Parcialmente": "1,85483870967742",
+    "Sim": "21,2903225806452"
   },
   {
     "ID_Item": "4.5.1",
     "Capitulo": "Órgãos de Fiscalização e Controle",
     "Principio": "Gerenciamento de Riscos, Controles Internos e Integridade/Conformidade (Compliance)",
     "Pratica_Recomendada": "A companhia deve adotar política de gerenciamento de riscos, aprovada pelo conselho de administração, que inclua a definição dos riscos para os quais se busca proteção, os instrumentos utilizados para tanto, a estrutura organizacional para gerenciamento de riscos, a avaliação da adequação da estrutura operacional e de controles internos na verificação da sua efetividade, além de definir diretrizes para o estabelecimento dos limites aceitáveis para a exposição da companhia a esses riscos.",
-    "Não": "18,2148626817448",
+    "Não": "18,2075090835688",
     "Não se Aplica": "0",
-    "Parcialmente": "16,1954765751212",
-    "Sim": "65,5896607431341"
+    "Parcialmente": "16,1889382317319",
+    "Sim": "65,6035526846992"
   },
   {
     "ID_Item": "4.5.2",
     "Capitulo": "Órgãos de Fiscalização e Controle",
     "Principio": "Gerenciamento de Riscos, Controles Internos e Integridade/Conformidade (Compliance)",
     "Pratica_Recomendada": "Cabe ao conselho de administração zelar para que a diretoria possua mecanismos e controles internos para conhecer, avaliar e controlar os riscos, a fim de mantê-los em níveis compatíveis com os limites fixados, incluindo programa de integridade/conformidade (compliance) visando o cumprimento de leis, regulamentos e normas externas e internas.",
-    "Não": "10,6623586429725",
+    "Não": "10,6580540976988",
     "Não se Aplica": "0",
-    "Parcialmente": "15,9531502423263",
-    "Sim": "73,3844911147011"
+    "Parcialmente": "15,9467097295115",
+    "Sim": "73,3952361727897"
   },
   {
     "ID_Item": "4.5.3",
     "Capitulo": "Órgãos de Fiscalização e Controle",
     "Principio": "Gerenciamento de Riscos, Controles Internos e Integridade/Conformidade (Compliance)",
     "Pratica_Recomendada": "A diretoria deve avaliar, pelo menos anualmente, a eficácia das políticas e dos sistemas de gerenciamento de riscos e de controles internos, bem como do programa de integridade/conformidade (compliance) e prestar contas ao conselho de administração sobre essa avaliação.",
-    "Não": "14,7819063004847",
+    "Não": "14,7759386354461",
     "Não se Aplica": "0",
-    "Parcialmente": "24,3537964458805",
-    "Sim": "60,8642972536349"
+    "Parcialmente": "24,3843358901897",
+    "Sim": "60,8397254743642"
   }
 ]
