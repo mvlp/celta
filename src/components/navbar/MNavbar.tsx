@@ -7,7 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Routes, Route, Link, HashRouter } from "react-router-dom";
 import WIP from "../../views/WIP";
 import Governance from "../../views/data/Governance";
-import Students from "../../views/others/Students";
+// import Students from "../../views/others/Students";
 import Team from "../../views/others/Team";
 import Projects from "../../views/others/Projects";
 import Contact from "../../views/contact/Contact";
@@ -95,13 +95,13 @@ export default function MNavbar() {
                   id="others-dropdown"
                   className="nav-link-custom"
                 >
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     as={Link}
                     to="/students"
                     className="dropdown-item-custom"
                   >
                     Alunos
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                   <NavDropdown.Item
                     as={Link}
                     to="/team"
@@ -138,7 +138,7 @@ export default function MNavbar() {
           <Route path="/about" element={<About />} />
           <Route path="/papers" element={<PapersPage />} />
           <Route path="/governance" element={<Governance />} />
-          <Route path="/students" element={<Students />} />
+          {/* <Route path="/students" element={<Students />} /> */}
           <Route path="/team" element={<Team />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
