@@ -4,107 +4,107 @@
     "Capitulo": "Conselho de Administração",
     "Principio": "Atribuições",
     "Pratica_Recomendada": "O conselho de administração deve, sem prejuízo de outras atribuições legais, estatutárias e de outras práticas previstas no Código: \\n\\n (i) definir as estratégias de negócios, considerando os impactos das atividades da companhia na sociedade e no meio ambiente, visando a perenidade da companhia e a criação de valor no longo prazo \\n\\n (ii) avaliar periodicamente a exposição da companhia a riscos e a eficácia dos sistemas de gerenciamento de riscos, dos controles internos e do sistema de integridade/conformidade (compliance) e aprovar uma política de gestão de riscos compatível com as estratégias de negócios \\n\\n (iii) definir os valores e princípios éticos da companhia e zelar pela manutenção da transparência do emissor no relacionamento com todas as partes interessadas \\n\\n (iv) rever anualmente o sistema de governança corporativa, visando a aprimorá-lo.",
-    "Não": "2,91417165668663",
-    "Parcialmente": "32,2554890219561",
-    "Sim": "64,8303393213573"
+    "Não": "2,90258449304175",
+    "Parcialmente": "32,1272365805169",
+    "Sim": "64,9701789264413"
   },
   {
     "ID_Item": "2.2.1",
     "Capitulo": "Conselho de Administração",
     "Principio": "Composição do Conselho de Administração",
     "Pratica_Recomendada": "O estatuto social deve estabelecer que: \\n\\n (i) o conselho de administração seja composto em sua maioria por membros externos, tendo, no mínimo, um terço de membros independentes \\n\\n (ii) o conselho de administração deve avaliar e divulgar anualmente quem são os conselheiros independentes, bem como indicar e justificar quaisquer circunstâncias que possam comprometer sua independência.",
-    "Não": "31,5768463073852",
-    "Parcialmente": "47,7445109780439",
-    "Sim": "20,6786427145709"
+    "Não": "31,5308151093439",
+    "Parcialmente": "47,79324055666",
+    "Sim": "20,675944333996"
   },
   {
     "ID_Item": "2.2.2",
     "Capitulo": "Conselho de Administração",
     "Principio": "Composição do Conselho de Administração",
     "Pratica_Recomendada": "O conselho de administração deve aprovar uma política de indicação que estabeleça: \\n\\n (i) o processo para a indicação dos membros do conselho de administração, incluindo a indicação da participação de outros órgãos da companhia no referido processo \\n\\n (ii) que o conselho de administração deve ser composto tendo em vista a disponibilidade de tempo de seus membros para o exercício de suas funções e a diversidade de conhecimentos, experiências, comportamentos, aspectos culturais, faixa etária e gênero.",
-    "Não": "39,3612774451098",
-    "Parcialmente": "17,4451097804391",
-    "Sim": "43,1936127744511"
+    "Não": "39,324055666004",
+    "Parcialmente": "17,5347912524851",
+    "Sim": "43,1411530815109"
   },
   {
     "ID_Item": "2.3.1",
     "Capitulo": "Conselho de Administração",
     "Principio": "Presidente do Conselho",
     "Pratica_Recomendada": "O diretor-presidente não deve acumular o cargo de presidente do conselho de administração.",
-    "Não": "8,33998403830806",
+    "Não": "8,34658187599364",
     "Parcialmente": "0",
-    "Sim": "91,6600159616919"
+    "Sim": "91,6534181240064"
   },
   {
     "ID_Item": "2.4.1",
     "Capitulo": "Conselho de Administração",
     "Principio": "Avaliação do Conselho e dos Conselheiros",
     "Pratica_Recomendada": "A companhia deve implementar um processo anual de avaliação do desempenho do conselho de administração e de seus comitês, como órgãos colegiados, do presidente do conselho de administração, dos conselheiros, individualmente considerados, e da secretaria de governança, caso existente.",
-    "Não": "43,7125748502994",
-    "Parcialmente": "22,0758483033932",
-    "Sim": "34,2115768463074"
+    "Não": "43,7773359840954",
+    "Parcialmente": "22,0278330019881",
+    "Sim": "34,1948310139165"
   },
   {
     "ID_Item": "2.5.1",
     "Capitulo": "Conselho de Administração",
     "Principio": "Planejamento da Sucessão",
     "Pratica_Recomendada": "O conselho de administração deve aprovar e manter atualizado um plano de sucessão do diretor-presidente, cuja elaboração deve ser coordenada pelo presidente do conselho de administração.",
-    "Não": "57,9472843450479",
-    "Parcialmente": "16,4137380191693",
-    "Sim": "25,6389776357828"
+    "Não": "57,7963404932379",
+    "Parcialmente": "16,5871121718377",
+    "Sim": "25,6165473349244"
   },
   {
     "ID_Item": "2.6.1",
     "Capitulo": "Conselho de Administração",
     "Principio": "Integração de Novos Conselheiros",
     "Pratica_Recomendada": "A companhia deve ter um programa de integração dos novos membros do conselho de administração, previamente estruturado, para que os referidos membros sejam apresentados às pessoas-chave da companhia e às suas instalações e no qual sejam abordados temas essenciais para o entendimento do negócio da companhia.",
-    "Não": "27,2073511785857",
-    "Parcialmente": "23,9312824610467",
-    "Sim": "48,8613663603676"
+    "Não": "27,1786709112614",
+    "Parcialmente": "23,8758456028651",
+    "Sim": "48,9454834858735"
   },
   {
     "ID_Item": "2.7.1",
     "Capitulo": "Conselho de Administração",
     "Principio": "Remuneração dos Conselheiros de Administração",
     "Pratica_Recomendada": "A remuneração dos membros do conselho de administração deve ser proporcional às atribuições, responsabilidades e demanda de tempo. Não deve haver remuneração baseada em participação em reuniões, e a remuneração variável dos conselheiros, se houver, não deve ser atrelada a resultados de curto prazo.",
-    "Não": "7,18849840255591",
-    "Parcialmente": "7,58785942492013",
-    "Sim": "85,223642172524"
+    "Não": "7,19968178202068",
+    "Parcialmente": "7,55767700875099",
+    "Sim": "85,2426412092283"
   },
   {
     "ID_Item": "2.8.1",
     "Capitulo": "Conselho de Administração",
     "Principio": "Regimento Interno do Conselho de Administração",
     "Pratica_Recomendada": "O conselho de administração deve ter um regimento interno que normatize suas responsabilidades, atribuições e regras de funcionamento, incluindo: \\n\\n (i) as atribuições do presidente do conselho de administração \\n\\n (ii) as regras de substituição do presidente do conselho em sua ausência ou vacância \\n\\n (iii) as medidas a serem adotadas em situações de conflito de interesses e \\n\\n (iv) a definição de prazo de antecedência suficiente para o recebimento dos materiais para discussão nas reuniões, com a adequada profundidade.",
-    "Não": "21,7026378896883",
-    "Parcialmente": "18,9848121502798",
-    "Sim": "59,312549960032"
+    "Não": "21,6958598726115",
+    "Parcialmente": "19,0286624203822",
+    "Sim": "59,2754777070064"
   },
   {
     "ID_Item": "2.9.1",
     "Capitulo": "Conselho de Administração",
     "Principio": "Reuniões do Conselho de Administração",
     "Pratica_Recomendada": "O conselho de administração deve definir um calendário anual com as datas das reuniões ordinárias, que não devem ser inferiores a seis nem superiores a doze, além de convocar reuniões extraordinárias, sempre que necessário. O referido calendário deve prever uma agenda anual temática com assuntos relevantes e datas de discussão.",
-    "Não": "13,5782747603834",
-    "Parcialmente": "23,1629392971246",
-    "Sim": "63,258785942492"
+    "Não": "13,6038186157518",
+    "Parcialmente": "23,2696897374702",
+    "Sim": "63,126491646778"
   },
   {
     "ID_Item": "2.9.2",
     "Capitulo": "Conselho de Administração",
     "Principio": "Reuniões do Conselho de Administração",
     "Pratica_Recomendada": "As reuniões do conselho devem prever regularmente sessões exclusivas para conselheiros externos, sem a presença dos executivos e demais convidados, para alinhamento dos conselheiros externos e discussão de temas que possam criar constrangimento.",
-    "Não": "48,202875399361",
-    "Parcialmente": "15,4153354632588",
-    "Sim": "36,3817891373802"
+    "Não": "48,1304693715195",
+    "Parcialmente": "15,5529037390613",
+    "Sim": "36,3166268894193"
   },
   {
     "ID_Item": "2.9.3",
     "Capitulo": "Conselho de Administração",
     "Principio": "Reuniões do Conselho de Administração",
     "Pratica_Recomendada": "As atas de reunião do conselho devem ser redigidas com clareza e registrar as decisões tomadas, as pessoas presentes, os votos divergentes e as abstenções de voto.",
-    "Não": "2,11576846307385",
+    "Não": "2,10735586481113",
     "Parcialmente": "0",
-    "Sim": "97,8842315369262"
+    "Sim": "97,8926441351889"
   }
 ]
