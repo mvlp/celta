@@ -4,71 +4,71 @@
     "Capitulo": "Diretoria",
     "Principio": "Atribuições",
     "Pratica_Recomendada": "A diretoria deve, sem prejuízo de suas atribuições legais e estatutárias e de outras práticas previstas no Código: \\n\\n (i) executar a política de gestão de riscos e, sempre que necessário, propor ao conselho eventuais necessidades de revisão dessa política, em função de alterações nos riscos a que a companhia está exposta \\n\\n (ii) implementar e manter mecanismos, processos e programas eficazes de monitoramento e divulgação do desempenho financeiro e operacional e dos impactos das atividades da companhia na sociedade e no meio ambiente.",
-    "Não": "7,80254777070064",
-    "Parcialmente": "20,4617834394904",
-    "Sim": "71,7356687898089"
+    "Não": "7,77951524628616",
+    "Parcialmente": "20,5238467552776",
+    "Sim": "71,6966379984363"
   },
   {
     "ID_Item": "3.1.2",
     "Capitulo": "Diretoria",
     "Principio": "Atribuições",
     "Pratica_Recomendada": "A diretoria deve ter um regimento interno próprio que estabeleça sua estrutura, seu funcionamento e seus papéis e responsabilidades.",
-    "Não": "45,3858392999204",
-    "Parcialmente": "18,1782020684169",
-    "Sim": "36,4359586316627"
+    "Não": "45,3515625",
+    "Parcialmente": "18,203125",
+    "Sim": "36,4453125"
   },
   {
     "ID_Item": "3.2.1",
     "Capitulo": "Diretoria",
     "Principio": "Indicação dos Diretores",
     "Pratica_Recomendada": "Não deve existir reserva de cargos de diretoria ou posições gerenciais para indicação direta por acionistas.",
-    "Não": "4,69371519490851",
-    "Parcialmente": "3,26173428798727",
-    "Sim": "92,0445505171042"
+    "Não": "4,6875",
+    "Parcialmente": "3,2421875",
+    "Sim": "92,0703125"
   },
   {
     "ID_Item": "3.3.1",
     "Capitulo": "Diretoria",
     "Principio": "Avaliação do Diretor-Presidente e da Diretoria",
     "Pratica_Recomendada": "O diretor-presidente deve ser avaliado, anualmente, em processo formal conduzido pelo conselho de administração, com base na verificação do atingimento das metas de desempenho financeiro e não financeiro estabelecidas pelo conselho de administração para a companhia.",
-    "Não": "24,9900517309988",
-    "Parcialmente": "18,9017111022682",
-    "Sim": "56,108237166733"
+    "Não": "25,0488472059398",
+    "Parcialmente": "18,8745603751465",
+    "Sim": "56,0765924189136"
   },
   {
     "ID_Item": "3.3.2",
     "Capitulo": "Diretoria",
     "Principio": "Avaliação do Diretor-Presidente e da Diretoria",
     "Pratica_Recomendada": "Os resultados da avaliação dos demais diretores, incluindo as proposições do diretor-presidente quanto a metas a serem acordadas e à permanência, à promoção ou ao desligamento dos executivos nos respectivos cargos, devem ser apresentados, analisados, discutidos e aprovados em reunião do conselho de administração.",
-    "Não": "22,6910828025478",
-    "Parcialmente": "23,9251592356688",
-    "Sim": "53,3837579617834"
+    "Não": "22,7130570758405",
+    "Parcialmente": "23,9640344018765",
+    "Sim": "53,322908522283"
   },
   {
     "ID_Item": "3.4.1",
     "Capitulo": "Diretoria",
     "Principio": "Remuneração da Diretoria",
     "Pratica_Recomendada": "A remuneração da diretoria deve ser fixada por meio de uma política de remuneração aprovada pelo conselho de administração por meio de um procedimento formal e transparente que considere os custos e os riscos envolvidos.",
-    "Não": "20,1115093588212",
-    "Parcialmente": "18,0406212664277",
-    "Sim": "61,8478693747511"
+    "Não": "20,1798983183418",
+    "Parcialmente": "18,028940164255",
+    "Sim": "61,7911615174032"
   },
   {
     "ID_Item": "3.4.2",
     "Capitulo": "Diretoria",
     "Principio": "Remuneração da Diretoria",
     "Pratica_Recomendada": "A remuneração da diretoria deve estar vinculada a resultados, com metas de médio e longo prazos relacionadas de forma clara e objetiva à geração de valor econômico para a companhia no longo prazo.",
-    "Não": "13,6598964555954",
-    "Parcialmente": "9,71724412584628",
-    "Sim": "76,6228594185583"
+    "Não": "13,687915526007",
+    "Parcialmente": "9,73797418850215",
+    "Sim": "76,5741102854908"
   },
   {
     "ID_Item": "3.4.3",
     "Capitulo": "Diretoria",
     "Principio": "Remuneração da Diretoria",
     "Pratica_Recomendada": "A estrutura de incentivos deve estar alinhada aos limites de risco definidos pelo conselho de administração e vedar que uma mesma pessoa controle o processo decisório e a sua respectiva fiscalização. Ninguém deve deliberar sobre sua própria remuneração.",
-    "Não": "10,1472343812177",
-    "Parcialmente": "9,23199363310784",
-    "Sim": "80,6207719856745"
+    "Não": "10,2774521297382",
+    "Parcialmente": "9,33958577569363",
+    "Sim": "80,3829620945682"
   }
 ]
