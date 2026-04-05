@@ -4,119 +4,119 @@
     "Capitulo": "Acionistas",
     "Principio": "Estrutura Acionária",
     "Pratica_Recomendada": "O capital social da companhia deve ser composto apenas por ações ordinárias.",
-    "Não": "36,2879040319893",
+    "Não": "36,0849056603774",
     "Não se Aplica": "0",
     "Parcialmente": "0",
-    "Sim": "63,7120959680107"
+    "Sim": "63,9150943396226"
   },
   {
     "ID_Item": "1.2.1",
     "Capitulo": "Acionistas",
     "Principio": "Acordos de Acionistas",
     "Pratica_Recomendada": "Os acordos de acionistas não devem vincular o exercício do direito de voto de nenhum administrador ou membro dos órgãos de fiscalização e controle.",
-    "Não": "15,3589315525876",
-    "Não se Aplica": "54,1569282136895",
-    "Parcialmente": "9,58263772954925",
-    "Sim": "20,9015025041736"
+    "Não": "15,3274814314652",
+    "Não se Aplica": "54,1188386225523",
+    "Parcialmente": "9,55435516542877",
+    "Sim": "20,9993247805537"
   },
   {
     "ID_Item": "1.3.1",
     "Capitulo": "Acionistas",
     "Principio": "Assembleia Geral",
     "Pratica_Recomendada": "A diretoria deve utilizar a assembleia para comunicar a condução dos negócios da companhia, pelo que a administração deve publicar um manual visando facilitar e estimular a participação nas assembleias gerais.",
-    "Não": "12,3955897093218",
+    "Não": "12,4324324324324",
     "Não se Aplica": "0",
-    "Parcialmente": "23,7554293351153",
-    "Sim": "63,848980955563"
+    "Parcialmente": "23,6148648648649",
+    "Sim": "63,9527027027027"
   },
   {
     "ID_Item": "1.3.2",
     "Capitulo": "Acionistas",
     "Principio": "Assembleia Geral",
     "Pratica_Recomendada": "As atas devem permitir o pleno entendimento das discussões havidas na assembleia, ainda que lavradas em forma de sumário de fatos ocorridos, e trazer a identificação dos votos proferidos pelos acionistas.",
-    "Não": "0,0668672684720829",
+    "Não": "0,0676132521974307",
     "Não se Aplica": "0",
-    "Parcialmente": "1,90571715145436",
-    "Sim": "98,0274155800736"
+    "Parcialmente": "1,89317106152806",
+    "Sim": "98,0392156862745"
   },
   {
     "ID_Item": "1.4.1",
     "Capitulo": "Acionistas",
     "Principio": "Medidas de Defesa",
     "Pratica_Recomendada": "O conselho de administração deve fazer  uma análise crítica das vantagens e desvantagens da medida de defesa e de suas características e, sobretudo, dos gatilhos de acionamento e parâmetros de preço, se aplicáveis, explicando-as.",
-    "Não": "13,6454849498328",
-    "Não se Aplica": "61,7056856187291",
-    "Parcialmente": "6,08695652173913",
-    "Sim": "18,561872909699"
+    "Não": "13,6963138315861",
+    "Não se Aplica": "61,6841393304024",
+    "Parcialmente": "6,15488670950287",
+    "Sim": "18,4646601285086"
   },
   {
     "ID_Item": "1.4.2",
     "Capitulo": "Acionistas",
     "Principio": "Medidas de Defesa",
     "Pratica_Recomendada": "Não devem ser utilizadas cláusulas que inviabilizem a remoção da medida do estatuto social, as chamadas 'cláusulas pétreas'.",
-    "Não": "4,98327759197324",
-    "Não se Aplica": "58,1270903010033",
-    "Parcialmente": "0,334448160535117",
-    "Sim": "36,5551839464883"
+    "Não": "4,86980047345282",
+    "Não se Aplica": "58,1670612106865",
+    "Parcialmente": "0,338180588434224",
+    "Sim": "36,6249577274264"
   },
   {
     "ID_Item": "1.4.3",
     "Capitulo": "Acionistas",
     "Principio": "Medidas de Defesa",
     "Pratica_Recomendada": "Caso o estatuto determine a realização de oferta pública de aquisição de ações (OPA) sempre que um acionista ou grupo de acionistas atingir, de forma direta ou indireta, participação relevante no capital votante, a regra de determinação do preço da oferta não deve impor acréscimos de prêmios substancialmente acima do valor econômico ou de mercado das ações.",
-    "Não": "9,93311036789298",
-    "Não se Aplica": "63,4113712374582",
-    "Parcialmente": "2,44147157190635",
-    "Sim": "24,2140468227425"
+    "Não": "10,010145417653",
+    "Não se Aplica": "63,408860331417",
+    "Parcialmente": "2,40108217788299",
+    "Sim": "24,179912073047"
   },
   {
     "ID_Item": "1.5.1",
     "Capitulo": "Acionistas",
     "Principio": "Mudança de Controle",
     "Pratica_Recomendada": "O estatuto da companhia deve estabelecer que: \\n(i) transações em que se configure a alienação, direta ou indireta, do controle acionário devem ser acompanhadas de oferta pública de aquisição de ações (OPA) dirigida a todos os acionistas, pelo mesmo preço e condições obtidos pelo acionista vendedor\\n(ii) os administradores devem se manifestar sobre os termos e condições de reorganizações societárias, aumentos de capital e outras transações que derem origem à mudança de controle, e consignar se elas asseguram tratamento justo e equitativo aos acionistas da companhia.",
-    "Não": "23,8127090301003",
+    "Não": "23,7740953669259",
     "Não se Aplica": "0",
-    "Parcialmente": "28,0602006688963",
-    "Sim": "48,1270903010033"
+    "Parcialmente": "28,1366249577274",
+    "Sim": "48,0892796753466"
   },
   {
     "ID_Item": "1.6.1",
     "Capitulo": "Acionistas",
     "Principio": "Manifestação da Administração nas OPAs",
     "Pratica_Recomendada": "O estatuto social deve prever que o conselho de administração dê seu parecer em relação a qualquer OPA tendo por objeto ações ou valores mobiliários conversíveis ou permutáveis por ações de emissão da companhia, o qual deverá conter, entre outras informações relevantes, a opinião da administração sobre eventual aceitação da OPA e sobre o valor econômico da companhia.",
-    "Não": "29,2209963223002",
+    "Não": "29,2089249492901",
     "Não se Aplica": "0",
-    "Parcialmente": "7,72316950852558",
-    "Sim": "63,0558341691742"
+    "Parcialmente": "7,74171737660582",
+    "Sim": "63,0493576741041"
   },
   {
     "ID_Item": "1.7.1",
     "Capitulo": "Acionistas",
     "Principio": "Política de Destinação de Resultados",
     "Pratica_Recomendada": "A companhia deve elaborar e divulgar política de destinação de resultados definida pelo conselho de administração. Entre outros aspectos, tal política deve prever a periodicidade de pagamentos de dividendos e o parâmetro de referência a ser utilizado para a definição do respectivo montante (percentuais do lucro líquido ajustado e do fluxo de caixa livre, entre outros).",
-    "Não": "33,9799331103679",
+    "Não": "33,9871491376395",
     "Não se Aplica": "0",
-    "Parcialmente": "27,8595317725753",
-    "Sim": "38,1605351170569"
+    "Parcialmente": "27,86608048698",
+    "Sim": "38,1467703753804"
   },
   {
     "ID_Item": "1.8.1",
     "Capitulo": "Acionistas",
     "Principio": "Sociedades de Economia Mista",
     "Pratica_Recomendada": "O estatuto social deve identificar clara e precisamente o interesse público que justificou a criação da sociedade de economia mista, em capítulo específico.",
-    "Não": "1,03609625668449",
-    "Não se Aplica": "93,4157754010695",
-    "Parcialmente": "0,635026737967914",
-    "Sim": "4,91310160427807"
+    "Não": "1,04765123352484",
+    "Não se Aplica": "93,409935789118",
+    "Parcialmente": "0,608313619466036",
+    "Sim": "4,93409935789118"
   },
   {
     "ID_Item": "1.8.2",
     "Capitulo": "Acionistas",
     "Principio": "Sociedades de Economia Mista",
     "Pratica_Recomendada": "O conselho de administração deve monitorar as atividades da companhia e estabelecer políticas, mecanismos e controles internos para apuração dos eventuais custos do atendimento do interesse público e eventual ressarcimento da companhia ou dos demais acionistas e investidores pelo acionista controlador.",
-    "Não": "0,434491978609626",
-    "Não se Aplica": "91,7112299465241",
-    "Parcialmente": "1,60427807486631",
-    "Sim": "6,25"
+    "Não": "0,439337614058804",
+    "Não se Aplica": "91,82156133829",
+    "Parcialmente": "1,58837445082798",
+    "Sim": "6,15072659682325"
   }
 ]
