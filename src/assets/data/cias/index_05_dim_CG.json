@@ -559,6 +559,19 @@
     "ECI": [0.6667, 0.6667, 0.6667, 0.6667, 0.5556, 0.5556, 0.5556, 0.5556]
   },
   {
+    "CNPJ_Companhia": ["52.270.350/0001-71"],
+    "Nome_Empresarial": ["B100 S.A."],
+    "Ano_Referencia": [2025],
+    "Mes_Referencia": [12],
+    "Ano_Entrega": [2025],
+    "Mes_Entrega": [7],
+    "AC": [0.6667],
+    "CA": [0.9167],
+    "DR": [1],
+    "OFC": [0.6667],
+    "ECI": [0.8333]
+  },
+  {
     "CNPJ_Companhia": ["09.346.601/0001-25"],
     "Nome_Empresarial": ["B3 S.A. - BRASIL, BOLSA, BALCÃO"],
     "Ano_Referencia": [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018],
@@ -1924,19 +1937,6 @@
     "ECI": [0.9167, 0.9167, 0.9167, 0.9167, 0.8333, 0.8333]
   },
   {
-    "CNPJ_Companhia": ["52.270.350/0001-71"],
-    "Nome_Empresarial": ["COMPANHIA BRASILEIRA DE SERVIÇOS FINANCEIROS"],
-    "Ano_Referencia": [2025],
-    "Mes_Referencia": [12],
-    "Ano_Entrega": [2025],
-    "Mes_Entrega": [7],
-    "AC": [0.6667],
-    "CA": [0.9167],
-    "DR": [1],
-    "OFC": [0.6667],
-    "ECI": [0.8333]
-  },
-  {
     "CNPJ_Companhia": ["10.215.988/0001-60"],
     "Nome_Empresarial": ["COMPANHIA DE LOCAÇÃO DAS AMÉRICAS"],
     "Ano_Referencia": [2022, 2021, 2020, 2019, 2018],
@@ -3173,7 +3173,7 @@
   },
   {
     "CNPJ_Companhia": ["59.717.553/0001-02"],
-    "Nome_Empresarial": ["GRUPO MULTI S.A."],
+    "Nome_Empresarial": ["GRUPO MULTILASER S.A."],
     "Ano_Referencia": [2025, 2023, 2022, 2021],
     "Mes_Referencia": [12, 12, 12, 12],
     "Ano_Entrega": [2025, 2023, 2022, 2021],
