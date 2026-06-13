@@ -2926,7 +2926,7 @@
   },
   {
     "CNPJ_Companhia": ["00.359.742/0001-08"],
-    "Nome_Empresarial": ["FICTOR ALIMENTOS S.A."],
+    "Nome_Empresarial": ["FICTOR ALIMENTOS S.A. - EM RECUPERAÇÃO JUDICIAL"],
     "Ano_Referencia": [2025, 2024, 2023, 2022, 2021, 2020, 2019],
     "Mes_Referencia": [12, 12, 12, 12, 12, 12, 12],
     "Ano_Entrega": [2025, 2024, 2023, 2022, 2021, 2020, 2019],
@@ -6540,7 +6540,7 @@
   },
   {
     "CNPJ_Companhia": ["11.284.204/0001-18"],
-    "Nome_Empresarial": ["YOU INC INCORPORADORA E PARTICIPAÇÃO S.A"],
+    "Nome_Empresarial": ["YOU INC INCORPORADORA E PARTICIPAÇÕES S.A"],
     "Ano_Referencia": [2025, 2024, 2023, 2022, 2021],
     "Mes_Referencia": [12, 12, 12, 12, 12],
     "Ano_Entrega": [2025, 2024, 2023, 2022, 2021],
